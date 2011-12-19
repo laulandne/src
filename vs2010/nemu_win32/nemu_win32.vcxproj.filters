@@ -1,0 +1,1182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="binarylib">
+      <UniqueIdentifier>{631435fd-c7f0-4278-a84d-3f5e0a808e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpulib">
+      <UniqueIdentifier>{7e5005f9-c3f9-4180-9d01-7868d62d44bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpulib_generated">
+      <UniqueIdentifier>{38b54a3a-54d5-4488-9dbf-df2ee4050bb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="disklib">
+      <UniqueIdentifier>{0541a990-1b72-402b-8249-4683f54e5d58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="elib">
+      <UniqueIdentifier>{cea790ae-88be-496e-8a00-85722e9a1814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emu">
+      <UniqueIdentifier>{ce9081ad-59ec-4bfa-b34b-4a56d3a98a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="emu_generated">
+      <UniqueIdentifier>{4f2e6f45-d2b5-4934-9b7a-c81fc08e40a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\nemu\ncmd.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\nemu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\nemu2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nemu_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NAmigaHunkDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NAOUTDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NBFDDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NBFLTDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NBinaryDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NBinaryNode.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NBundleDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NCOFFDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NElfDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NExeDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NJavaAttribute.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NJavaClassDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NJavaCode.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NJavaField.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NJavaInterface.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NJavaMethod.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NLd.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NMacAppDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NMachDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NPalmAppDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NSharedLibrary.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NSWFDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NXO65Decoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\binarylib\NZMachineDecoder.cpp">
+      <Filter>binarylib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EAlpha.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EArm.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ECPU8Bit.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ECPUAbstract.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ECPUByteCode.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ECPUByteCodeObject.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ECPUCisc.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ECPUOperand.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ECPURisc.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EDotNet.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EGlulx.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EHitachi.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EJavaScript.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EJvm.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em4510.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em6502.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em6509.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em65816.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em65c02.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em6800.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em6809.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em6811.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Em68k.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EMips.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EPowerPC.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ESh.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ESparc.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\ESwf.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Ex86.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\Ez80.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\cpulib\EZMachine.cpp">
+      <Filter>cpulib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DController65.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DController827x.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DControllerAbstract.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DControllerDisk2.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DControllerIWM.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DControllerWD177x.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DDirEntry.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DDiskAbstract.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DDiskImageAbstract.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DDiskImageFile.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DDiskImageMem.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImage1541.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImageAcorn.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImageAmy.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImageApple2.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImageAtari.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImageCpm.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImageFat.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImageHfs.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DImageTrs80.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DNativeFilesystem.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DPartitionTable.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DPartitionTableAmy.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DPartitionTableHfs.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DPartitionTableMbr.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\disklib\DVfs.cpp">
+      <Filter>disklib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EEmptyMem.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EHandler.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOAcia.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOAcia6551.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOAcia6850.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOChip.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOCia6526.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOCia8520.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOPia.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOPia6520.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOPia8255.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOScc8530.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOTia6525.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EIOVia6522.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\Em68kHandler.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EMapHandler.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EMapSymbol.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EMemAbstract.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EMemIO.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EMemMapAbstract.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EMemMapComplex.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EMemMapSimple.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EModule.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EOSEntry.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EOSHelper.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\ERam.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EResource.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EResourceFile.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\ERom.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\ESoundIOAbstract.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\ESoundIOPokey.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\ESoundIOSid.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\ESoundIOSn764xx.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\ESoundIOYmxxxx.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoIOAbstract.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoIOBitmap.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoIOMoto684x.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoIOMultiMode.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoIOTextOnly.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoIOTms99xx.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoIOVector.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoSprite.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\elib\EVideoTile.cpp">
+      <Filter>elib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAcornDos.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAcornHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAcornIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAmigaHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAmigaIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAppleDos.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAppleHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAppleIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAppleVideo.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariArcadeHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariArcadeIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariArcadeVideo.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariDos.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariSTHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariSTIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariVectorHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariVectorIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariVectorVideo.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NAtariVideo.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCbmHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCbmIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCbmKernHelper.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCbmVideo.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCocoDos.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCocoHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCocoIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCpmDos.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCpmHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NCpmIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NFamicomHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NFamicomIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NGenesisHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NGenesisIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NJavaHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NMacHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NMacIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NOricDos.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NOricHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NOricIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NPalmHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NPalmIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NPcDos.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NPcHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NPcIO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NSwfHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NTinyHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NTrs80Dos.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NTrs80Handler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NTrs80IO.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NUnixHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nemu\emu\NZMachineHandler.cpp">
+      <Filter>emu</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\nemu\nemu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="nemu_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NAmigaHunkDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NAOUTDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NBFDDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NBFLTDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NBinaryDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NBinaryNode.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NBundleDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NCOFFDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NElfDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NExeDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NJavaAttribute.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NJavaClassDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NJavaCode.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NJavaField.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NJavaInterface.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NJavaMethod.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NLd.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NMacAppDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NMachDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NPalmAppDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NSharedLibrary.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NSWFDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NXO65Decoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\binarylib\NZMachineDecoder.h">
+      <Filter>binarylib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EAlpha.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EArm.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ECPU8Bit.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ECPUAbstract.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ECPUByteCode.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ECPUByteCodeObject.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ECPUCisc.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ECPUOperand.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ECPURisc.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EDotNet.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EGlulx.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EHitachi.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EJavaScript.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EJvm.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em4510.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em6502.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em6509.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em65816.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em65_core.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em65c02.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em6800.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em6809.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em6811.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Em68k.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EMips.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EPowerPC.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ESh.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ESparc.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\ESwf.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Ex86.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\Ez80.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\cpulib\EZMachine.h">
+      <Filter>cpulib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DController65.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DController827x.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DControllerAbstract.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DControllerDisk2.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DControllerIWM.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DControllerWD177x.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DDirEntry.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DDiskAbstract.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DDiskImageAbstract.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DDiskImageFile.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DDiskImageMem.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DFinderDatEntry.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImage1541.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImageAcorn.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImageAmy.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImageApple2.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImageAtari.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImageCpm.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImageFat.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImageHfs.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DImageTrs80.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DNativeFilesystem.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DPartitionTable.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DPartitionTableAmy.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DPartitionTableHfs.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DPartitionTableMbr.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\disklib\DVfs.h">
+      <Filter>disklib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EEmptyMem.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EHandler.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOAcia.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOAcia6551.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOAcia6850.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOChip.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOCia6526.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOCia8520.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOPia.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOPia6520.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOPia8255.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOScc8530.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOTia6525.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EIOVia6522.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EKeys.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\Em68kHandler.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMacResEntry.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMacResHeader.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMacResMap.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMacResRef.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMapHandler.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMapSymbol.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMemAbstract.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMemIO.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMemMapAbstract.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMemMapComplex.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EMemMapSimple.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EModule.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EOSEntry.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EOSHelper.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\ERam.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EResObject.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EResource.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EResourceFile.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\ERom.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\ESoundIOAbstract.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\ESoundIOPokey.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\ESoundIOSid.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\ESoundIOSn764xx.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\ESoundIOYmxxxx.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoIOAbstract.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoIOBitmap.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoIOMoto684x.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoIOMultiMode.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoIOTextOnly.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoIOTms99xx.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoIOVector.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoSprite.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\elib\EVideoTile.h">
+      <Filter>elib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAcornDos.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAcornHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAcornIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAmigaHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAmigaIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAppleDos.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAppleHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAppleIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAppleVideo.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariArcadeHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariArcadeIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariArcadeVideo.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariDos.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariSTHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariSTIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariVectorHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariVectorIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariVectorVideo.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NAtariVideo.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCbmHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCbmIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCbmKernHelper.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCbmVideo.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCocoDos.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCocoHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCocoIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCpmDos.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCpmHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NCpmIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NFamicomHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NFamicomIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NGenesisHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NGenesisIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NJavaHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NMacApp.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NMacHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NMacIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NMacMemBase.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NMacZone.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NOricDos.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NOricHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NOricIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NPalmHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NPalmIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NPcDos.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NPcHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NPcIO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NSwfHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NTinyHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NTrs80Dos.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NTrs80Handler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NTrs80IO.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NUnixHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nemu\emu\NZMachineHandler.h">
+      <Filter>emu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nemu_win32.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nemu_win32.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\cpp_guilib_static\cpp_guilib_static\Debug\cpp_guilib_static.lib" />
+    <Library Include="..\cpp_portable_static\cpp_portable_static\Debug\cpp_portable_static.lib" />
+  </ItemGroup>
+</Project>

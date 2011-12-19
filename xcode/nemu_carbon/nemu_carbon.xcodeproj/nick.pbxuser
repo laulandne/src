@@ -1,0 +1,191 @@
+// !$*UTF8*$!
+{
+	012D51C013BED11300D36D74 /* AWindowAbstract.cpp */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.cpp.cpp;
+		name = AWindowAbstract.cpp;
+		path = /Users/nick/src/cpp/guilib/AWindowAbstract.cpp;
+		sourceTree = "<absolute>";
+	};
+	0132BACA12A3579F0071EA37 /* Carbon_Application */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Carbon_Application;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	0132BAE112A357A20071EA37 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+		scmType = "";
+	};
+	0132BAE212A357A20071EA37 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	015847D913CA9C6D003DD3D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 012D51C013BED11300D36D74 /* AWindowAbstract.cpp */;
+		name = "AWindowAbstract.cpp: 204";
+		rLen = 0;
+		rLoc = 4775;
+		rType = 0;
+		vrLen = 534;
+		vrLoc = 3856;
+	};
+	015847DA13CA9C6D003DD3D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018B36EC13B1304B00C29EBB /* nemu.h */;
+		name = "nemu.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 358;
+		vrLoc = 0;
+	};
+	015847DB13CA9C6D003DD3D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018B36EB13B1304B00C29EBB /* nemu.cpp */;
+		name = "nemu.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 504;
+		vrLoc = 1123;
+	};
+	018B36EB13B1304B00C29EBB /* nemu.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 18672}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{1123, 408}";
+		};
+	};
+	018B36EC13B1304B00C29EBB /* nemu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 4368}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 358}";
+		};
+	};
+	018B382413B1305400C29EBB /* DNativeFilesystem.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {816, 10400}}";
+			sepNavSelRange = "{12905, 0}";
+			sepNavVisRange = "{12673, 463}";
+		};
+	};
+	019B030114929CC700062202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018B36EB13B1304B00C29EBB /* nemu.cpp */;
+		name = "nemu.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 408;
+		vrLoc = 1123;
+	};
+	01ADCAE31313148E00CE2F26 /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = 8D0C4E960486CD37000505A6 /* Info.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/nick/src/xcode/nemu_carbon/Info.plist;
+		rLen = 0;
+		rLoc = 2147483647;
+	};
+	20286C28FDCF999611CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 0132BACA12A3579F0071EA37 /* Carbon_Application */;
+		activeTarget = 8D0C4E890486CD37000505A6 /* nemu_carbon */;
+		addToTargets = (
+			8D0C4E890486CD37000505A6 /* nemu_carbon */,
+		);
+		codeSenseManager = 0132BAE212A357A20071EA37 /* Code sense */;
+		executables = (
+			0132BACA12A3579F0071EA37 /* Carbon_Application */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					638,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 345148685;
+			PBXWorkspaceStateSaveDate = 345148685;
+		};
+		perUserProjectItems = {
+			015847D913CA9C6D003DD3D7 /* PBXTextBookmark */ = 015847D913CA9C6D003DD3D7 /* PBXTextBookmark */;
+			015847DA13CA9C6D003DD3D7 /* PBXTextBookmark */ = 015847DA13CA9C6D003DD3D7 /* PBXTextBookmark */;
+			015847DB13CA9C6D003DD3D7 /* PBXTextBookmark */ = 015847DB13CA9C6D003DD3D7 /* PBXTextBookmark */;
+			019B030114929CC700062202 /* PBXTextBookmark */ = 019B030114929CC700062202 /* PBXTextBookmark */;
+			01ADCAE31313148E00CE2F26 /* PlistBookmark */ = 01ADCAE31313148E00CE2F26 /* PlistBookmark */;
+		};
+		sourceControlManager = 0132BAE112A357A20071EA37 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D0C4E890486CD37000505A6 /* nemu_carbon */ = {
+		activeExec = 0;
+		executables = (
+			0132BACA12A3579F0071EA37 /* Carbon_Application */,
+		);
+	};
+	8D0C4E960486CD37000505A6 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {797, 400}}";
+			sepNavSelRange = "{312, 47}";
+			sepNavVisRect = "{{0, 0}, {709, 387}}";
+			sepNavWindowFrame = "{{15, 43}, {785, 703}}";
+		};
+	};
+}

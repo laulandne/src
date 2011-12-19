@@ -1,0 +1,3 @@
+
+include $(PATH_TO_BASE)/config.runtime
+include $(PATH_TO_BASE)/config.build

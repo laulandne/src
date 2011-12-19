@@ -1,0 +1,1963 @@
+<html><pre>
+handleArgs...
+0:../nemu/nemu
+1:c64_unix_nemu.nemu
+-----------------------
+ALib Libraries $VER: 4.0a (ANSI)
+Compiled using Gnu GCC on Dec  2 2009 at 10:24:45
+Using NetPBM commands to decode images.
+Host: Linux 2.6.28-15-generic i686 (Little-Endian)
+-----------------------
+x11_start()...
+-----------------------
+NEmu::start()...
+start Going to readPrefs...
+getAppPrefs(debugWidth)
+(Using default prefs read routine)
+path is 
+pref is debugWidth
+filename would be $HOME/.rc
+getAppPrefs(debugHeight)
+(Using default prefs read routine)
+path is 
+pref is debugHeight
+filename would be $HOME/.rc
+getAppPrefs(debugCharMap)
+(Using default prefs read routine)
+path is 
+pref is debugCharMap
+filename would be $HOME/.rc
+start Going to create default vfs...
+DVFS created.
+DVFS::init()...
+DVFS::reset()...
+Going to Mount NULL...
+unMount: No disk in drive 0
+Mount: Going to create new DHardDisk...
+DHardDisk::DHarddisk...
+DHardDisk::cacheDir()...
+About to scandir...
+Got 109 from dir...
+Done.
+start Going to process argv...
+whichArg=1
+start Done processing argv.
+NEmu::setupDebugWindow().
+TrueColor visual...
+trueColor visual RGB masks are : ff0000,ff00,ff
+bits_per_rgb=8
+Colors are RGB
+X display: bmpad 32  bmunit 32  bmorder 0  imageorder 0
+Checking out your video hardware...
+Building list of availiable display modes.
+++openDis
+Display Query: 0x0x0 (0)
+2800,24 (1600x1200x24)
+(For starters...)
+(Done going through list of displays)
+Picking first mode.
+query found mode 1: 1600x1200x24 (24)
+(Done with query, going to set...)
+ADisplay::set()...
+(set is done)
+Display is: 1600x1200x24 planes 24
+Offsets are: 5,23
+Margins are: 5,5
+ADisplay::openDis calc...
+--openDis
+window open: New Window,800,600
+window loc: 400,300
+Going to create x window...
+Going to create x gc...
+Window border is 8,16
+AWindow New Window: @400,300 800x600x24(24)
+numRows=42 fontHeight=14
+turnMenuNumOn(3)...
+(going to clear)
+(going to ver)
+Nick's Emulator!
+NEmu version $VER: 4.0a
+
+(going to focus)
+(going to ok)
+NEmu::setupDebugWindow() done.
+start Going to handleFile if given...
+file is c64_unix_nemu.nemu
+NEmu::handleFile(c64_unix_nemu.nemu)
+Nemu giving NLD a crack at c64_unix_nemu.nemu...
+NLD::pickDecoder...
+DVFS::fopen c64_unix_nemu.nemu...
+DHardDisk::fopen(c64_unix_nemu.nemu,rb)
+NElfDecoder looking for signature...
+NExeDecoder looking for MZ signature...
+NExeDecoder looking for OBJ int8_ts...
+NAOUTDecoder looking for Apple A/UX signature...
+NAOUTDecoder looking for generic a.out signature...
+NAmigaHunkDecoder looking for signature...
+NMachDecoder looking for signature...
+NJavaClassDecoder looking for signature...
+NBundleDecoder looking for signature...
+NZMachineDecoder looking for signature...
+NSWFDecoder looking for signature...
+NMacAppDecoder looking for resources in file...
+EResourceFile(c64_unix_nemu.nemu,dos)...
+DVFS created.
+DVFS::init()...
+DVFS::reset()...
+Going to Mount NULL...
+unMount: No disk in drive 0
+Mount: Going to create new DHardDisk...
+DHardDisk::DHarddisk...
+DHardDisk::cacheDir()...
+About to scandir...
+Got 109 from dir...
+Done.
+ersrc Attempting to open resource file c64_unix_nemu.nemu...
+(ersrc Looking in resource.frk folder...)
+(Didn't find it)
+The short name is c64_unix_nemu.nemu
+Building full path with path 
+Building full path with resource.frk/ resource.frk/
+Looking for resource.frk/c64_unix_nemu.nemu
+DHardDisk::fopen(resource.frk/c64_unix_nemu.nemu,rb)
+Looking for lowercased resource.frk/c64_unix_nemu.nemu...
+DHardDisk::fopen(resource.frk/c64_unix_nemu.nemu,rb)
+Didn't find what we were looking for in resource.frk
+Building full path with path 
+Building full path with .resource/ .resource/
+Looking for .resource/c64_unix_nemu.nemu
+DHardDisk::fopen(.resource/c64_unix_nemu.nemu,rb)
+Building full path with path 
+Building full path with % %
+Looking for %c64_unix_nemu.nemu
+DHardDisk::fopen(%c64_unix_nemu.nemu,rb)
+ersrc Open failed.
+Nope, NLD doesn't recognize it as a binary.
+(Not a binary)
+Nemu giving myvfs->recognize a crack at c64_unix_nemu.nemu...
+Nope, myvfs doesn't recognize it as a disk image.
+Nemu checking if c64_unix_nemu.nemu is a text file...
+isItATextFile going to try to open c64_unix_nemu.nemu using fopen
+isItATextFile looking at c64_unix_nemu.nemu
+We think its a text file
+Looks like a text file...
+Loading config from 'c64_unix_nemu.nemu'
+Going to ask cmd to source...
+setupDebugWindow::already did it!
+
+Reading from 'c64_unix_nemu.nemu'...
+isItATextFile going to try to open c64_unix_nemu.nemu using fopen
+isItATextFile looking at c64_unix_nemu.nemu
+We think its a text file
+parseString (12 chars): 'addrbits #16'
+theArgc is 2
+0: 'addrbits' (8 chars)
+1: '#16' (3 chars)
+1: '#16'
+addrbits: #16
+NCmd::evalulate(#16)==16
+val is 16
+setAddrBits(16,)
+map, abits:16 nint8_ts:65536=256*256 (amask:ffff)
+Creating map of 10000 int8_ts,
+256 pages...EMem()...
+EMemMap(pages=256,pagesize=256) created.
+(map mask:ffff  map addrBits:16  pmask:ff  pshift bits:8)
+(func arrays are 1024 int8_ts in size)
+EMem(0)...
+EEmptyMem(65536)...
+parseString (9 chars): 'ram 0 #64'
+theArgc is 3
+0: 'ram' (3 chars)
+1: '0' (1 chars)
+2: '#64' (3 chars)
+1: '0'
+2: '#64'
+NCmd::evalulate(0)==0
+NCmd::evalulate(#64)==64
+EMem(0,64,1024)...
+ERam(64,1024)...
+Mapping ram (10000 at 00000000).
+parseString (48 chars): '//romload 64basic.901226-01.bin a000 basic64.rom'
+theArgc is 4
+0: '//romload' (9 chars)
+1: '64basic.901226-01.bin' (21 chars)
+2: 'a000' (4 chars)
+3: 'basic64.rom' (11 chars)
+1: '64basic.901226-01.bin'
+2: 'a000'
+3: 'basic64.rom'
+parseString (50 chars): '//romload 64characters.901225-01.bin d000 char.rom'
+theArgc is 4
+0: '//romload' (9 chars)
+1: '64characters.901225-01.bin' (26 chars)
+2: 'd000' (4 chars)
+3: 'char.rom' (8 chars)
+1: '64characters.901225-01.bin'
+2: 'd000'
+3: 'char.rom'
+parseString (48 chars): '//romload 64kernal.901227-03.bin e000 kern64.rom'
+theArgc is 4
+0: '//romload' (9 chars)
+1: '64kernal.901227-03.bin' (22 chars)
+2: 'e000' (4 chars)
+3: 'kern64.rom' (10 chars)
+1: '64kernal.901227-03.bin'
+2: 'e000'
+3: 'kern64.rom'
+parseString (39 chars): '//romload 64BASI~1.BIN a000 basic64.rom'
+theArgc is 4
+0: '//romload' (9 chars)
+1: '64BASI~1.BIN' (12 chars)
+2: 'a000' (4 chars)
+3: 'basic64.rom' (11 chars)
+1: '64BASI~1.BIN'
+2: 'a000'
+3: 'basic64.rom'
+parseString (36 chars): '//romload 64CHAR~1.BIN d000 char.rom'
+theArgc is 4
+0: '//romload' (9 chars)
+1: '64CHAR~1.BIN' (12 chars)
+2: 'd000' (4 chars)
+3: 'char.rom' (8 chars)
+1: '64CHAR~1.BIN'
+2: 'd000'
+3: 'char.rom'
+parseString (38 chars): '//romload 64KERN~1.BIN e000 kern64.rom'
+theArgc is 4
+0: '//romload' (9 chars)
+1: '64KERN~1.BIN' (12 chars)
+2: 'e000' (4 chars)
+3: 'kern64.rom' (10 chars)
+1: '64KERN~1.BIN'
+2: 'e000'
+3: 'kern64.rom'
+parseString (30 chars): 'romload char.rom d000 char.rom'
+theArgc is 4
+0: 'romload' (7 chars)
+1: 'char.rom' (8 chars)
+2: 'd000' (4 chars)
+3: 'char.rom' (8 chars)
+1: 'char.rom'
+2: 'd000'
+3: 'char.rom'
+NCmd::evalulate(d000)==53248
+romload char.rom @ d000
+EMem(53248,0)...
+ERom(53248,char.rom,0,char.rom)...
+Rom name is char.rom
+Resize EMem (0) to 4096...
+Loading char.rom@53248 4096 int8_ts.
+parseString (10 chars): 'set addr 2'
+theArgc is 3
+0: 'set' (3 chars)
+1: 'addr' (4 chars)
+2: '2' (1 chars)
+1: 'addr'
+2: '2'
+NCmd::evalulate(2)==2
+parseString (36 chars): 'romload basic64.rom a000 basic64.rom'
+theArgc is 4
+0: 'romload' (7 chars)
+1: 'basic64.rom' (11 chars)
+2: 'a000' (4 chars)
+3: 'basic64.rom' (11 chars)
+1: 'basic64.rom'
+2: 'a000'
+3: 'basic64.rom'
+NCmd::evalulate(a000)==40960
+romload basic64.rom @ a000
+EMem(40960,0)...
+ERom(40960,basic64.rom,2,basic64.rom)...
+Rom name is basic64.rom
+Resize EMem (0) to 8192...
+Loading basic64.rom@40960 8192 int8_ts.
+parseString (34 chars): 'romload kern64.rom e000 kern64.rom'
+theArgc is 4
+0: 'romload' (7 chars)
+1: 'kern64.rom' (10 chars)
+2: 'e000' (4 chars)
+3: 'kern64.rom' (10 chars)
+1: 'kern64.rom'
+2: 'e000'
+3: 'kern64.rom'
+NCmd::evalulate(e000)==57344
+romload kern64.rom @ e000
+EMem(57344,0)...
+ERom(57344,kern64.rom,2,kern64.rom)...
+Rom name is kern64.rom
+Resize EMem (0) to 8192...
+Loading kern64.rom@57344 8192 int8_ts.
+parseString (13 chars): 'set chips c64'
+theArgc is 3
+0: 'set' (3 chars)
+1: 'chips' (5 chars)
+2: 'c64' (3 chars)
+1: 'chips'
+2: 'c64'
+NCmd::evalulate(c64)==3172
+EIEIO created...
+NCBM constructor.
+EMem(0)...
+(Creating EMemIO)
+EVideoIO::EVideoIO(40,25) Setting up video.
+calcScaleFactor(320,200)
+display is 1600,1200
+scaleFactor=4 (1280x800)
++++createPrivateBits()
+Creating x bits...
++++convert(...)
+Converting 4 bit (2) to 24 bit (1)...
+expandedBits are 24...
+goalBits are 24...
+goalPlanes are 24...
+Convert inner loop...
+<b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b>Done inner loop.
+Dumping old pixels...
+Grabbing new pixels...
+cleaning up...
+convert done: depth=24 nPlanes=24 bytesPerLine=4
+---convert(...)
+Going to adjust RGB planes...
+Image is 16x16 24(24)
+X says bytesPerLine is 4 so xbitsize is 1536
+Going to XCreatePixmap...
+Going to XPutImage...
+Done with x private bits.
+Private bits created for bitmap.
+---createPrivateBits()
++++createPrivateBits()
+Creating x bits...
++++convert(...)
+Converting 4 bit (2) to 24 bit (1)...
+expandedBits are 24...
+goalBits are 24...
+goalPlanes are 24...
+Convert inner loop...
+<b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b>Done inner loop.
+Dumping old pixels...
+Grabbing new pixels...
+cleaning up...
+convert done: depth=24 nPlanes=24 bytesPerLine=64
+---convert(...)
+Going to adjust RGB planes...
+Image is 512x512 24(24)
+X says bytesPerLine is 64 so xbitsize is 786432
+Going to XCreatePixmap...
+Going to XPutImage...
+Done with x private bits.
+Private bits created for bitmap.
+---createPrivateBits()
++++createPrivateBits()
+Creating x bits...
++++convert(...)
+Converting 4 bit (2) to 24 bit (1)...
+expandedBits are 24...
+goalBits are 24...
+goalPlanes are 24...
+Convert inner loop...
+<b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b>Done inner loop.
+Dumping old pixels...
+Grabbing new pixels...
+cleaning up...
+convert done: depth=24 nPlanes=24 bytesPerLine=64
+---convert(...)
+Going to adjust RGB planes...
+Image is 512x512 24(24)
+X says bytesPerLine is 64 so xbitsize is 786432
+Going to XCreatePixmap...
+Going to XPutImage...
+Done with x private bits.
+Private bits created for bitmap.
+---createPrivateBits()
+EVideoIO::setMemSize(40,25)
+Resize EMem (0) to 1024...
+EMem(1024)...
+InitOffsets: ssize is 1024
+rsize is 1024
+Using default setValid...
+Using default setOffsets...
+set memsize to 1024.
+EVideoIO::setVideoSize(40,25)
++++createPrivateBits()
+Creating x bits...
++++convert(...)
+Converting 4 bit (2) to 24 bit (1)...
+expandedBits are 24...
+goalBits are 24...
+goalPlanes are 24...
+Convert inner loop...
+<b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b><b><i>Warning!</i> e2tf source doesn't have a palette!
+</b>Done inner loop.
+Dumping old pixels...
+Grabbing new pixels...
+cleaning up...
+convert done: depth=24 nPlanes=24 bytesPerLine=80
+---convert(...)
+Going to adjust RGB planes...
+Image is 640x400 24(24)
+X says bytesPerLine is 80 so xbitsize is 768000
+Going to XCreatePixmap...
+Going to XPutImage...
+Done with x private bits.
+Private bits created for bitmap.
+---createPrivateBits()
+createBackBuffer: buffer is 640x400x4x1
+EvideoIO::EVideoIO Done setting up video.
+NCBMVideo created.
+Checking cbm machine type...
+Done checking cbm machine type.
+Going to setValid...
+Using default setValid...
+Going to setScreenChar...
+screen addr is now 0
+char addr is now 0
++++createPrivateBits()
+Creating x bits...
++++convert(...)
+Converting 1 bit (1) to 24 bit (1)...
+expandedBits are 24...
+goalBits are 24...
+goalPlanes are 24...
+sameType is set...
+Convert inner loop...
+Done inner loop.
+Dumping old pixels...
+Grabbing new pixels...
+cleaning up...
+convert done: depth=24 nPlanes=24 bytesPerLine=32
+---convert(...)
+Going to adjust RGB planes...
+Image is 256x256 24(24)
+X says bytesPerLine is 32 so xbitsize is 196608
+Going to XCreatePixmap...
+Going to XPutImage...
+Done with x private bits.
+Private bits created for bitmap.
+---createPrivateBits()
+going to decode memory...
+addr=0 copyMode=0 startRow=0
+gwidth=8 gheight=8 gacross=16 gdown=16
+Image info: width=256 height=256 depth=24 nplanes=24
+gxb=1 gsize=8 bpl=32 ps=8192
++++convert(...)
+Converting 24 bit (1) to 24 bit (2)...
+expandedBits are 24...
+goalBits are 24...
+goalPlanes are 1...
+Convert inner loop...
+Done inner loop.
+Dumping old pixels...
+Grabbing new pixels...
+cleaning up...
+convert done: depth=24 nPlanes=1 bytesPerLine=768
+---convert(...)
+Scale: 256x256 24x1
+Bitmap: 768 196608
+Going to enter line loop...
+Done looping, going to dup temp bitmap...
+Scaled: 512x512 24x1
+Bitmap: 1536 786432
+done.
++++EVideo::setupTileGfx
+Scale: 512x512 24x1
+Bitmap: 1536 786432
+Going to enter line loop...
+Done looping, going to dup temp bitmap...
+Scaled: 1024x1024 24x1
+Bitmap: 3072 3145728
++++createPrivateBits()
+Creating x bits...
++++convert(...)
+Converting 24 bit (2) to 24 bit (1)...
+expandedBits are 24...
+goalBits are 24...
+goalPlanes are 24...
+Convert inner loop...
+Done inner loop.
+Dumping old pixels...
+Grabbing new pixels...
+cleaning up...
+convert done: depth=24 nPlanes=24 bytesPerLine=128
+---convert(...)
+Going to adjust RGB planes...
+Image is 1024x1024 24(24)
+X says bytesPerLine is 128 so xbitsize is 3145728
+Going to XCreatePixmap...
+Going to XPutImage...
+Done with x private bits.
+Private bits created for bitmap.
+---createPrivateBits()
+(updated, now going to verify...)
++++verify(dis)
+(please is 0)
+---verify(dis)
+(verified, now going to matchColors...)
+(matchedColors...)
+Gfx are 16 by 16 size 8 by 8
+(Killing old gfx image table...)
+(Going to build gfx image table...)
+0:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+1:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+2:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+3:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+4:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+5:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+6:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+7:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+8:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+9:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+10:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+11:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+12:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+13:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+14:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+15:0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,
+going to resize to 640,400
+---EVideo::setupTileGfx
+Done NCBMVideo::NCBMVideo
+EMem(0)...
+(Creating EMemIO)
+Resize EMem (0) to 4096...
+EMem(0)...
+(Creating EMemIO)
+Resize EMem (0) to 256...

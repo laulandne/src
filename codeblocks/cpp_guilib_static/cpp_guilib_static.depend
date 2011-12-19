@@ -1,0 +1,862 @@
+# depslib dependency file v1.0
+1306807484 source:/home/nick/src/cpp/guilib/AApplicationLoop.cpp
+	<iostream>
+	<guilib/AApplicationLoop.h>
+	<guilib/AEvent.h>
+	<guilib/AWindowInputStream.h>
+	<X11/keysym.h>
+	<X11/Xutil.h>
+	<guilib/alib_x11.h>
+	<gtk/gtkmain.h>
+	<guilib/alib_dos.h>
+	<guilib/alib_win.h>
+	<guilib/alib_os2.h>
+	<guilib/alib_carbon.h>
+	<guilib/alib_cocoa.h>
+	<exec/tasks.h>
+	<intuition/intuition.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1306806908 /home/nick/src/cpp/guilib/AApplicationLoop.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/AError.h>
+	"AEvent.h"
+
+1303834355 /home/nick/src/cpp/guilib/ATypeDefs.h
+	<guilib/APlatform.h>
+	<PalmOS.h>
+	<PalmCompatibility.h>
+	<Pilot.h>
+	<PalmStdio.h>
+	<guilib/alib_palm.h>
+	<CharAttr.h>
+	<TxtGlue.h>
+	<dos/dos.h>
+	<windows.h>
+	<guilib/alib_win.h>
+	<os2.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	<string.h>
+	<wchar.h>
+	<cwchar>
+	<direct.h>
+	<endian.h>
+	<machine/endian.h>
+
+1289249994 /home/nick/src/cpp/guilib/APlatform.h
+
+1274823046 /home/nick/src/cpp/guilib/alib_palm.h
+	<alib/atypedefs.h>
+	<alib/aplatform.h>
+	<FileStream.h>
+
+1289249050 /home/nick/src/cpp/guilib/alib_win.h
+	"ATypeDefs.h"
+	"APlatform.h"
+	<bldver.h>
+	<aygshell.h>
+	<sip.h>
+
+1293942496 /home/nick/src/cpp/portable/nickcpp/AError.h
+
+1303834355 /home/nick/src/cpp/guilib/AEvent.h
+	<guilib/alib_carbon.h>
+	<guilib/alib_win.h>
+	<Carbon/Carbon.h>
+
+1308548526 /home/nick/src/cpp/guilib/alib_carbon.h
+	<guilib/ATypeDefs.h>
+	<guilib/APlatform.h>
+	<Carbon/Carbon.h>
+
+1304105039 /home/nick/src/cpp/guilib/AWindowInputStream.h
+	<portable/nickcpp/AInputStream.h>
+	"AWindow.h"
+
+1294284228 /home/nick/src/cpp/portable/nickcpp/AInputStream.h
+	"ANullStream.h"
+
+1300724674 /home/nick/src/cpp/portable/nickcpp/ANullStream.h
+	<iostream>
+
+1301501466 /home/nick/src/cpp/guilib/AWindow.h
+	"AWindowAbstract.h"
+
+1308548828 /home/nick/src/cpp/guilib/AWindowAbstract.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/ADrawableAbstract.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1304104265 /home/nick/src/cpp/portable/nickcpp/ADrawableAbstract.h
+	<portable/nickcpp/AFrameAbstract.h>
+
+1291146682 /home/nick/src/cpp/portable/nickcpp/AFrameAbstract.h
+	"APoint.h"
+	"ARect.h"
+	"AError.h"
+
+1274823100 /home/nick/src/cpp/portable/nickcpp/APoint.h
+
+1274823100 /home/nick/src/cpp/portable/nickcpp/ARect.h
+
+1289943592 /home/nick/src/cpp/guilib/alib_x11.h
+	"ATypeDefs.h"
+	"APlatform.h"
+
+1274823038 /home/nick/src/cpp/guilib/alib_dos.h
+	<dos.h>
+	<conio.h>
+	<i86.h>
+	<conio.h>
+	<dos.h>
+	<conio.h>
+
+1274823046 /home/nick/src/cpp/guilib/alib_os2.h
+	<alib/atypedefs.h>
+	<alib/aplatform.h>
+
+1298480060 /home/nick/src/cpp/guilib/alib_cocoa.h
+
+1304105038 source:/home/nick/src/cpp/guilib/ABitmapBanks.cpp
+	<iostream>
+	<guilib/ABitmapBanks.h>
+	<guilib/ADisplay.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<graphics/gfx.h>
+	<exec/memory.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1298226506 /home/nick/src/cpp/guilib/ABitmapBanks.h
+	<guilib/APrivateBitmap.h>
+
+1309146738 /home/nick/src/cpp/guilib/APrivateBitmap.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/ABitmap.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<Carbon/Carbon.h>
+	<windows.h>
+
+1304104264 /home/nick/src/cpp/portable/nickcpp/ABitmap.h
+	<portable/nickcpp/ADrawableAbstract.h>
+
+1308548730 /home/nick/src/cpp/guilib/ADisplay.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/AFrameAbstract.h>
+	"ADisplayMode.h"
+	<X11/X.h>
+	<X11/Xlib.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1303834355 /home/nick/src/cpp/guilib/ADisplayMode.h
+	<guilib/ATypeDefs.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1293743366 /home/nick/src/cpp/portable/nickcpp/APalette.h
+	"AColor.h"
+
+1274823084 /home/nick/src/cpp/portable/nickcpp/AColor.h
+
+1304105038 source:/home/nick/src/cpp/guilib/ABitmapBanksPlanes.cpp
+	<iostream>
+	<guilib/ABitmapBanksPlanes.h>
+	<guilib/ADisplay.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<graphics/gfx.h>
+	<exec/memory.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1298226506 /home/nick/src/cpp/guilib/ABitmapBanksPlanes.h
+	<guilib/APrivateBitmap.h>
+
+1304105038 source:/home/nick/src/cpp/guilib/ABitmapFlipped.cpp
+	<iostream>
+	<guilib/ABitmapFlipped.h>
+	<guilib/ADisplay.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<graphics/gfx.h>
+	<exec/memory.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1298226506 /home/nick/src/cpp/guilib/ABitmapFlipped.h
+	<guilib/APrivateBitmap.h>
+
+1304105038 source:/home/nick/src/cpp/guilib/ABitmapInter.cpp
+	<iostream>
+	<guilib/ABitmapInter.h>
+	<guilib/ADisplay.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<graphics/gfx.h>
+	<exec/memory.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1298226506 /home/nick/src/cpp/guilib/ABitmapInter.h
+	<guilib/APrivateBitmap.h>
+
+1304105038 source:/home/nick/src/cpp/guilib/ABitmapInterFour.cpp
+	<iostream>
+	<guilib/ABitmapInterFour.h>
+	<guilib/ADisplay.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<graphics/gfx.h>
+	<exec/memory.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1298226506 /home/nick/src/cpp/guilib/ABitmapInterFour.h
+	<guilib/APrivateBitmap.h>
+
+1304105038 source:/home/nick/src/cpp/guilib/ABitmapPlanes.cpp
+	<iostream>
+	<guilib/ABitmapPlanes.h>
+	<guilib/ADisplay.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<graphics/gfx.h>
+	<exec/memory.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1298226506 /home/nick/src/cpp/guilib/ABitmapPlanes.h
+	<guilib/APrivateBitmap.h>
+
+1304105038 source:/home/nick/src/cpp/guilib/ABitmapSimple.cpp
+	<iostream>
+	<guilib/ABitmapSimple.h>
+	<portable/nickcpp/ANullStream.h>
+
+1304105038 /home/nick/src/cpp/guilib/ABitmapSimple.h
+	<portable/nickcpp/AFrameAbstract.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/ABitmapText.cpp
+	<iostream>
+	<guilib/ABitmapText.h>
+	<guilib/ADisplay.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<graphics/gfx.h>
+	<exec/memory.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1298226506 /home/nick/src/cpp/guilib/ABitmapText.h
+	<guilib/APrivateBitmap.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/ADialogAbstract.cpp
+	<iostream>
+	<guilib/ADialogAbstract.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<commdlg.h>
+	<guilib/alib_carbon.h>
+	<StandardFile.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<libraries/asl.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/asl_protos.h>
+	<clib/dos_protos.h>
+
+1289188154 /home/nick/src/cpp/guilib/ADialogAbstract.h
+	"AWindow.h"
+
+1287788530 /home/nick/src/cpp/portable/nickcpp/AList.h
+	"ADataSourceAbstract.h"
+	"ACell.h"
+
+1287788516 /home/nick/src/cpp/portable/nickcpp/ADataSourceAbstract.h
+	<stdio.h>
+
+1274823084 /home/nick/src/cpp/portable/nickcpp/ACell.h
+
+1274823038 /home/nick/src/cpp/guilib/alib_amiga.h
+	<alib/atypedefs.h>
+	<alib/aplatform.h>
+	<exec/libraries.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/ADialogAskString.cpp
+	<iostream>
+	<guilib/ADialogAskString.h>
+	<portable/nickcpp/AList.h>
+	<commdlg.h>
+	<guilib/alib_carbon.h>
+	<StandardFile.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<libraries/asl.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/asl_protos.h>
+	<clib/dos_protos.h>
+
+1288886284 /home/nick/src/cpp/guilib/ADialogAskString.h
+	"ADialogAbstract.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/ADialogMsg.cpp
+	<iostream>
+	<guilib/ADialogMsg.h>
+	<guilib/AEvent.h>
+	<guilib/AWindow.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<commdlg.h>
+	<guilib/alib_carbon.h>
+	<StandardFile.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<libraries/asl.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/asl_protos.h>
+	<clib/dos_protos.h>
+
+1288886284 /home/nick/src/cpp/guilib/ADialogMsg.h
+	"ADialogAbstract.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/ADialogWithButtons.cpp
+	<iostream>
+	<guilib/ADialogWithButtons.h>
+	<portable/nickcpp/AList.h>
+	<commdlg.h>
+	<guilib/alib_carbon.h>
+	<StandardFile.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<libraries/asl.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/asl_protos.h>
+	<clib/dos_protos.h>
+
+1288886284 /home/nick/src/cpp/guilib/ADialogWithButtons.h
+	"ADialogMsg.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/ADisplay.cpp
+	<iostream>
+	<guilib/ADisplay.h>
+	<guilib/ABitmapInter.h>
+	<guilib/ABitmapInterFour.h>
+	<guilib/ABitmapPlanes.h>
+	<guilib/ABitmapBanksPlanes.h>
+	<guilib/ABitmapBanks.h>
+	<guilib/ABitmapText.h>
+	<guilib/ABitmapFlipped.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AList.h>
+	<guilib/alib_amiga.h>
+	<intuition/screens.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<guilib/adisplay.h>
+	<guilib/alib_dos.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/ADisplayMode.cpp
+	<iostream>
+	<guilib/ADisplayMode.h>
+	<guilib/AWindowAbstract.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AList.h>
+	<guilib/alib_amiga.h>
+	<intuition/screens.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<guilib/adisplay.h>
+	<guilib/alib_dos.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/AEvent.cpp
+	<iostream>
+	<guilib/AEvent.h>
+	<guilib/AWindowAbstract.h>
+	<guilib/ADisplay.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/keysym.h>
+	<X11/Xutil.h>
+	<guilib/alib_x11.h>
+	<gtk/gtkmain.h>
+	<guilib/alib_dos.h>
+	<guilib/alib_win.h>
+	<guilib/alib_glut.h>
+	<guilib/alib_os2.h>
+	<guilib/alib_carbon.h>
+	<guilib/alib_cocoa.h>
+	<guilib/AApp.h>
+	<exec/tasks.h>
+	<intuition/intuition.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+
+1299864324 /home/nick/src/cpp/guilib/alib_glut.h
+	<GLUT/glut.h>
+	<GL/glut.h>
+
+1303834355 /home/nick/src/cpp/guilib/AApp.h
+	<guilib/ATypeDefs.h>
+	<guilib/alib_win.h>
+
+1311104772 source:/home/nick/src/cpp/guilib/APrivateBitmap.cpp
+	<iostream>
+	<X11/Xutil.h>
+	<guilib/alib_win.h>
+	<guilib/alib_dos.h>
+	<graphics/gfx.h>
+	<exec/memory.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/exec_protos.h>
+	<guilib/APrivateBitmap.h>
+	<guilib/ADisplay.h>
+	<guilib/AWindow.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AConvertingBitLine.h>
+
+1299695932 /home/nick/src/cpp/portable/nickcpp/AStringHelper.h
+	<stdio.h>
+
+1304104265 /home/nick/src/cpp/portable/nickcpp/AConvertingBitLine.h
+	<portable/nickcpp/ABitmap.h>
+
+1304104522 source:/home/nick/src/cpp/guilib/ARendererSoft3D.cpp
+	<iostream>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	"ARendererSoft3D.h"
+
+1306110110 /home/nick/src/cpp/guilib/ARendererSoft3D.h
+	<portable/nick3d/ARendererAbstract3D.h>
+
+1304104432 /home/nick/src/cpp/portable/nick3d/ARendererAbstract3D.h
+	"AVertex3D.h"
+	"AMesh3D.h"
+	"ACamera3D.h"
+	"ALight3D.h"
+	"AScene3D.h"
+	<portable/nickcpp/AError.h>
+
+1276386970 /home/nick/src/cpp/portable/nick3d/AVertex3D.h
+
+1307567256 /home/nick/src/cpp/portable/nick3d/AMesh3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+	"APart3D.h"
+	"ATexture3D.h"
+	"ATextCoord3D.h"
+	"AFace3D.h"
+	"ACamera3D.h"
+
+1276386970 /home/nick/src/cpp/portable/nick3d/AMatrix3D.h
+	"AVertex3D.h"
+	"AFace3D.h"
+	<math.h>
+
+1276386970 /home/nick/src/cpp/portable/nick3d/AFace3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/APart3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/ATexture3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/ATextCoord3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/ACamera3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+
+1276386970 /home/nick/src/cpp/portable/nick3d/ALight3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+
+1276388216 /home/nick/src/cpp/portable/nick3d/AScene3D.h
+	"AVertex3D.h"
+	"AFace3D.h"
+	"AVertex3D.h"
+	"AMesh3D.h"
+	"ACamera3D.h"
+	"ALight3D.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/ARequestAbstract.cpp
+	<iostream>
+	<guilib/ARequestAbstract.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<commdlg.h>
+	<guilib/alib_carbon.h>
+	<StandardFile.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<libraries/asl.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/asl_protos.h>
+	<clib/dos_protos.h>
+
+1288885738 /home/nick/src/cpp/guilib/ARequestAbstract.h
+	"ADialogAbstract.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/ARequesterDisplayMode.cpp
+	<iostream>
+	<guilib/ARequesterDisplayMode.h>
+	<portable/nickcpp/AList.h>
+	<commdlg.h>
+	<guilib/alib_carbon.h>
+	<StandardFile.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<libraries/asl.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/asl_protos.h>
+	<clib/dos_protos.h>
+
+1288886284 /home/nick/src/cpp/guilib/ARequesterDisplayMode.h
+	"ARequestAbstract.h"
+	"ADisplayMode.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/ARequesterFile.cpp
+	<iostream>
+	<guilib/ARequesterFile.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<guilib/AApp.h>
+	<commdlg.h>
+	<guilib/alib_carbon.h>
+	<StandardFile.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<libraries/asl.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/asl_protos.h>
+	<clib/dos_protos.h>
+
+1288886284 /home/nick/src/cpp/guilib/ARequesterFile.h
+	"ARequestAbstract.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/ARequesterNetwork.cpp
+	<iostream>
+	<guilib/ARequesterNetwork.h>
+	<portable/nickcpp/AList.h>
+	<commdlg.h>
+	<guilib/alib_carbon.h>
+	<StandardFile.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<libraries/asl.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/asl_protos.h>
+	<clib/dos_protos.h>
+
+1288886284 /home/nick/src/cpp/guilib/ARequesterNetwork.h
+	"ARequestAbstract.h"
+
+1297734108 source:/home/nick/src/cpp/guilib/AThread.cpp
+	<iostream>
+	"AThread.h"
+
+1303834355 /home/nick/src/cpp/guilib/AThread.h
+	<guilib/ATypeDefs.h>
+	<guilib/alib_win.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/AWindow.cpp
+	<iostream>
+	<guilib/AWindow.h>
+	<guilib/ADisplay.h>
+	<guilib/AEvent.h>
+	<portable/nickcpp/ABitmap.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<guilib/alib_win.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<intuition/intuition.h>
+	<workbench/workbench.h>
+	<workbench/startup.h>
+	<clib/exec_protos.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/dos_protos.h>
+	<clib/wb_protos.h>
+	<Carbon/Carbon.h>
+	<guilib/alib_carbon.h>
+	<SDL.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/AWindowAbstract.cpp
+	<iostream>
+	<guilib/AWindowAbstract.h>
+	<guilib/ADisplay.h>
+	<guilib/AEvent.h>
+	<guilib/APrivateBitmap.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<guilib/alib_win.h>
+	<guilib/alib_x11.h>
+	<guilib/alib_glut.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<intuition/intuition.h>
+	<workbench/workbench.h>
+	<workbench/startup.h>
+	<clib/exec_protos.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/dos_protos.h>
+	<clib/wb_protos.h>
+	<Carbon/Carbon.h>
+	<guilib/alib_carbon.h>
+	<SDL.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/AWindowCharMapped.cpp
+	<iostream>
+	<guilib/AWindowCharMapped.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<guilib/alib_win.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<intuition/intuition.h>
+	<workbench/workbench.h>
+	<workbench/startup.h>
+	<clib/exec_protos.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/dos_protos.h>
+	<clib/wb_protos.h>
+	<Carbon/Carbon.h>
+	<guilib/alib_carbon.h>
+	<SDL.h>
+
+1293943160 /home/nick/src/cpp/guilib/AWindowCharMapped.h
+	"AWindow.h"
+	<X11/X.h>
+	<X11/Xlib.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/AWindowInputStream.cpp
+	<iostream>
+	"AWindowInputStream.h"
+	<portable/nickcpp/AFileInputStream.h>
+
+1291998300 /home/nick/src/cpp/portable/nickcpp/AFileInputStream.h
+	"AInputStream.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/AWindowOutputStream.cpp
+	<iostream>
+	"AWindowOutputStream.h"
+	<portable/nickcpp/AFileOutputStream.h>
+
+1304105039 /home/nick/src/cpp/guilib/AWindowOutputStream.h
+	<portable/nickcpp/AOutputStream.h>
+	"AWindow.h"
+
+1294284228 /home/nick/src/cpp/portable/nickcpp/AOutputStream.h
+	"ANullStream.h"
+
+1293943008 /home/nick/src/cpp/portable/nickcpp/AFileOutputStream.h
+	<stdio.h>
+	<string.h>
+	"AOutputStream.h"
+
+1304105039 source:/home/nick/src/cpp/guilib/AWindowStream.cpp
+	<iostream>
+	<guilib/AWindowStream.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xutil.h>
+	<guilib/alib_dos.h>
+	<guilib/alib_win.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<intuition/intuition.h>
+	<workbench/workbench.h>
+	<workbench/startup.h>
+	<clib/exec_protos.h>
+	<clib/graphics_protos.h>
+	<clib/intuition_protos.h>
+	<clib/dos_protos.h>
+	<clib/wb_protos.h>
+	<Carbon/Carbon.h>
+	<guilib/alib_carbon.h>
+	<SDL.h>
+
+1293943008 /home/nick/src/cpp/guilib/AWindowStream.h
+	"AWindow.h"
+	<X11/X.h>
+	<X11/Xlib.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1309146426 source:/home/nick/src/cpp/guilib/aapp.cpp
+	<iostream>
+	<guilib/AApp.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<guilib/ADisplay.h>
+	<guilib/alib_win.h>
+	<guilib/alib_carbon.h>
+	<guilib/alib_cocoa.h>
+	<guilib/alib_glut.h>
+	<guilib/alib_dos.h>
+	<guilib/alib_amiga.h>
+	<exec/libraries.h>
+	<clib/exec_protos.h>
+	<stat.h>
+	<libc.h>
+	<unistd.h>
+	<direct.h>
+	<sys/utsname.h>
+	<curses.h>
+	<termios.h>
+
+1297734110 source:/home/nick/src/cpp/guilib/alib_amiga.cpp
+	<alib/aapp.h>
+	<alib/adebug.h>
+	<guilib/aevent.h>
+	<guilib/awindow.h>
+	<graphics/gfxbase.h>
+	<intuition/intuition.h>
+	<intuition/intuitionbase.h>
+	<libraries/asl.h>
+	<workbench/workbench.h>
+	<clib/exec_protos.h>
+	<clib/intuition_protos.h>
+	<clib/dos_protos.h>
+
+1309715932 source:/home/nick/src/cpp/guilib/alib_carbon.cpp
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+	<guilib/alib_carbon.h>
+	<guilib/AApp.h>
+	<guilib/AWindow.h>
+	<guilib/AEvent.h>
+	<guilib/ADisplay.h>
+	<guilib/AApplicationLoop.h>
+	<guilib/ADialogAbstract.h>
+	<portable/nickcpp/AStringHelper.h>
+	<Carbon/Carbon.h>
+
+1297734110 source:/home/nick/src/cpp/guilib/alib_curses.cpp
+
+1303834355 source:/home/nick/src/cpp/guilib/alib_dos.cpp
+	<alib/adebug.h>
+	<alib/aapp.h>
+	<guilib/aevent.h>
+	<guilib/adisplay.h>
+	<guilib/alib_dos.h>
+	<sys/nearptr.h>
+	<i86.h>
+	<conio.h>
+
+1303834355 source:/home/nick/src/cpp/guilib/alib_glut.cpp
+	<guilib/alib_glut.h>
+	<stdlib.h>
+	<stdio.h>
+	<guilib/AApplicationLoop.h>
+	<guilib/AWindow.h>
+
+1303834355 source:/home/nick/src/cpp/guilib/alib_os2.cpp
+	<alib/adebug.h>
+	<alib/aapp.h>
+	<alib/aversion.h>
+	<guilib/awindow.h>
+	<guilib/aevent.h>
+	<guilib/alib_os2.h>
+
+1303834355 source:/home/nick/src/cpp/guilib/alib_palm.cpp
+	<alib/adebug.h>
+	<alib/aapp.h>
+	<guilib/aevent.h>
+	<guilib/alib_palm.h>
+
+1309146584 source:/home/nick/src/cpp/guilib/alib_win.cpp
+	<guilib/alib_win.h>
+	<iostream>
+	<guilib/AApp.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<guilib/awindow.h>
+	<guilib/adisplay.h>
+	<guilib/aevent.h>
+	<ddraw.h>
+	<mmsystem.h>
+	<dsound.h>
+	<dinput.h>
+	<d3d.h>
+
+1304105039 source:/home/nick/src/cpp/guilib/alib_x11.cpp
+	<iostream>
+	"alib_x11.h"
+	<guilib/AApp.h>
+	<guilib/AEvent.h>
+	<guilib/AWindow.h>
+	<portable/nickcpp/ANullStream.h>
+	<X11/Xlib.h>
+	<X11/keysym.h>
+	<X11/Xutil.h>
+
+1309716096 source:/home/nick/src/cpp/guilib/nickguilib.cpp
+	<cstdlib>
+	<iostream>
+	"nickguilib.h"
+	<portable/nickcpp/APalette.h>
+
+1306808342 /home/nick/src/cpp/guilib/nickguilib.h
+	<guilib/ADisplay.h>
+	<guilib/AWindow.h>
+	<guilib/AEvent.h>
+	<guilib/AApplicationLoop.h>
+	<guilib/AApp.h>
+	<guilib/APrivateBitmap.h>
+

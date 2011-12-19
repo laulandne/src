@@ -1,0 +1,38 @@
+
+include $(PATH_TO_BASE)/config.runtime
+include $(PATH_TO_BASE)/config.build
+
+
+#EXTRA_FLAGS=-DNICK_USE_SDL=1
+#EXTRA_FLAGS=-DNICK_USE_GLUT=1
+EXTRA_FLAGS=-DNICK_USE_GUILIB=1
+
+
+# uncomment these for iphone dev
+#CROSS=arm-apple-darwin9
+#TARGET_PLATFORM=ASYS_COCOA
+#EXTRA_FLAGS=-march=armv6 -mcpu=arm1176jzf-s
+#LFRAMEWORKS=-bind_at_load -multiply_defined suppress -framework Foundation -framework CoreFoundation -framework UIKit -framework CoreGraphics -framework OpenGLES -lobjc -lSDL -Wl,-debug
+
+
+# uncomment these for playstation2 dev
+#CROSS=ee
+#TARGET_PLATFORM=ASYS_POSIX
+#EXTRA_FLAGS=-D_EE -O2 -G0 -I/usr/local/ps2dev/ps2sdk/ee/include -I/usr/local/ps2dev/ps2sdk/common/include
+
+
+#CROSS=arm-unknown-linux-gnu
+#CROSS=sh3-unknown-linux-gnu
+#CROSS=m68k-redhat-linux
+#CROSS=mips-redhat-linux
+#CROSS=powerpc-redhat-linux
+#CROSS=sparc-redhat-linux
+#CROSS=wineg++
+
+
+#TARGET_PLATFORM=ASYS_POSIX
+#TARGET_PLATFORM=ASYS_X11
+#TARGET_PLATFORM=ASYS_MAC
+#TARGET_PLATFORM=ASYS_COCOA
+#TARGET_PLATFORM=ASYS_SDL
+#TARGET_PLATFORM=ASYS_GLUT

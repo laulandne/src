@@ -1,0 +1,17 @@
+addrbits #16
+ram 0 #64
+//romload 64basic.901226-01.bin a000 basic64.rom
+//romload 64characters.901225-01.bin d000 char.rom
+//romload 64kernal.901227-03.bin e000 kern64.rom
+//romload 64BASI~1.BIN a000 basic64.rom
+//romload 64CHAR~1.BIN d000 char.rom
+//romload 64KERN~1.BIN e000 kern64.rom
+romload char.rom d000 char.rom
+set addr 2
+romload basic64.rom a000 basic64.rom
+map basic64.rom
+romload kern64.rom e000 kern64.rom
+map kern64.rom
+set chips c64
+set cpu 6510
+mount zork-1.d64

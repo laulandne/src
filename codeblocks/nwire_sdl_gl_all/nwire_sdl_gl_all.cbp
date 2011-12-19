@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="nwire_sdl_gl_all" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/nwire_sdl_gl_all" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/nwire_sdl_gl_all" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`sdl-config --cflags`" />
+			<Add option="-DNICK_USE_OPENGL=1" />
+			<Add option="-DNICK_USE_SDL=1" />
+			<Add directory="$(HOME)/src/cpp" />
+		</Compiler>
+		<Linker>
+			<Add option="`sdl-config --libs`" />
+			<Add library="GL" />
+		</Linker>
+		<Unit filename="../../cpp/glut/nickglut.cpp" />
+		<Unit filename="../../cpp/glut/nickglut.h" />
+		<Unit filename="../../cpp/javacpp/JApplet.cpp" />
+		<Unit filename="../../cpp/javacpp/JApplet.h" />
+		<Unit filename="../../cpp/javacpp/JColor.cpp" />
+		<Unit filename="../../cpp/javacpp/JColor.h" />
+		<Unit filename="../../cpp/javacpp/JEvent.cpp" />
+		<Unit filename="../../cpp/javacpp/JEvent.h" />
+		<Unit filename="../../cpp/javacpp/JException.cpp" />
+		<Unit filename="../../cpp/javacpp/JException.h" />
+		<Unit filename="../../cpp/javacpp/JFloat.cpp" />
+		<Unit filename="../../cpp/javacpp/JFloat.h" />
+		<Unit filename="../../cpp/javacpp/JGraphics.cpp" />
+		<Unit filename="../../cpp/javacpp/JGraphics.h" />
+		<Unit filename="../../cpp/javacpp/JInputStream.cpp" />
+		<Unit filename="../../cpp/javacpp/JInputStream.h" />
+		<Unit filename="../../cpp/javacpp/JMath.cpp" />
+		<Unit filename="../../cpp/javacpp/JMath.h" />
+		<Unit filename="../../cpp/javacpp/JRunnable.cpp" />
+		<Unit filename="../../cpp/javacpp/JRunnable.h" />
+		<Unit filename="../../cpp/javacpp/JStream.cpp" />
+		<Unit filename="../../cpp/javacpp/JStream.h" />
+		<Unit filename="../../cpp/javacpp/JStreamTokenizer.cpp" />
+		<Unit filename="../../cpp/javacpp/JStreamTokenizer.h" />
+		<Unit filename="../../cpp/javacpp/JSystem.cpp" />
+		<Unit filename="../../cpp/javacpp/JSystem.h" />
+		<Unit filename="../../cpp/javacpp/JThread.cpp" />
+		<Unit filename="../../cpp/javacpp/JThread.h" />
+		<Unit filename="../../cpp/javacpp/JUrl.cpp" />
+		<Unit filename="../../cpp/javacpp/JUrl.h" />
+		<Unit filename="../../cpp/javacpp/Matrix3Dcpp.cpp" />
+		<Unit filename="../../cpp/javacpp/Matrix3Dcpp.h" />
+		<Unit filename="../../cpp/javacpp/Model3Dcpp.cpp" />
+		<Unit filename="../../cpp/javacpp/Model3Dcpp.h" />
+		<Unit filename="../../cpp/javacpp/ThreeDcpp.cpp" />
+		<Unit filename="../../cpp/javacpp/ThreeDcpp.h" />
+		<Unit filename="../../cpp/javacpp/javacpp.h" />
+		<Unit filename="../../cpp/javacpp/jbox_thing_class.cpp" />
+		<Unit filename="../../cpp/javacpp/jbox_thing_class.h" />
+		<Unit filename="../../cpp/nwire.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/ABMPDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/ABMPDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/ADecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/ADecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/ADecoderHelper.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/ADecoderHelper.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AGIFDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AGIFDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AIFFDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AIFFDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AImageDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AImageDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AJFIFDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AJFIFDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AMovieDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AMovieDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AMultiImageDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AMultiImageDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AMultiMovieDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AMultiMovieDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/APCXDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/APCXDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AQTDecoderHelper.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AQTDecoderHelper.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AQTImageDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AQTImageDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/AQTMovieDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/AQTMovieDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/ASmartDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/ASmartDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/ASmartImageDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/ASmartImageDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/ASmartMovieDecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/ASmartMovieDecoder.h" />
+		<Unit filename="../../cpp/portable/ndecoder/ATGADecoder.cpp" />
+		<Unit filename="../../cpp/portable/ndecoder/ATGADecoder.h" />
+		<Unit filename="../../cpp/portable/netlib/AHost.cpp" />
+		<Unit filename="../../cpp/portable/netlib/AHost.h" />
+		<Unit filename="../../cpp/portable/netlib/ANetAbstract.cpp" />
+		<Unit filename="../../cpp/portable/netlib/ANetAbstract.h" />
+		<Unit filename="../../cpp/portable/netlib/ANetwork.cpp" />
+		<Unit filename="../../cpp/portable/netlib/ANetwork.h" />
+		<Unit filename="../../cpp/portable/netlib/ASocket.cpp" />
+		<Unit filename="../../cpp/portable/netlib/ASocket.h" />
+		<Unit filename="../../cpp/portable/netlib/ASocketNonBlocking.cpp" />
+		<Unit filename="../../cpp/portable/netlib/ASocketNonBlocking.h" />
+		<Unit filename="../../cpp/portable/nick3d/A3DDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/A3DDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/A3DSDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/A3DSDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/ABspDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ABspDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/ACamera3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ACamera3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/ADXFDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ADXFDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AFace3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AFace3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/AHalfLifeDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AHalfLifeDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AIdMapDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AIdMapDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/ALight3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ALight3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/ALightwaveDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ALightwaveDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMD2Decoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMD2Decoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMD3Decoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMD3Decoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMD5Decoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMD5Decoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMDLDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMDLDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMapDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMapDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMatrix3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMatrix3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMayaDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMayaDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMesh3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMesh3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/AMeshDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AMeshDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/APLGDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/APLGDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/APart3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/APart3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/AScene3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AScene3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/ASceneDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ASceneDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/ASmartMeshDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ASmartMeshDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/ASmartSceneDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ASmartSceneDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/ATextCoord3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ATextCoord3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/ATexture3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/ATexture3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/AVRMLDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AVRMLDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AVertex3D.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AVertex3D.h" />
+		<Unit filename="../../cpp/portable/nick3d/AWADDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AWADDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AWLDDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AWLDDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AWavefrontDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AWavefrontDecoder.h" />
+		<Unit filename="../../cpp/portable/nick3d/AWolf3dDecoder.cpp" />
+		<Unit filename="../../cpp/portable/nick3d/AWolf3dDecoder.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AAbsRect.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AAbsRect.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ABitmap.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/ABitmap.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ABitmapAbstract.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/ABitmapAbstract.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ACell.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/ACell.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AClock.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AClock.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AColor.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AColor.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AConvertingBitLine.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AConvertingBitLine.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ADataSourceAbstract.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/ADataSourceAbstract.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ADirection2d.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ADrawableAbstract.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/ADrawableAbstract.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AError.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AError.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AFileInputStream.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AFileInputStream.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AFileOutputStream.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AFileOutputStream.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AFrameAbstract.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AFrameAbstract.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AGenericNode.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AGenericNode.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AInputStream.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AInputStream.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AList.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AList.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AMovie.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AMovie.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ANativeFilesystem.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/ANativeFilesystem.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ANullStream.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/ANullStream.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AOutputStream.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AOutputStream.h" />
+		<Unit filename="../../cpp/portable/nickcpp/APalette.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/APalette.h" />
+		<Unit filename="../../cpp/portable/nickcpp/APoint.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/APoint.h" />
+		<Unit filename="../../cpp/portable/nickcpp/ARect.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/ARect.h" />
+		<Unit filename="../../cpp/portable/nickcpp/AStringHelper.cpp" />
+		<Unit filename="../../cpp/portable/nickcpp/AStringHelper.h" />
+		<Unit filename="../../cpp/portable/soundlib/A8SVXDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/A8SVXDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/AAUDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AAUDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/AAudioDevice.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AAudioDevice.h" />
+		<Unit filename="../../cpp/portable/soundlib/AMP3Decoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AMP3Decoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/AMidiDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AMidiDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/AMultiSongDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AMultiSongDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/AMultiSoundDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AMultiSoundDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/AQTSongDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AQTSongDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/AQTSoundDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AQTSoundDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/ASmartSongDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/ASmartSongDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/ASmartSoundDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/ASmartSoundDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/ASong.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/ASong.h" />
+		<Unit filename="../../cpp/portable/soundlib/ASongDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/ASongDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/ASound.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/ASound.h" />
+		<Unit filename="../../cpp/portable/soundlib/ASoundAbstract.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/ASoundAbstract.h" />
+		<Unit filename="../../cpp/portable/soundlib/ASoundDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/ASoundDecoder.h" />
+		<Unit filename="../../cpp/portable/soundlib/AWAVDecoder.cpp" />
+		<Unit filename="../../cpp/portable/soundlib/AWAVDecoder.h" />
+		<Unit filename="../../cpp/sdl/nicksdl.cpp" />
+		<Unit filename="../../cpp/sdl/nicksdl.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+			<envvars />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

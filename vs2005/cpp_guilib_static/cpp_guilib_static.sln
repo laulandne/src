@@ -1,0 +1,19 @@
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cpp_guilib_static", "cpp_guilib_static\cpp_guilib_static.vcproj", "{0A512000-A3FC-4AC4-9816-0A56B77A0FE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0A512000-A3FC-4AC4-9816-0A56B77A0FE9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0A512000-A3FC-4AC4-9816-0A56B77A0FE9}.Debug|Win32.Build.0 = Debug|Win32
+		{0A512000-A3FC-4AC4-9816-0A56B77A0FE9}.Release|Win32.ActiveCfg = Release|Win32
+		{0A512000-A3FC-4AC4-9816-0A56B77A0FE9}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../cpp/portable/ndecoder/ABMPDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ADecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ADecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="381" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ADecoderHelper.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AGIFDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AIFFDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AImageDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="202" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AImageDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="72" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AJFIFDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AMovieDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AMovieDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="72" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AMultiImageDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="206" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/APCXDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AQTDecoderHelper.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="264" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AQTImageDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="228" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/AQTMovieDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="228" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ASmartDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="171" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ASmartImageDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ASmartMovieDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ATGADecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/netlib/AHost.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="85" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/netlib/ANetAbstract.h" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/netlib/ANetwork.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="85" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/netlib/ASocket.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="85" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/A3DDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="321" topLine="33" />
+	</File>
+	<File name="../../cpp/portable/nick3d/A3DDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="54" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/A3DSDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/A3DSDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="131" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ABspDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ABspDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ACamera3D.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ADXFDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ADXFDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AHalfLifeDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AHalfLifeDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="142" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ALight3D.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="108" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ALightwaveDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="45" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ALightwaveDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="144" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMD2Decoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMD2Decoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMD3Decoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMD3Decoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMD5Decoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMD5Decoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMDLDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMDLDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMapDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMapDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMatrix3D.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="109" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMayaDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMayaDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="134" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMesh3D.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="2528" topLine="49" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMesh3D.h" open="0" top="0" tabpos="2">
+		<Cursor position="2728" topLine="40" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMeshDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="319" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMeshDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="279" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/APLGDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2653" topLine="79" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AScene3D.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="141" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ASceneDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ASceneDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="134" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ASmartMeshDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ASmartMeshDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="80" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ASmartSceneDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ASmartSceneDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="82" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AVRMLDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AVRMLDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="134" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWADDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWADDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWLDDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="5247" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWLDDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="171" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWolf3dDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWolf3dDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="138" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/ABitmap.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="268" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/ABitmap.h" open="0" top="0" tabpos="0">
+		<Cursor position="54" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/ABitmapAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="85" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/ABitmapAbstract.h" open="0" top="0" tabpos="0">
+		<Cursor position="70" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/AConvertingBitLine.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/AConvertingBitLine.h" open="0" top="0" tabpos="0">
+		<Cursor position="76" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/ADrawableAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="154" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/ADrawableAbstract.h" open="0" top="0" tabpos="0">
+		<Cursor position="72" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/AMovie.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="106" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/ANativeFilesystem.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="717" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nickcpp/ANativeFilesystem.h" open="0" top="0" tabpos="1">
+		<Cursor position="837" topLine="18" />
+	</File>
+	<File name="../../cpp/portable/soundlib/A8SVXDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="195" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AAUDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AAudioDevice.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="497" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AMP3Decoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="151" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AMidiDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="195" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AMultiSongDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="117" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AMultiSoundDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="118" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AQTSongDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="124" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AQTSongDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="74" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AQTSoundDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="155" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AQTSoundDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="76" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASmartSongDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASmartSongDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="80" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASmartSoundDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="169" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASmartSoundDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="82" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASong.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="85" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASongDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="70" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASound.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASoundAbstract.h" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/ASoundDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="72" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/soundlib/AWAVDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="194" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

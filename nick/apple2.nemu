@@ -1,0 +1,10 @@
+addrbits #16
+ram 0 #16
+tempload apple2.rom
+romtemp apple2.rom d000 2000 3000
+map apple2.rom
+#romload disk2.rom c600 disk2.rom
+#map disk2.rom
+set chips apple2
+set cpu 6502
+mount zork1.dsk

@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="javacpp">
+      <UniqueIdentifier>{dd02f4ef-2bf7-4321-93b9-2f91fdf4eeb1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\cpp\nwire.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="nwire_win32.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JApplet.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\jbox_thing_class.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JColor.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JEvent.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JException.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JFloat.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JGraphics.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JInputStream.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JMath.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JRunnable.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JStream.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JStreamTokenizer.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JSystem.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JThread.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JUrl.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\Matrix3Dcpp.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\Model3Dcpp.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\ThreeDcpp.cpp">
+      <Filter>javacpp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nwire_win32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JApplet.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\javacpp.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\jbox_thing_class.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JColor.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JEvent.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JException.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JFloat.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JGraphics.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JInputStream.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JMath.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JRunnable.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JStream.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JStreamTokenizer.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JSystem.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JThread.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\JUrl.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\Matrix3Dcpp.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\Model3Dcpp.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\cpp\javacpp\ThreeDcpp.h">
+      <Filter>javacpp</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nwire_win32.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nwire_win32.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\cpp_guilib_static\cpp_guilib_static\Debug\cpp_guilib_static.lib" />
+    <Library Include="..\cpp_portable_static\cpp_portable_static\Debug\cpp_portable_static.lib" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,5 @@
+//
+// Prefix header for all source files of the 'Carbon_Application' target in the 'Carbon_Application' project.
+//
+
+#include <Carbon/Carbon.h>

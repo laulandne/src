@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="cpp_guilib_static" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="libcpp_guilib_static" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Debug/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="libcpp_guilib_static" prefix_auto="1" extension_auto="1" />
+				<Option working_dir="" />
+				<Option object_output="obj/Release/" />
+				<Option type="2" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Compiler>
+					<Add option="-Wall" />
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-DASYS_X11=1" />
+			<Add option="-DNICK_USE_GUILIB=1" />
+			<Add directory="/home/nick/src/cpp" />
+		</Compiler>
+		<Unit filename="../../cpp/guilib/AApp.h" />
+		<Unit filename="../../cpp/guilib/AApplicationLoop.cpp" />
+		<Unit filename="../../cpp/guilib/AApplicationLoop.h" />
+		<Unit filename="../../cpp/guilib/ABitmapBanks.cpp" />
+		<Unit filename="../../cpp/guilib/ABitmapBanks.h" />
+		<Unit filename="../../cpp/guilib/ABitmapBanksPlanes.cpp" />
+		<Unit filename="../../cpp/guilib/ABitmapBanksPlanes.h" />
+		<Unit filename="../../cpp/guilib/ABitmapFlipped.cpp" />
+		<Unit filename="../../cpp/guilib/ABitmapFlipped.h" />
+		<Unit filename="../../cpp/guilib/ABitmapInter.cpp" />
+		<Unit filename="../../cpp/guilib/ABitmapInter.h" />
+		<Unit filename="../../cpp/guilib/ABitmapInterFour.cpp" />
+		<Unit filename="../../cpp/guilib/ABitmapInterFour.h" />
+		<Unit filename="../../cpp/guilib/ABitmapPlanes.cpp" />
+		<Unit filename="../../cpp/guilib/ABitmapPlanes.h" />
+		<Unit filename="../../cpp/guilib/ABitmapSimple.cpp" />
+		<Unit filename="../../cpp/guilib/ABitmapSimple.h" />
+		<Unit filename="../../cpp/guilib/ABitmapText.cpp" />
+		<Unit filename="../../cpp/guilib/ABitmapText.h" />
+		<Unit filename="../../cpp/guilib/ADialogAbstract.cpp" />
+		<Unit filename="../../cpp/guilib/ADialogAbstract.h" />
+		<Unit filename="../../cpp/guilib/ADialogAskString.cpp" />
+		<Unit filename="../../cpp/guilib/ADialogAskString.h" />
+		<Unit filename="../../cpp/guilib/ADialogMsg.cpp" />
+		<Unit filename="../../cpp/guilib/ADialogMsg.h" />
+		<Unit filename="../../cpp/guilib/ADialogWithButtons.cpp" />
+		<Unit filename="../../cpp/guilib/ADialogWithButtons.h" />
+		<Unit filename="../../cpp/guilib/ADisplay.cpp" />
+		<Unit filename="../../cpp/guilib/ADisplay.h" />
+		<Unit filename="../../cpp/guilib/ADisplayMode.cpp" />
+		<Unit filename="../../cpp/guilib/ADisplayMode.h" />
+		<Unit filename="../../cpp/guilib/AEvent.cpp" />
+		<Unit filename="../../cpp/guilib/AEvent.h" />
+		<Unit filename="../../cpp/guilib/APlatform.h" />
+		<Unit filename="../../cpp/guilib/APrivateBitmap.cpp" />
+		<Unit filename="../../cpp/guilib/APrivateBitmap.h" />
+		<Unit filename="../../cpp/guilib/ARendererSoft3D.cpp" />
+		<Unit filename="../../cpp/guilib/ARendererSoft3D.h" />
+		<Unit filename="../../cpp/guilib/ARequestAbstract.cpp" />
+		<Unit filename="../../cpp/guilib/ARequestAbstract.h" />
+		<Unit filename="../../cpp/guilib/ARequesterDisplayMode.cpp" />
+		<Unit filename="../../cpp/guilib/ARequesterDisplayMode.h" />
+		<Unit filename="../../cpp/guilib/ARequesterFile.cpp" />
+		<Unit filename="../../cpp/guilib/ARequesterFile.h" />
+		<Unit filename="../../cpp/guilib/ARequesterNetwork.cpp" />
+		<Unit filename="../../cpp/guilib/ARequesterNetwork.h" />
+		<Unit filename="../../cpp/guilib/AThread.cpp" />
+		<Unit filename="../../cpp/guilib/AThread.h" />
+		<Unit filename="../../cpp/guilib/ATypeDefs.h" />
+		<Unit filename="../../cpp/guilib/AWindow.cpp" />
+		<Unit filename="../../cpp/guilib/AWindow.h" />
+		<Unit filename="../../cpp/guilib/AWindowAbstract.cpp" />
+		<Unit filename="../../cpp/guilib/AWindowAbstract.h" />
+		<Unit filename="../../cpp/guilib/AWindowCharMapped.cpp" />
+		<Unit filename="../../cpp/guilib/AWindowCharMapped.h" />
+		<Unit filename="../../cpp/guilib/AWindowInputStream.cpp" />
+		<Unit filename="../../cpp/guilib/AWindowInputStream.h" />
+		<Unit filename="../../cpp/guilib/AWindowOutputStream.cpp" />
+		<Unit filename="../../cpp/guilib/AWindowOutputStream.h" />
+		<Unit filename="../../cpp/guilib/AWindowStream.cpp" />
+		<Unit filename="../../cpp/guilib/AWindowStream.h" />
+		<Unit filename="../../cpp/guilib/aapp.cpp" />
+		<Unit filename="../../cpp/guilib/alibMacHeadersCarbon.h" />
+		<Unit filename="../../cpp/guilib/alib_amiga.cpp" />
+		<Unit filename="../../cpp/guilib/alib_amiga.h" />
+		<Unit filename="../../cpp/guilib/alib_carbon.cpp" />
+		<Unit filename="../../cpp/guilib/alib_carbon.h" />
+		<Unit filename="../../cpp/guilib/alib_cocoa.h" />
+		<Unit filename="../../cpp/guilib/alib_curses.cpp" />
+		<Unit filename="../../cpp/guilib/alib_curses.h" />
+		<Unit filename="../../cpp/guilib/alib_dos.cpp" />
+		<Unit filename="../../cpp/guilib/alib_dos.h" />
+		<Unit filename="../../cpp/guilib/alib_glut.cpp" />
+		<Unit filename="../../cpp/guilib/alib_glut.h" />
+		<Unit filename="../../cpp/guilib/alib_os2.cpp" />
+		<Unit filename="../../cpp/guilib/alib_os2.h" />
+		<Unit filename="../../cpp/guilib/alib_palm.cpp" />
+		<Unit filename="../../cpp/guilib/alib_palm.h" />
+		<Unit filename="../../cpp/guilib/alib_win.cpp" />
+		<Unit filename="../../cpp/guilib/alib_win.h" />
+		<Unit filename="../../cpp/guilib/alib_x11.cpp" />
+		<Unit filename="../../cpp/guilib/alib_x11.h" />
+		<Unit filename="../../cpp/guilib/nickguilib.cpp" />
+		<Unit filename="../../cpp/guilib/nickguilib.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

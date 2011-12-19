@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../cpp/glut/nickglut.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="225" topLine="0" />
+	</File>
+	<File name="../../cpp/glut/nickglut.h" open="0" top="0" tabpos="0">
+		<Cursor position="2021" topLine="62" />
+	</File>
+	<File name="../../cpp/javacpp/JApplet.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="5817" topLine="139" />
+	</File>
+	<File name="../../cpp/javacpp/JGraphics.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="221" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/Matrix3Dcpp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="920" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/ThreeDcpp.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="2751" topLine="72" />
+	</File>
+	<File name="../../cpp/nwire.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="10457" topLine="459" />
+	</File>
+</CodeBlocks_layout_file>

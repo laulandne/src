@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01054BB5141714D600CB9050 /* cpp_portable_static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01054BB4141714D600CB9050 /* cpp_portable_static.framework */; };
+		018B306F13B127E000C29EBB /* JApplet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B304613B127E000C29EBB /* JApplet.cpp */; };
+		018B307013B127E000C29EBB /* jbox_thing_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B304913B127E000C29EBB /* jbox_thing_class.cpp */; };
+		018B307113B127E000C29EBB /* JColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B304B13B127E000C29EBB /* JColor.cpp */; };
+		018B307213B127E000C29EBB /* JEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B304D13B127E000C29EBB /* JEvent.cpp */; };
+		018B307313B127E000C29EBB /* JException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B304F13B127E000C29EBB /* JException.cpp */; };
+		018B307413B127E000C29EBB /* JFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B305113B127E000C29EBB /* JFloat.cpp */; };
+		018B307513B127E000C29EBB /* JGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B305313B127E000C29EBB /* JGraphics.cpp */; };
+		018B307613B127E000C29EBB /* JInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B305513B127E000C29EBB /* JInputStream.cpp */; };
+		018B307713B127E000C29EBB /* JMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B305713B127E000C29EBB /* JMath.cpp */; };
+		018B307813B127E000C29EBB /* JRunnable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B305913B127E000C29EBB /* JRunnable.cpp */; };
+		018B307913B127E000C29EBB /* JStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B305B13B127E000C29EBB /* JStream.cpp */; };
+		018B307A13B127E000C29EBB /* JStreamTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B305D13B127E000C29EBB /* JStreamTokenizer.cpp */; };
+		018B307B13B127E000C29EBB /* JSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B305F13B127E000C29EBB /* JSystem.cpp */; };
+		018B307C13B127E000C29EBB /* JThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B306113B127E000C29EBB /* JThread.cpp */; };
+		018B307D13B127E000C29EBB /* JUrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B306313B127E000C29EBB /* JUrl.cpp */; };
+		018B308013B127E000C29EBB /* Matrix3Dcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B306813B127E000C29EBB /* Matrix3Dcpp.cpp */; };
+		018B308113B127E000C29EBB /* Model3Dcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B306A13B127E000C29EBB /* Model3Dcpp.cpp */; };
+		018B308213B127E000C29EBB /* ThreeDcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 018B306D13B127E000C29EBB /* ThreeDcpp.cpp */; };
+		01E5EC23136F514800E49DC8 /* nwire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EC1F136F514800E49DC8 /* nwire.cpp */; };
+		01E5EC2F136F516D00E49DC8 /* nickglut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EC2D136F516D00E49DC8 /* nickglut.cpp */; };
+		01E5EC35136F538400E49DC8 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EC34136F538400E49DC8 /* GLUT.framework */; };
+		01E5EC37136F538F00E49DC8 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01E5EC36136F538F00E49DC8 /* OpenGL.framework */; };
+		8DD76FB00486AB0100D96B5E /* nwire_glut.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6A0FF2C0290799A04C91782 /* nwire_glut.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8DD76FAF0486AB0100D96B5E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 8;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				8DD76FB00486AB0100D96B5E /* nwire_glut.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		01054BB4141714D600CB9050 /* cpp_portable_static.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cpp_portable_static.framework; path = /Library/Frameworks/cpp_portable_static.framework; sourceTree = "<absolute>"; };
+		018B304613B127E000C29EBB /* JApplet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JApplet.cpp; sourceTree = "<group>"; };
+		018B304713B127E000C29EBB /* JApplet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JApplet.h; sourceTree = "<group>"; };
+		018B304813B127E000C29EBB /* javacpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = javacpp.h; sourceTree = "<group>"; };
+		018B304913B127E000C29EBB /* jbox_thing_class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jbox_thing_class.cpp; sourceTree = "<group>"; };
+		018B304A13B127E000C29EBB /* jbox_thing_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jbox_thing_class.h; sourceTree = "<group>"; };
+		018B304B13B127E000C29EBB /* JColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JColor.cpp; sourceTree = "<group>"; };
+		018B304C13B127E000C29EBB /* JColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JColor.h; sourceTree = "<group>"; };
+		018B304D13B127E000C29EBB /* JEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JEvent.cpp; sourceTree = "<group>"; };
+		018B304E13B127E000C29EBB /* JEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEvent.h; sourceTree = "<group>"; };
+		018B304F13B127E000C29EBB /* JException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JException.cpp; sourceTree = "<group>"; };
+		018B305013B127E000C29EBB /* JException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JException.h; sourceTree = "<group>"; };
+		018B305113B127E000C29EBB /* JFloat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JFloat.cpp; sourceTree = "<group>"; };
+		018B305213B127E000C29EBB /* JFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFloat.h; sourceTree = "<group>"; };
+		018B305313B127E000C29EBB /* JGraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JGraphics.cpp; sourceTree = "<group>"; };
+		018B305413B127E000C29EBB /* JGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGraphics.h; sourceTree = "<group>"; };
+		018B305513B127E000C29EBB /* JInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JInputStream.cpp; sourceTree = "<group>"; };
+		018B305613B127E000C29EBB /* JInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JInputStream.h; sourceTree = "<group>"; };
+		018B305713B127E000C29EBB /* JMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JMath.cpp; sourceTree = "<group>"; };
+		018B305813B127E000C29EBB /* JMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMath.h; sourceTree = "<group>"; };
+		018B305913B127E000C29EBB /* JRunnable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JRunnable.cpp; sourceTree = "<group>"; };
+		018B305A13B127E000C29EBB /* JRunnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRunnable.h; sourceTree = "<group>"; };
+		018B305B13B127E000C29EBB /* JStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JStream.cpp; sourceTree = "<group>"; };
+		018B305C13B127E000C29EBB /* JStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JStream.h; sourceTree = "<group>"; };
+		018B305D13B127E000C29EBB /* JStreamTokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JStreamTokenizer.cpp; sourceTree = "<group>"; };
+		018B305E13B127E000C29EBB /* JStreamTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JStreamTokenizer.h; sourceTree = "<group>"; };
+		018B305F13B127E000C29EBB /* JSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSystem.cpp; sourceTree = "<group>"; };
+		018B306013B127E000C29EBB /* JSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSystem.h; sourceTree = "<group>"; };
+		018B306113B127E000C29EBB /* JThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JThread.cpp; sourceTree = "<group>"; };
+		018B306213B127E000C29EBB /* JThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JThread.h; sourceTree = "<group>"; };
+		018B306313B127E000C29EBB /* JUrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JUrl.cpp; sourceTree = "<group>"; };
+		018B306413B127E000C29EBB /* JUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUrl.h; sourceTree = "<group>"; };
+		018B306813B127E000C29EBB /* Matrix3Dcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix3Dcpp.cpp; sourceTree = "<group>"; };
+		018B306913B127E000C29EBB /* Matrix3Dcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix3Dcpp.h; sourceTree = "<group>"; };
+		018B306A13B127E000C29EBB /* Model3Dcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model3Dcpp.cpp; sourceTree = "<group>"; };
+		018B306B13B127E000C29EBB /* Model3Dcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model3Dcpp.h; sourceTree = "<group>"; };
+		018B306D13B127E000C29EBB /* ThreeDcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeDcpp.cpp; sourceTree = "<group>"; };
+		018B306E13B127E000C29EBB /* ThreeDcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDcpp.h; sourceTree = "<group>"; };
+		01E5EC1F136F514800E49DC8 /* nwire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nwire.cpp; path = ../../cpp/nwire.cpp; sourceTree = SOURCE_ROOT; };
+		01E5EC2D136F516D00E49DC8 /* nickglut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nickglut.cpp; sourceTree = "<group>"; };
+		01E5EC2E136F516D00E49DC8 /* nickglut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nickglut.h; sourceTree = "<group>"; };
+		01E5EC34136F538400E49DC8 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = /System/Library/Frameworks/GLUT.framework; sourceTree = "<absolute>"; };
+		01E5EC36136F538F00E49DC8 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		8DD76FB20486AB0100D96B5E /* nwire_glut */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = nwire_glut; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6A0FF2C0290799A04C91782 /* nwire_glut.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = nwire_glut.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DD76FAD0486AB0100D96B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E5EC35136F538400E49DC8 /* GLUT.framework in Frameworks */,
+				01E5EC37136F538F00E49DC8 /* OpenGL.framework in Frameworks */,
+				01054BB5141714D600CB9050 /* cpp_portable_static.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		018B304513B127E000C29EBB /* javacpp */ = {
+			isa = PBXGroup;
+			children = (
+				018B304613B127E000C29EBB /* JApplet.cpp */,
+				018B304713B127E000C29EBB /* JApplet.h */,
+				018B304813B127E000C29EBB /* javacpp.h */,
+				018B304913B127E000C29EBB /* jbox_thing_class.cpp */,
+				018B304A13B127E000C29EBB /* jbox_thing_class.h */,
+				018B304B13B127E000C29EBB /* JColor.cpp */,
+				018B304C13B127E000C29EBB /* JColor.h */,
+				018B304D13B127E000C29EBB /* JEvent.cpp */,
+				018B304E13B127E000C29EBB /* JEvent.h */,
+				018B304F13B127E000C29EBB /* JException.cpp */,
+				018B305013B127E000C29EBB /* JException.h */,
+				018B305113B127E000C29EBB /* JFloat.cpp */,
+				018B305213B127E000C29EBB /* JFloat.h */,
+				018B305313B127E000C29EBB /* JGraphics.cpp */,
+				018B305413B127E000C29EBB /* JGraphics.h */,
+				018B305513B127E000C29EBB /* JInputStream.cpp */,
+				018B305613B127E000C29EBB /* JInputStream.h */,
+				018B305713B127E000C29EBB /* JMath.cpp */,
+				018B305813B127E000C29EBB /* JMath.h */,
+				018B305913B127E000C29EBB /* JRunnable.cpp */,
+				018B305A13B127E000C29EBB /* JRunnable.h */,
+				018B305B13B127E000C29EBB /* JStream.cpp */,
+				018B305C13B127E000C29EBB /* JStream.h */,
+				018B305D13B127E000C29EBB /* JStreamTokenizer.cpp */,
+				018B305E13B127E000C29EBB /* JStreamTokenizer.h */,
+				018B305F13B127E000C29EBB /* JSystem.cpp */,
+				018B306013B127E000C29EBB /* JSystem.h */,
+				018B306113B127E000C29EBB /* JThread.cpp */,
+				018B306213B127E000C29EBB /* JThread.h */,
+				018B306313B127E000C29EBB /* JUrl.cpp */,
+				018B306413B127E000C29EBB /* JUrl.h */,
+				018B306813B127E000C29EBB /* Matrix3Dcpp.cpp */,
+				018B306913B127E000C29EBB /* Matrix3Dcpp.h */,
+				018B306A13B127E000C29EBB /* Model3Dcpp.cpp */,
+				018B306B13B127E000C29EBB /* Model3Dcpp.h */,
+				018B306D13B127E000C29EBB /* ThreeDcpp.cpp */,
+				018B306E13B127E000C29EBB /* ThreeDcpp.h */,
+			);
+			name = javacpp;
+			path = ../../cpp/javacpp;
+			sourceTree = SOURCE_ROOT;
+		};
+		01E5EC2C136F516D00E49DC8 /* glut */ = {
+			isa = PBXGroup;
+			children = (
+				01E5EC2D136F516D00E49DC8 /* nickglut.cpp */,
+				01E5EC2E136F516D00E49DC8 /* nickglut.h */,
+			);
+			name = glut;
+			path = ../../cpp/glut;
+			sourceTree = SOURCE_ROOT;
+		};
+		08FB7794FE84155DC02AAC07 /* nwire_glut */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = nwire_glut;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01E5EC1F136F514800E49DC8 /* nwire.cpp */,
+				018B304513B127E000C29EBB /* javacpp */,
+				01E5EC2C136F516D00E49DC8 /* glut */,
+				01054BB4141714D600CB9050 /* cpp_portable_static.framework */,
+				01E5EC36136F538F00E49DC8 /* OpenGL.framework */,
+				01E5EC34136F538400E49DC8 /* GLUT.framework */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DD76FB20486AB0100D96B5E /* nwire_glut */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				C6A0FF2C0290799A04C91782 /* nwire_glut.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DD76FA90486AB0100D96B5E /* nwire_glut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "nwire_glut" */;
+			buildPhases = (
+				8DD76FAB0486AB0100D96B5E /* Sources */,
+				8DD76FAD0486AB0100D96B5E /* Frameworks */,
+				8DD76FAF0486AB0100D96B5E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nwire_glut;
+			productInstallPath = "$(HOME)/bin";
+			productName = nwire_glut;
+			productReference = 8DD76FB20486AB0100D96B5E /* nwire_glut */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "nwire_glut" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* nwire_glut */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DD76FA90486AB0100D96B5E /* nwire_glut */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DD76FAB0486AB0100D96B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01E5EC23136F514800E49DC8 /* nwire.cpp in Sources */,
+				01E5EC2F136F516D00E49DC8 /* nickglut.cpp in Sources */,
+				018B306F13B127E000C29EBB /* JApplet.cpp in Sources */,
+				018B307013B127E000C29EBB /* jbox_thing_class.cpp in Sources */,
+				018B307113B127E000C29EBB /* JColor.cpp in Sources */,
+				018B307213B127E000C29EBB /* JEvent.cpp in Sources */,
+				018B307313B127E000C29EBB /* JException.cpp in Sources */,
+				018B307413B127E000C29EBB /* JFloat.cpp in Sources */,
+				018B307513B127E000C29EBB /* JGraphics.cpp in Sources */,
+				018B307613B127E000C29EBB /* JInputStream.cpp in Sources */,
+				018B307713B127E000C29EBB /* JMath.cpp in Sources */,
+				018B307813B127E000C29EBB /* JRunnable.cpp in Sources */,
+				018B307913B127E000C29EBB /* JStream.cpp in Sources */,
+				018B307A13B127E000C29EBB /* JStreamTokenizer.cpp in Sources */,
+				018B307B13B127E000C29EBB /* JSystem.cpp in Sources */,
+				018B307C13B127E000C29EBB /* JThread.cpp in Sources */,
+				018B307D13B127E000C29EBB /* JUrl.cpp in Sources */,
+				018B308013B127E000C29EBB /* Matrix3Dcpp.cpp in Sources */,
+				018B308113B127E000C29EBB /* Model3Dcpp.cpp in Sources */,
+				018B308213B127E000C29EBB /* ThreeDcpp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB928608733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../cpp_portable/build/Debug\"",
+					"\"$(SRCROOT)/../cpp_portable_static/build/Debug\"",
+					"\"$(SRCROOT)/../../cpp/javacpp\"",
+				);
+				PRODUCT_NAME = nwire_glut;
+			};
+			name = Debug;
+		};
+		1DEB928708733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../cpp_portable/build/Debug\"",
+					"\"$(SRCROOT)/../cpp_portable_static/build/Debug\"",
+					"\"$(SRCROOT)/../../cpp/javacpp\"",
+				);
+				PRODUCT_NAME = nwire_glut;
+			};
+			name = Release;
+		};
+		1DEB928A08733DD80010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NICK_USE_OPENGL=1",
+					"NICK_USE_GLUT=1",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/src/cpp";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB928B08733DD80010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NICK_USE_OPENGL=1",
+					"NICK_USE_GLUT=1",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/src/cpp";
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928508733DD80010E9CD /* Build configuration list for PBXNativeTarget "nwire_glut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928608733DD80010E9CD /* Debug */,
+				1DEB928708733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "nwire_glut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB928A08733DD80010E9CD /* Debug */,
+				1DEB928B08733DD80010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

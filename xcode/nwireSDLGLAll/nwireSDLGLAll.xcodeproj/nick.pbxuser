@@ -1,0 +1,250 @@
+// !$*UTF8*$!
+{
+	002F3A2B09D0888800EBEB88 /* SDLMain.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {519, 272}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 374}";
+		};
+	};
+	002F3A2C09D0888800EBEB88 /* SDLMain.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {943, 6144}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{10814, 450}";
+		};
+	};
+	010489DA13BC39D1009D8DC4 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */;
+		name = "SDLMain.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 450;
+		vrLoc = 10814;
+	};
+	01048A1E13BC3B4A009D8DC4 /* JGraphics.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 1120}}";
+			sepNavSelRange = "{940, 0}";
+			sepNavVisRange = "{735, 463}";
+		};
+	};
+	01048A1F13BC3B4A009D8DC4 /* JGraphics.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 400}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 329}";
+		};
+	};
+	0121048F14916A6F006D76C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 01AB9879146781BF00AD98BD /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */;
+		name = "___PROJECTNAMEASIDENTIFIER____Prefix.pch: 5";
+		rLen = 17;
+		rLoc = 106;
+		rType = 0;
+		vrLen = 175;
+		vrLoc = 0;
+	};
+	0121049014916A6F006D76C1 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Redefinition of 'struct nickEvent'";
+		fRef = 012CEB4013BA58D300A5B68C /* nickglut.h */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 59;
+		rType = 1;
+	};
+	0121049114916A6F006D76C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 012CEB4013BA58D300A5B68C /* nickglut.h */;
+		name = "nickglut.h: 60";
+		rLen = 0;
+		rLoc = 822;
+		rType = 0;
+		vrLen = 194;
+		vrLoc = 658;
+	};
+	012CEB3F13BA58D300A5B68C /* nickglut.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 5616}}";
+			sepNavSelRange = "{6263, 0}";
+			sepNavVisRange = "{1, 312}";
+		};
+	};
+	012CEB4013BA58D300A5B68C /* nickglut.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {917, 2080}}";
+			sepNavSelRange = "{887, 0}";
+			sepNavVisRange = "{674, 307}";
+		};
+	};
+	012D50E813BECC8900D36D74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 01048A1E13BC3B4A009D8DC4 /* JGraphics.cpp */;
+		name = "JGraphics.cpp: 48";
+		rLen = 0;
+		rLoc = 940;
+		rType = 0;
+		vrLen = 463;
+		vrLoc = 735;
+	};
+	012D518113BECF4D00D36D74 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 01048A1F13BC3B4A009D8DC4 /* JGraphics.h */;
+		name = "JGraphics.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 329;
+		vrLoc = 0;
+	};
+	01845AED13311B7A007EB695 /* ___PROJECTNAME___ */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "___PROJECTNAME___";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	01845AFD13311B83007EB695 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	01845AFE13311B83007EB695 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	01845AFF13311BBA007EB695 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 002F3A2B09D0888800EBEB88 /* SDLMain.h */;
+		name = "SDLMain.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 374;
+		vrLoc = 0;
+	};
+	01AB9879146781BF00AD98BD /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+		path = "/Users/nick/src/xcode/nwireSDLGLAll/___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+		sourceTree = "<absolute>";
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 263}}";
+			sepNavSelRange = "{106, 17}";
+			sepNavVisRange = "{0, 175}";
+		};
+	};
+	01E5EB81136F4BE300E49DC8 /* nwire.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 8912}}";
+			sepNavSelRange = "{63, 446}";
+			sepNavVisRange = "{167, 479}";
+			sepNavWindowFrame = "{{15, 52}, {785, 726}}";
+		};
+	};
+	01E5EB83136F4BE300E49DC8 /* nicksdl.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {838, 6560}}";
+			sepNavSelRange = "{7658, 0}";
+			sepNavVisRange = "{9399, 537}";
+		};
+	};
+	01E5EB84136F4BE300E49DC8 /* nicksdl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {757, 1552}}";
+			sepNavSelRange = "{355, 75}";
+			sepNavVisRange = "{138, 434}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 01845AED13311B7A007EB695 /* ___PROJECTNAME___ */;
+		activeTarget = 8D1107260486CEB800E47090 /* nwireSDLGLAll */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* nwireSDLGLAll */,
+		);
+		codeSenseManager = 01845AFE13311B83007EB695 /* Code sense */;
+		executables = (
+			01845AED13311B7A007EB695 /* ___PROJECTNAME___ */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					579,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 345062666;
+			PBXWorkspaceStateSaveDate = 345062666;
+		};
+		perUserProjectItems = {
+			010489DA13BC39D1009D8DC4 /* PBXTextBookmark */ = 010489DA13BC39D1009D8DC4 /* PBXTextBookmark */;
+			0121048F14916A6F006D76C1 /* PBXTextBookmark */ = 0121048F14916A6F006D76C1 /* PBXTextBookmark */;
+			0121049014916A6F006D76C1 /* XCBuildMessageTextBookmark */ = 0121049014916A6F006D76C1 /* XCBuildMessageTextBookmark */;
+			0121049114916A6F006D76C1 /* PBXTextBookmark */ = 0121049114916A6F006D76C1 /* PBXTextBookmark */;
+			012D50E813BECC8900D36D74 /* PBXTextBookmark */ = 012D50E813BECC8900D36D74 /* PBXTextBookmark */;
+			012D518113BECF4D00D36D74 /* PBXTextBookmark */ = 012D518113BECF4D00D36D74 /* PBXTextBookmark */;
+			01845AFF13311BBA007EB695 /* PBXTextBookmark */ = 01845AFF13311BBA007EB695 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 01845AFD13311B83007EB695 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* nwireSDLGLAll */ = {
+		activeExec = 0;
+		executables = (
+			01845AED13311B7A007EB695 /* ___PROJECTNAME___ */,
+		);
+	};
+}

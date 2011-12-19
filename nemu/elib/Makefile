@@ -1,0 +1,89 @@
+
+LIBNAME=$(shell basename $(shell pwd))
+LDNAME=lib$(LIBNAME)_static.a
+
+####################################################################
+# Makefile
+####################################################################
+
+PATH_TO_BASE=..
+
+include $(PATH_TO_BASE)/Makefile.target
+include $(PATH_TO_BASE)/Makefile.common
+
+EXTRA_INCS=-I$(PATH_TO_BASE) -I.. -I../../cpp
+EXTRA_LIBS=-L$(PATH_TO_BASE)
+
+
+###################################################################
+# Our objects
+###################################################################
+
+PROGRAMS=
+DIRS=$(wildcard */)
+OBJS=$(subst .cpp,.$(OFILE),$(wildcard *.cpp))
+
+
+####################################################################
+# The libraries and programs 
+####################################################################
+
+
+####################################################################
+# The targets 
+####################################################################
+
+all:	$(LDNAME)
+	$(foreach DIR,$(DIRS),$(MAKE) -i -C $(DIR) all;)
+
+$(LDNAME):	$(OBJS)
+	$(AR) rcv $(LDNAME) $(OBJS)
+	$(RANLIB) $(LDNAME) 
+
+
+clean:
+	rm -rf *.o *.obj *.lib *.a *.s *.bak *.log map.f build *Data *.pdb *.lib
+	rm -rf $(PROGRAMS) *.html *.exe *.exe.so *68k *.SYM .DS_Store *.ilk *.app *.class
+	rm -rf .gdb_history .nautilus-metafile.xml */*Data */Debug */*.ncb */*/Debug
+	rm -rf */build
+	rm -rf ._* */._* */*/._* */*/*/._*
+	rm -rf *~ */*~ */*/*~ */*/*/*~
+# Libraries...
+	$(foreach DIR,$(DIRS),$(MAKE) -i -C $(DIR) clean;)
+
+
+fix: fix_perm fix_type
+# Libraries...
+	$(foreach DIR,$(DIRS),$(MAKE) -i -C $(DIR) fix;)
+
+
+install: all
+	cp *.a /usr/local/lib
+	mkdir /usr/local/include/$(LIBNAME)
+	cp *.h /usr/local/include/$(LIBNAME)
+	$(foreach DIR,$(DIRS),$(MAKE) -i -C $(DIR) install;)
+
+
+# The different Libraries and Programs...
+
+
+# dependencies
+# NOTE: its ok to see errors when running makedepend
+depend: remove_depends
+	makedepend $(DEPENDFLAGS) *.cpp
+# Libraries...
+	$(foreach DIR,$(DIRS),$(MAKE) -i -C $(DIR) depend;)
+
+
+remove_depends:
+	rm -f Makefile.dep
+	touch Makefile.dep
+# Libraries...
+	$(foreach DIR,$(DIRS),$(MAKE) -ik -C $(DIR) remove_depends;)
+
+
+include $(PATH_TO_BASE)/Makefile.tail
+
+include Makefile.dep
+
+

@@ -1,0 +1,139 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cpp_portable_static_win32 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\nick\LOCALS~1\Temp\RSPC.tmp" with contents
+[
+/nologo /MLd /W3 /Gm /GX /ZI /Od /I "e:\src\cpp" /D "_DEBUG" /D "WIN32" /D "_MBCS" /D "_LIB" /D "ASYS_WIN32" /Fp"Debug/cpp_portable_static_win32.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ  /c 
+"E:\src\cpp\portable\nickcpp\AClock.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\nick\LOCALS~1\Temp\RSPC.tmp" 
+Creating temporary file "C:\DOCUME~1\nick\LOCALS~1\Temp\RSPD.tmp" with contents
+[
+/nologo /out:"Debug\cpp_portable_static_win32.lib" 
+.\Debug\ABMPDecoder.obj
+.\Debug\ADecoder.obj
+.\Debug\ADecoderHelper.obj
+.\Debug\AGIFDecoder.obj
+.\Debug\AIFFDecoder.obj
+.\Debug\AImageDecoder.obj
+.\Debug\AJFIFDecoder.obj
+.\Debug\AMovieDecoder.obj
+.\Debug\AMultiImageDecoder.obj
+.\Debug\AMultiMovieDecoder.obj
+.\Debug\APCXDecoder.obj
+.\Debug\AQTDecoderHelper.obj
+.\Debug\AQTImageDecoder.obj
+.\Debug\AQTMovieDecoder.obj
+.\Debug\ASmartDecoder.obj
+.\Debug\ASmartImageDecoder.obj
+.\Debug\ASmartMovieDecoder.obj
+.\Debug\ATGADecoder.obj
+.\Debug\AHost.obj
+.\Debug\ANetAbstract.obj
+.\Debug\ANetwork.obj
+.\Debug\ASocket.obj
+.\Debug\ASocketNonBlocking.obj
+.\Debug\A3DDecoder.obj
+.\Debug\A3DSDecoder.obj
+.\Debug\ABspDecoder.obj
+.\Debug\ACamera3D.obj
+.\Debug\ADXFDecoder.obj
+.\Debug\AFace3D.obj
+.\Debug\AHalfLifeDecoder.obj
+.\Debug\ALight3D.obj
+.\Debug\ALightwaveDecoder.obj
+.\Debug\AMapDecoder.obj
+.\Debug\AMatrix3D.obj
+.\Debug\AMayaDecoder.obj
+.\Debug\AMD2Decoder.obj
+.\Debug\AMD3Decoder.obj
+.\Debug\AMD5Decoder.obj
+.\Debug\AMDLDecoder.obj
+.\Debug\AMesh3D.obj
+.\Debug\AMeshDecoder.obj
+.\Debug\APart3D.obj
+.\Debug\APLGDecoder.obj
+.\Debug\ARendererAbstract3D.obj
+.\Debug\AScene3D.obj
+.\Debug\ASceneDecoder.obj
+.\Debug\ASmartMeshDecoder.obj
+.\Debug\ASmartSceneDecoder.obj
+.\Debug\ATextCoord3D.obj
+.\Debug\ATexture3D.obj
+.\Debug\AVertex3D.obj
+.\Debug\AVRMLDecoder.obj
+.\Debug\AWADDecoder.obj
+.\Debug\AWavefrontDecoder.obj
+.\Debug\AWLDDecoder.obj
+.\Debug\AWolf3dDecoder.obj
+.\Debug\AAbsRect.obj
+.\Debug\ABitmap.obj
+.\Debug\ABitmapAbstract.obj
+.\Debug\ACell.obj
+.\Debug\AClock.obj
+.\Debug\AColor.obj
+.\Debug\AConvertingBitLine.obj
+.\Debug\ADataSourceAbstract.obj
+.\Debug\ADrawableAbstract.obj
+.\Debug\AError.obj
+.\Debug\AFileInputStream.obj
+.\Debug\AFileOutputStream.obj
+.\Debug\AFrameAbstract.obj
+.\Debug\AGenericNode.obj
+.\Debug\AInputStream.obj
+.\Debug\AList.obj
+.\Debug\AMovie.obj
+.\Debug\ANullStream.obj
+.\Debug\AOutputStream.obj
+.\Debug\APalette.obj
+.\Debug\APoint.obj
+.\Debug\ARect.obj
+.\Debug\AStringHelper.obj
+.\Debug\A8SVXDecoder.obj
+.\Debug\AAUDecoder.obj
+.\Debug\AAudioDevice.obj
+.\Debug\AMidiDecoder.obj
+.\Debug\AMP3Decoder.obj
+.\Debug\AMultiSongDecoder.obj
+.\Debug\AMultiSoundDecoder.obj
+.\Debug\AQTSongDecoder.obj
+.\Debug\AQTSoundDecoder.obj
+.\Debug\ASmartSongDecoder.obj
+.\Debug\ASmartSoundDecoder.obj
+.\Debug\ASong.obj
+.\Debug\ASongDecoder.obj
+.\Debug\ASound.obj
+.\Debug\ASoundAbstract.obj
+.\Debug\ASoundDecoder.obj
+.\Debug\AWAVDecoder.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\nick\LOCALS~1\Temp\RSPD.tmp"
+<h3>Output Window</h3>
+Compiling...
+AClock.cpp
+e:\src\cpp\portable\nickcpp\aclock.cpp(52) : error C2065: 'LARGE_INTEGER' : undeclared identifier
+e:\src\cpp\portable\nickcpp\aclock.cpp(52) : error C2146: syntax error : missing ';' before identifier 'li'
+e:\src\cpp\portable\nickcpp\aclock.cpp(52) : error C2065: 'li' : undeclared identifier
+e:\src\cpp\portable\nickcpp\aclock.cpp(53) : error C2065: 'QueryPerformanceCounter' : undeclared identifier
+e:\src\cpp\portable\nickcpp\aclock.cpp(53) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\src\cpp\portable\nickcpp\aclock.cpp(57) : error C2228: left of '.HighPart' must have class/struct/union type
+e:\src\cpp\portable\nickcpp\aclock.cpp(57) : error C2228: left of '.LowPart' must have class/struct/union type
+e:\src\cpp\portable\nickcpp\aclock.cpp(96) : error C2146: syntax error : missing ';' before identifier 'li'
+e:\src\cpp\portable\nickcpp\aclock.cpp(97) : error C2065: 'QueryPerformanceFrequency' : undeclared identifier
+e:\src\cpp\portable\nickcpp\aclock.cpp(97) : warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+e:\src\cpp\portable\nickcpp\aclock.cpp(101) : error C2228: left of '.HighPart' must have class/struct/union type
+e:\src\cpp\portable\nickcpp\aclock.cpp(101) : error C2228: left of '.LowPart' must have class/struct/union type
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+cpp_portable_static_win32.lib - 10 error(s), 2 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,426 @@
+# depslib dependency file v1.0
+1307976408 source:/home/nick/src/cpp/javacpp/JApplet.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JApplet.h>
+	<guilib/nickguilib.h>
+	<glut/nickglut.h>
+	<sdl/nicksdl.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300724674 /home/nick/src/cpp/portable/nickcpp/ANullStream.h
+	<iostream>
+
+1307485790 /home/nick/src/cpp/javacpp/JApplet.h
+	<javacpp/javacpp.h>
+	<guilib/AWindow.h>
+	<guilib/AApplicationLoop.h>
+	<javacpp/JEvent.h>
+	<javacpp/JGraphics.h>
+	<javacpp/JThread.h>
+	<javacpp/jbox_thing_class.h>
+
+1304105982 /home/nick/src/cpp/javacpp/javacpp.h
+
+1301501466 /home/nick/src/cpp/guilib/AWindow.h
+	"AWindowAbstract.h"
+
+1308548828 /home/nick/src/cpp/guilib/AWindowAbstract.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/ADrawableAbstract.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1303834354 /home/nick/src/cpp/guilib/ATypeDefs.h
+	<guilib/APlatform.h>
+	<PalmOS.h>
+	<PalmCompatibility.h>
+	<Pilot.h>
+	<PalmStdio.h>
+	<guilib/alib_palm.h>
+	<CharAttr.h>
+	<TxtGlue.h>
+	<dos/dos.h>
+	<windows.h>
+	<guilib/alib_win.h>
+	<os2.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	<string.h>
+	<wchar.h>
+	<cwchar>
+	<direct.h>
+	<endian.h>
+	<machine/endian.h>
+
+1289249994 /home/nick/src/cpp/guilib/APlatform.h
+
+1274823046 /home/nick/src/cpp/guilib/alib_palm.h
+	<alib/atypedefs.h>
+	<alib/aplatform.h>
+	<FileStream.h>
+
+1289249050 /home/nick/src/cpp/guilib/alib_win.h
+	"ATypeDefs.h"
+	"APlatform.h"
+	<bldver.h>
+	<aygshell.h>
+	<sip.h>
+
+1304104264 /home/nick/src/cpp/portable/nickcpp/ADrawableAbstract.h
+	<portable/nickcpp/AFrameAbstract.h>
+
+1291146682 /home/nick/src/cpp/portable/nickcpp/AFrameAbstract.h
+	"APoint.h"
+	"ARect.h"
+	"AError.h"
+
+1274823100 /home/nick/src/cpp/portable/nickcpp/APoint.h
+
+1274823100 /home/nick/src/cpp/portable/nickcpp/ARect.h
+
+1293942496 /home/nick/src/cpp/portable/nickcpp/AError.h
+
+1306806908 /home/nick/src/cpp/guilib/AApplicationLoop.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/AError.h>
+	"AEvent.h"
+
+1303834354 /home/nick/src/cpp/guilib/AEvent.h
+	<guilib/alib_carbon.h>
+	<guilib/alib_win.h>
+	<Carbon/Carbon.h>
+
+1308548526 /home/nick/src/cpp/guilib/alib_carbon.h
+	<guilib/ATypeDefs.h>
+	<guilib/APlatform.h>
+	<Carbon/Carbon.h>
+
+1303837128 /home/nick/src/cpp/javacpp/JEvent.h
+	<javacpp/javacpp.h>
+
+1307244466 /home/nick/src/cpp/javacpp/JGraphics.h
+	<javacpp/javacpp.h>
+	<javacpp/JColor.h>
+
+1306111458 /home/nick/src/cpp/javacpp/JColor.h
+	<javacpp/javacpp.h>
+	<portable/nickcpp/AColor.h>
+
+1274823084 /home/nick/src/cpp/portable/nickcpp/AColor.h
+
+1307243236 /home/nick/src/cpp/javacpp/JThread.h
+	<javacpp/javacpp.h>
+	<guilib/AThread.h>
+
+1303834354 /home/nick/src/cpp/guilib/AThread.h
+	<guilib/ATypeDefs.h>
+	<guilib/alib_win.h>
+
+1303836986 /home/nick/src/cpp/javacpp/jbox_thing_class.h
+	<javacpp/javacpp.h>
+
+1293743366 /home/nick/src/cpp/portable/nickcpp/APalette.h
+	"AColor.h"
+
+1307243078 source:/home/nick/src/cpp/javacpp/JColor.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JColor.h>
+	<portable/nickcpp/APalette.h>
+
+1307243082 source:/home/nick/src/cpp/javacpp/JEvent.cpp
+
+1307243084 source:/home/nick/src/cpp/javacpp/JException.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JException.h>
+
+1303837122 /home/nick/src/cpp/javacpp/JException.h
+	<javacpp/javacpp.h>
+
+1307243088 source:/home/nick/src/cpp/javacpp/JFloat.cpp
+	<portable/nickcpp/ANullStream.h>
+	<stdio.h>
+	<javacpp/JFloat.h>
+
+1303837116 /home/nick/src/cpp/javacpp/JFloat.h
+	<javacpp/javacpp.h>
+
+1307640504 source:/home/nick/src/cpp/javacpp/JGraphics.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JGraphics.h>
+	<guilib/nickguilib.h>
+	<sdl/nicksdl.h>
+	<glut/nickglut.h>
+
+1307243112 source:/home/nick/src/cpp/javacpp/JInputStream.cpp
+	<portable/nickcpp/ANullStream.h>
+	<stdio.h>
+	<javacpp/JInputStream.h>
+
+1303837204 /home/nick/src/cpp/javacpp/JInputStream.h
+	<javacpp/javacpp.h>
+	<javacpp/JStream.h>
+
+1303837088 /home/nick/src/cpp/javacpp/JStream.h
+	<javacpp/javacpp.h>
+
+1307243124 source:/home/nick/src/cpp/javacpp/JMath.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JMath.h>
+	<math.h>
+
+1303837210 /home/nick/src/cpp/javacpp/JMath.h
+	<javacpp/javacpp.h>
+
+1307243128 source:/home/nick/src/cpp/javacpp/JRunnable.cpp
+
+1307243134 source:/home/nick/src/cpp/javacpp/JStream.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JStream.h>
+
+1307243176 source:/home/nick/src/cpp/javacpp/JStreamTokenizer.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JStreamTokenizer.h>
+
+1303837082 /home/nick/src/cpp/javacpp/JStreamTokenizer.h
+	<javacpp/javacpp.h>
+	<javacpp/JInputStream.h>
+
+1307243188 source:/home/nick/src/cpp/javacpp/JSystem.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JSystem.h>
+
+1303837064 /home/nick/src/cpp/javacpp/JSystem.h
+	<javacpp/javacpp.h>
+
+1307482724 source:/home/nick/src/cpp/javacpp/JThread.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JThread.h>
+	<javacpp/JApplet.h>
+
+1307243328 source:/home/nick/src/cpp/javacpp/JUrl.cpp
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JUrl.h>
+
+1303837242 /home/nick/src/cpp/javacpp/JUrl.h
+	<javacpp/javacpp.h>
+	<javacpp/JInputStream.h>
+
+1307242592 source:/home/nick/src/cpp/javacpp/Matrix3Dcpp.cpp
+	<iostream>
+	"Matrix3Dcpp.h"
+
+1282857564 /home/nick/src/cpp/javacpp/Matrix3Dcpp.h
+	<javacpp/JMath.h>
+
+1307548096 source:/home/nick/src/cpp/javacpp/Model3Dcpp.cpp
+	<iostream>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/Model3Dcpp.h>
+	<javacpp/JMath.h>
+	<javacpp/JSystem.h>
+	<javacpp/JStreamTokenizer.h>
+
+1282857638 /home/nick/src/cpp/javacpp/Model3Dcpp.h
+	<javacpp/Matrix3Dcpp.h>
+	<javacpp/JColor.h>
+	<javacpp/JGraphics.h>
+	<javacpp/JInputStream.h>
+
+1307544510 source:/home/nick/src/cpp/javacpp/ThreeDcpp.cpp
+	<iostream>
+	<javacpp/ThreeDcpp.h>
+	<javacpp/JUrl.h>
+	<guilib/nickguilib.h>
+	<sdl/nicksdl.h>
+	<glut/nickglut.h>
+
+1307484306 /home/nick/src/cpp/javacpp/ThreeDcpp.h
+	<javacpp/JApplet.h>
+	<javacpp/JThread.h>
+	<javacpp/JEvent.h>
+	<javacpp/Model3Dcpp.h>
+
+1306111597 source:/home/nick/src/cpp/javacpp/jbox_thing_class.cpp
+
+1315410205 source:/home/nick/src/cpp/nwire.cpp
+	<iostream>
+	<warthog.obj.h>
+	<guilib/nickguilib.h>
+	<sdl/nicksdl.h>
+	<glut/nickglut.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/AScene3D.h>
+	<portable/nick3d/ASmartMeshDecoder.h>
+	<portable/nick3d/ASmartSceneDecoder.h>
+	<portable/nick3d/AMeshDecoder.h>
+	<portable/nick3d/ASceneDecoder.h>
+	<guilib/ARendererSoft3D.h>
+	<javacpp/ThreeDcpp.h>
+
+1306808342 /home/nick/src/cpp/guilib/nickguilib.h
+	<guilib/ADisplay.h>
+	<guilib/AWindow.h>
+	<guilib/AEvent.h>
+	<guilib/AApplicationLoop.h>
+	<guilib/AApp.h>
+	<guilib/APrivateBitmap.h>
+
+1308548730 /home/nick/src/cpp/guilib/ADisplay.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/AFrameAbstract.h>
+	"ADisplayMode.h"
+	<X11/X.h>
+	<X11/Xlib.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1303834354 /home/nick/src/cpp/guilib/ADisplayMode.h
+	<guilib/ATypeDefs.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1303834354 /home/nick/src/cpp/guilib/AApp.h
+	<guilib/ATypeDefs.h>
+	<guilib/alib_win.h>
+
+1309146738 /home/nick/src/cpp/guilib/APrivateBitmap.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/ABitmap.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<Carbon/Carbon.h>
+	<windows.h>
+
+1304104264 /home/nick/src/cpp/portable/nickcpp/ABitmap.h
+	<portable/nickcpp/ADrawableAbstract.h>
+
+1310352096 /home/nick/src/cpp/sdl/nicksdl.h
+	<SDL/SDL.h>
+
+1315365268 /home/nick/src/cpp/glut/nickglut.h
+	<AGL/agl.h>
+	<GLUT/glut.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glx.h>
+
+1287788530 /home/nick/src/cpp/portable/nickcpp/AList.h
+	"ADataSourceAbstract.h"
+	"ACell.h"
+
+1287788516 /home/nick/src/cpp/portable/nickcpp/ADataSourceAbstract.h
+	<stdio.h>
+
+1274823084 /home/nick/src/cpp/portable/nickcpp/ACell.h
+
+1312923392 /home/nick/src/cpp/portable/nick3d/AMesh3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+	"APart3D.h"
+	"ATexture3D.h"
+	"ATextCoord3D.h"
+	"AFace3D.h"
+	"ACamera3D.h"
+
+1276386970 /home/nick/src/cpp/portable/nick3d/AMatrix3D.h
+	"AVertex3D.h"
+	"AFace3D.h"
+	<math.h>
+
+1276386970 /home/nick/src/cpp/portable/nick3d/AVertex3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/AFace3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/APart3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/ATexture3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/ATextCoord3D.h
+
+1276386970 /home/nick/src/cpp/portable/nick3d/ACamera3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+
+1276388216 /home/nick/src/cpp/portable/nick3d/AScene3D.h
+	"AVertex3D.h"
+	"AFace3D.h"
+	"AVertex3D.h"
+	"AMesh3D.h"
+	"ACamera3D.h"
+	"ALight3D.h"
+
+1276386970 /home/nick/src/cpp/portable/nick3d/ALight3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+
+1304104344 /home/nick/src/cpp/portable/nick3d/ASmartMeshDecoder.h
+	<portable/ndecoder/ASmartDecoder.h>
+	"AMeshDecoder.h"
+
+1288286840 /home/nick/src/cpp/portable/ndecoder/ASmartDecoder.h
+	"ADecoder.h"
+
+1304104262 /home/nick/src/cpp/portable/ndecoder/ADecoder.h
+	<portable/nickcpp/AError.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1299695932 /home/nick/src/cpp/portable/nickcpp/AStringHelper.h
+	<stdio.h>
+
+1304104264 /home/nick/src/cpp/portable/nick3d/AMeshDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"A3DDecoder.h"
+
+1304104344 /home/nick/src/cpp/portable/nick3d/A3DDecoder.h
+	<portable/ndecoder/ADecoder.h>
+	<portable/nickcpp/AList.h>
+
+1304104344 /home/nick/src/cpp/portable/nick3d/ASmartSceneDecoder.h
+	<portable/ndecoder/ASmartDecoder.h>
+	"ASceneDecoder.h"
+
+1304104264 /home/nick/src/cpp/portable/nick3d/ASceneDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/AScene3D.h>
+	"A3DDecoder.h"
+
+1306110111 /home/nick/src/cpp/guilib/ARendererSoft3D.h
+	<portable/nick3d/ARendererAbstract3D.h>
+
+1304104432 /home/nick/src/cpp/portable/nick3d/ARendererAbstract3D.h
+	"AVertex3D.h"
+	"AMesh3D.h"
+	"ACamera3D.h"
+	"ALight3D.h"
+	"AScene3D.h"
+	<portable/nickcpp/AError.h>
+
+1314803174 /home/nick/src/cpp/warthog.obj.h
+

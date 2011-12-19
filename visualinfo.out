@@ -1,0 +1,153 @@
+OpenGL vendor string: Tungsten Graphics, Inc
+OpenGL renderer string: Mesa DRI Intel(R) 915GM GEM 20090712 2009Q2 RC3 x86/MMX/SSE2
+OpenGL version string: 1.4 Mesa 7.6
+OpenGL extensions (GL_): 
+    GL_ARB_copy_buffer, GL_ARB_depth_texture, GL_ARB_draw_buffers,
+    GL_ARB_fragment_program, GL_ARB_half_float_pixel, GL_ARB_map_buffer_range,
+    GL_ARB_multisample, GL_ARB_multitexture, GL_ARB_pixel_buffer_object,
+    GL_ARB_point_parameters, GL_ARB_point_sprite, GL_ARB_shadow, GL_ARB_sync,
+    GL_ARB_texture_border_clamp, GL_ARB_texture_compression,
+    GL_ARB_texture_cube_map, GL_ARB_texture_env_add, GL_ARB_texture_env_combine,
+    GL_ARB_texture_env_crossbar, GL_ARB_texture_env_dot3,
+    GL_ARB_texture_mirrored_repeat, GL_ARB_texture_non_power_of_two,
+    GL_ARB_texture_rectangle, GL_ARB_transpose_matrix,
+    GL_ARB_vertex_array_object, GL_ARB_vertex_buffer_object,
+    GL_ARB_vertex_program, GL_ARB_window_pos, GL_EXT_abgr, GL_EXT_bgra,
+    GL_EXT_blend_color, GL_EXT_blend_equation_separate,
+    GL_EXT_blend_func_separate, GL_EXT_blend_logic_op, GL_EXT_blend_minmax,
+    GL_EXT_blend_subtract, GL_EXT_cull_vertex, GL_EXT_compiled_vertex_array,
+    GL_EXT_copy_texture, GL_EXT_draw_range_elements, GL_EXT_framebuffer_object,
+    GL_EXT_framebuffer_blit, GL_EXT_fog_coord, GL_EXT_gpu_program_parameters,
+    GL_EXT_multi_draw_arrays, GL_EXT_packed_depth_stencil, GL_EXT_packed_pixels,
+    GL_EXT_pixel_buffer_object, GL_EXT_point_parameters, GL_EXT_polygon_offset,
+    GL_EXT_provoking_vertex, GL_EXT_rescale_normal, GL_EXT_secondary_color,
+    GL_EXT_separate_specular_color, GL_EXT_shadow_funcs,
+    GL_EXT_stencil_two_side, GL_EXT_stencil_wrap, GL_EXT_subtexture,
+    GL_EXT_texture, GL_EXT_texture3D, GL_EXT_texture_edge_clamp,
+    GL_EXT_texture_env_add, GL_EXT_texture_env_combine, GL_EXT_texture_env_dot3,
+    GL_EXT_texture_filter_anisotropic, GL_EXT_texture_lod_bias,
+    GL_EXT_texture_object, GL_EXT_texture_rectangle, GL_EXT_vertex_array,
+    GL_3DFX_texture_compression_FXT1, GL_APPLE_client_storage,
+    GL_APPLE_packed_pixels, GL_APPLE_vertex_array_object,
+    GL_ATI_blend_equation_separate, GL_ATI_texture_env_combine3,
+    GL_ATI_separate_stencil, GL_IBM_multimode_draw_arrays,
+    GL_IBM_rasterpos_clip, GL_IBM_texture_mirrored_repeat,
+    GL_INGR_blend_func_separate, GL_MESA_pack_invert, GL_MESA_ycbcr_texture,
+    GL_MESA_window_pos, GL_NV_blend_square, GL_NV_light_max_exponent,
+    GL_NV_point_sprite, GL_NV_texture_env_combine4, GL_NV_texture_rectangle,
+    GL_NV_texgen_reflection, GL_NV_vertex_program, GL_NV_vertex_program1_1,
+    GL_OES_read_format, GL_SGIS_generate_mipmap, GL_SGIS_texture_border_clamp,
+    GL_SGIS_texture_edge_clamp, GL_SGIS_texture_lod, GL_SUN_multi_draw_arrays.
+GLU version string: 1.3
+GLU extensions (GLU_): 
+    GLU_EXT_nurbs_tessellator, GLU_EXT_object_space_tess.
+GLX extensions (GLX_): 
+    GLX_ARB_get_proc_address, GLX_ARB_multisample, GLX_EXT_import_context,
+    GLX_EXT_visual_info, GLX_EXT_visual_rating, GLX_MESA_copy_sub_buffer,
+    GLX_MESA_swap_frame_usage, GLX_OML_swap_method, GLX_SGI_video_sync,
+    GLX_SGIS_multisample, GLX_SGIX_fbconfig, GLX_SGIX_visual_select_group,
+    GLX_EXT_texture_from_pixmap.
+ +-----+-------------------------+-----------------+----------+-------------+-------+------+
+ |     |        visual           |      color      | ax dp st |    accum    |   ms  |  cav |
+ |  id | tp xr cl fm db st lv xp |  sz  r  g  b  a | bf th cl | r  g  b  a  | ns  b |  eat |
+ +-----+-------------------------+-----------------+----------+-------------+-------+------+
+ |  84 | wn  y tc  i  .  .  0  . |  16  5  6  5  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ |  85 | wn  y tc  i  .  .  0  . |  16  5  6  5  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ |  86 | wn  y tc  i  y  .  0  . |  16  5  6  5  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ |  87 | wn  y tc  i  y  .  0  . |  16  5  6  5  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ |  88 | wn  y tc  i  y  .  0  . |  16  5  6  5  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ |  89 | wn  y tc  i  y  .  0  . |  16  5  6  5  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ |  90 | wn  y tc  i  .  .  0  . |  16  5  6  5  . |  . 16  . |  .  .  .  . |  0  0 | none |
+ |  91 | wn  y tc  i  .  .  0  . |  16  5  6  5  . |  . 16  . | 16 16 16  . |  0  0 | slow |
+ |  92 | wn  y tc  i  y  .  0  . |  16  5  6  5  . |  . 16  . |  .  .  .  . |  0  0 | none |
+ |  93 | wn  y tc  i  y  .  0  . |  16  5  6  5  . |  . 16  . | 16 16 16  . |  0  0 | slow |
+ |  94 | wn  y tc  i  y  .  0  . |  16  5  6  5  . |  . 16  . |  .  .  .  . |  0  0 | none |
+ |  95 | wn  y tc  i  y  .  0  . |  16  5  6  5  . |  . 16  . | 16 16 16  . |  0  0 | slow |
+ |  96 | wn  y tc  i  .  .  0  . |  24  8  8  8  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ |  97 | wn  y tc  i  .  .  0  . |  24  8  8  8  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ |  98 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ |  99 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ | 100 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 101 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ | 102 | wn  y tc  i  .  .  0  . |  24  8  8  8  . |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 103 | wn  y tc  i  .  .  0  . |  24  8  8  8  . |  . 24  . | 16 16 16  . |  0  0 | slow |
+ | 104 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 105 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  . 24  . | 16 16 16  . |  0  0 | slow |
+ | 106 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 107 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  . 24  . | 16 16 16  . |  0  0 | slow |
+ | 108 | wn  y tc  i  .  .  0  . |  24  8  8  8  . |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 109 | wn  y tc  i  .  .  0  . |  24  8  8  8  . |  . 24  8 | 16 16 16  . |  0  0 | slow |
+ | 110 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 111 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  . 24  8 | 16 16 16  . |  0  0 | slow |
+ | 112 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 113 | wn  y tc  i  y  .  0  . |  24  8  8  8  . |  . 24  8 | 16 16 16  . |  0  0 | slow |
+ | 114 | wn  y tc  i  .  .  0  . |  32  8  8  8  8 |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 115 | wn  y tc  i  .  .  0  . |  32  8  8  8  8 |  .  .  . | 16 16 16 16 |  0  0 | slow |
+ | 116 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 117 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  .  .  . | 16 16 16 16 |  0  0 | slow |
+ | 118 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 119 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  .  .  . | 16 16 16 16 |  0  0 | slow |
+ | 120 | wn  y tc  i  .  .  0  . |  32  8  8  8  8 |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 121 | wn  y tc  i  .  .  0  . |  32  8  8  8  8 |  . 24  . | 16 16 16 16 |  0  0 | slow |
+ | 122 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 123 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  . 24  . | 16 16 16 16 |  0  0 | slow |
+ | 124 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 125 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  . 24  . | 16 16 16 16 |  0  0 | slow |
+ | 126 | wn  y tc  i  .  .  0  . |  32  8  8  8  8 |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 127 | wn  y tc  i  .  .  0  . |  32  8  8  8  8 |  . 24  8 | 16 16 16 16 |  0  0 | slow |
+ | 128 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 129 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  . 24  8 | 16 16 16 16 |  0  0 | slow |
+ | 130 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 131 | wn  y tc  i  y  .  0  . |  32  8  8  8  8 |  . 24  8 | 16 16 16 16 |  0  0 | slow |
+ | 132 | wn  y dc  i  .  .  0  . |  16  5  6  5  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 133 | wn  y dc  i  .  .  0  . |  16  5  6  5  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ | 134 | wn  y dc  i  y  .  0  . |  16  5  6  5  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 135 | wn  y dc  i  y  .  0  . |  16  5  6  5  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ | 136 | wn  y dc  i  y  .  0  . |  16  5  6  5  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 137 | wn  y dc  i  y  .  0  . |  16  5  6  5  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ | 138 | wn  y dc  i  .  .  0  . |  16  5  6  5  . |  . 16  . |  .  .  .  . |  0  0 | none |
+ | 139 | wn  y dc  i  .  .  0  . |  16  5  6  5  . |  . 16  . | 16 16 16  . |  0  0 | slow |
+ | 140 | wn  y dc  i  y  .  0  . |  16  5  6  5  . |  . 16  . |  .  .  .  . |  0  0 | none |
+ | 141 | wn  y dc  i  y  .  0  . |  16  5  6  5  . |  . 16  . | 16 16 16  . |  0  0 | slow |
+ | 142 | wn  y dc  i  y  .  0  . |  16  5  6  5  . |  . 16  . |  .  .  .  . |  0  0 | none |
+ | 143 | wn  y dc  i  y  .  0  . |  16  5  6  5  . |  . 16  . | 16 16 16  . |  0  0 | slow |
+ | 144 | wn  y dc  i  .  .  0  . |  24  8  8  8  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 145 | wn  y dc  i  .  .  0  . |  24  8  8  8  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ | 146 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 147 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ | 148 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 149 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  .  .  . | 16 16 16  . |  0  0 | slow |
+ | 150 | wn  y dc  i  .  .  0  . |  24  8  8  8  . |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 151 | wn  y dc  i  .  .  0  . |  24  8  8  8  . |  . 24  . | 16 16 16  . |  0  0 | slow |
+ | 152 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 153 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  . 24  . | 16 16 16  . |  0  0 | slow |
+ | 154 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 155 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  . 24  . | 16 16 16  . |  0  0 | slow |
+ | 156 | wn  y dc  i  .  .  0  . |  24  8  8  8  . |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 157 | wn  y dc  i  .  .  0  . |  24  8  8  8  . |  . 24  8 | 16 16 16  . |  0  0 | slow |
+ | 158 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 159 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  . 24  8 | 16 16 16  . |  0  0 | slow |
+ | 160 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 161 | wn  y dc  i  y  .  0  . |  24  8  8  8  . |  . 24  8 | 16 16 16  . |  0  0 | slow |
+ | 162 | wn  y dc  i  .  .  0  . |  32  8  8  8  8 |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 163 | wn  y dc  i  .  .  0  . |  32  8  8  8  8 |  .  .  . | 16 16 16 16 |  0  0 | slow |
+ | 164 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 165 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  .  .  . | 16 16 16 16 |  0  0 | slow |
+ | 166 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  .  .  . |  .  .  .  . |  0  0 | none |
+ | 167 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  .  .  . | 16 16 16 16 |  0  0 | slow |
+ | 168 | wn  y dc  i  .  .  0  . |  32  8  8  8  8 |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 169 | wn  y dc  i  .  .  0  . |  32  8  8  8  8 |  . 24  . | 16 16 16 16 |  0  0 | slow |
+ | 170 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 171 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  . 24  . | 16 16 16 16 |  0  0 | slow |
+ | 172 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  . 24  . |  .  .  .  . |  0  0 | none |
+ | 173 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  . 24  . | 16 16 16 16 |  0  0 | slow |
+ | 174 | wn  y dc  i  .  .  0  . |  32  8  8  8  8 |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 175 | wn  y dc  i  .  .  0  . |  32  8  8  8  8 |  . 24  8 | 16 16 16 16 |  0  0 | slow |
+ | 176 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 177 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  . 24  8 | 16 16 16 16 |  0  0 | slow |
+ | 178 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  . 24  8 |  .  .  .  . |  0  0 | none |
+ | 179 | wn  y dc  i  y  .  0  . |  32  8  8  8  8 |  . 24  8 | 16 16 16 16 |  0  0 | slow |
+ +-----+-------------------------+-----------------+----------+-------------+-------+------+
+ |  id | tp xr cl fm db st lv xp |  sz  r  g  b  a | bf th cl | r  g  b  a  | ns  b |  eat |
+ |     |        visual           |      color      | ax dp st |    accum    |   ms  |  cav |
+ +-----+-------------------------+-----------------+----------+-------------+-------+------+

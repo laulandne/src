@@ -1,0 +1,106 @@
+X-Video Extension version 2.2
+screen #0
+  Adaptor #0: "NV17 Video Texture"
+    number of ports: 32
+    port base: 310
+    operations supported: PutImage 
+    supported visuals:
+      depth 24, visualID 0x21
+      depth 24, visualID 0x24
+      depth 24, visualID 0x25
+      depth 24, visualID 0x26
+      depth 24, visualID 0x27
+      depth 24, visualID 0x28
+      depth 24, visualID 0x29
+      depth 24, visualID 0x2a
+      depth 24, visualID 0x2b
+      depth 24, visualID 0x2c
+      depth 24, visualID 0x2d
+      depth 24, visualID 0x2e
+      depth 24, visualID 0x2f
+      depth 24, visualID 0x30
+      depth 24, visualID 0x31
+      depth 24, visualID 0x32
+      depth 24, visualID 0x33
+      depth 24, visualID 0x34
+      depth 24, visualID 0x35
+      depth 24, visualID 0x36
+      depth 24, visualID 0x37
+      depth 24, visualID 0x38
+      depth 24, visualID 0x39
+      depth 24, visualID 0x3a
+      depth 24, visualID 0x3b
+      depth 24, visualID 0x3c
+      depth 24, visualID 0x3d
+      depth 24, visualID 0x3e
+      depth 24, visualID 0x22
+      depth 24, visualID 0x3f
+      depth 24, visualID 0x40
+      depth 24, visualID 0x41
+      depth 24, visualID 0x42
+      depth 24, visualID 0x43
+      depth 24, visualID 0x44
+      depth 24, visualID 0x45
+      depth 24, visualID 0x46
+      depth 24, visualID 0x47
+      depth 24, visualID 0x48
+      depth 24, visualID 0x49
+      depth 24, visualID 0x4a
+      depth 24, visualID 0x4b
+      depth 24, visualID 0x4c
+      depth 24, visualID 0x4d
+      depth 24, visualID 0x4e
+      depth 24, visualID 0x4f
+      depth 24, visualID 0x50
+      depth 24, visualID 0x51
+      depth 24, visualID 0x52
+      depth 24, visualID 0x53
+      depth 24, visualID 0x54
+      depth 24, visualID 0x55
+      depth 24, visualID 0x56
+      depth 24, visualID 0x57
+      depth 24, visualID 0x58
+      depth 24, visualID 0x59
+    number of attributes: 7
+      "XV_SET_DEFAULTS" (range 0 to 0)
+              client settable attribute
+      "XV_ITURBT_709" (range 0 to 1)
+              client settable attribute
+              client gettable attribute (current value is 0)
+      "XV_SYNC_TO_VBLANK" (range 0 to 1)
+              client settable attribute
+              client gettable attribute (current value is 1)
+      "XV_BRIGHTNESS" (range -1000 to 1000)
+              client settable attribute
+              client gettable attribute (current value is 0)
+      "XV_CONTRAST" (range -1000 to 1000)
+              client settable attribute
+              client gettable attribute (current value is 0)
+      "XV_SATURATION" (range -1000 to 1000)
+              client settable attribute
+              client gettable attribute (current value is 0)
+      "XV_HUE" (range -1000 to 1000)
+              client settable attribute
+              client gettable attribute (current value is 0)
+    maximum XvImage size: 8192 x 8192
+    Number of image formats: 4
+      id: 0x32595559 (YUY2)
+        guid: 59555932-0000-0010-8000-00aa00389b71
+        bits per pixel: 16
+        number of planes: 1
+        type: YUV (packed)
+      id: 0x32315659 (YV12)
+        guid: 59563132-0000-0010-8000-00aa00389b71
+        bits per pixel: 12
+        number of planes: 3
+        type: YUV (planar)
+      id: 0x59565955 (UYVY)
+        guid: 55595659-0000-0010-8000-00aa00389b71
+        bits per pixel: 16
+        number of planes: 1
+        type: YUV (packed)
+      id: 0x30323449 (I420)
+        guid: 49343230-0000-0010-8000-00aa00389b71
+        bits per pixel: 12
+        number of planes: 3
+        type: YUV (planar)

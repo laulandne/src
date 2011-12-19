@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01A0EE4413AF13F900F2B382 /* aapp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDEB13AF13F900F2B382 /* aapp.cpp */; };
+		01A0EE4513AF13F900F2B382 /* AApp.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDEC13AF13F900F2B382 /* AApp.h */; };
+		01A0EE4613AF13F900F2B382 /* AApplicationLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDED13AF13F900F2B382 /* AApplicationLoop.cpp */; };
+		01A0EE4713AF13F900F2B382 /* AApplicationLoop.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDEE13AF13F900F2B382 /* AApplicationLoop.h */; };
+		01A0EE4813AF13F900F2B382 /* ABitmapBanks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDEF13AF13F900F2B382 /* ABitmapBanks.cpp */; };
+		01A0EE4913AF13F900F2B382 /* ABitmapBanks.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDF013AF13F900F2B382 /* ABitmapBanks.h */; };
+		01A0EE4A13AF13F900F2B382 /* ABitmapBanksPlanes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDF113AF13F900F2B382 /* ABitmapBanksPlanes.cpp */; };
+		01A0EE4B13AF13F900F2B382 /* ABitmapBanksPlanes.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDF213AF13F900F2B382 /* ABitmapBanksPlanes.h */; };
+		01A0EE4C13AF13F900F2B382 /* ABitmapFlipped.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDF313AF13F900F2B382 /* ABitmapFlipped.cpp */; };
+		01A0EE4D13AF13F900F2B382 /* ABitmapFlipped.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDF413AF13F900F2B382 /* ABitmapFlipped.h */; };
+		01A0EE4E13AF13F900F2B382 /* ABitmapInter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDF513AF13F900F2B382 /* ABitmapInter.cpp */; };
+		01A0EE4F13AF13F900F2B382 /* ABitmapInter.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDF613AF13F900F2B382 /* ABitmapInter.h */; };
+		01A0EE5013AF13F900F2B382 /* ABitmapInterFour.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDF713AF13F900F2B382 /* ABitmapInterFour.cpp */; };
+		01A0EE5113AF13F900F2B382 /* ABitmapInterFour.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDF813AF13F900F2B382 /* ABitmapInterFour.h */; };
+		01A0EE5213AF13F900F2B382 /* ABitmapPlanes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDF913AF13F900F2B382 /* ABitmapPlanes.cpp */; };
+		01A0EE5313AF13F900F2B382 /* ABitmapPlanes.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDFA13AF13F900F2B382 /* ABitmapPlanes.h */; };
+		01A0EE5413AF13F900F2B382 /* ABitmapSimple.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDFB13AF13F900F2B382 /* ABitmapSimple.cpp */; };
+		01A0EE5513AF13F900F2B382 /* ABitmapSimple.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDFC13AF13F900F2B382 /* ABitmapSimple.h */; };
+		01A0EE5613AF13F900F2B382 /* ABitmapText.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDFD13AF13F900F2B382 /* ABitmapText.cpp */; };
+		01A0EE5713AF13F900F2B382 /* ABitmapText.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EDFE13AF13F900F2B382 /* ABitmapText.h */; };
+		01A0EE5813AF13F900F2B382 /* ADialogAbstract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EDFF13AF13F900F2B382 /* ADialogAbstract.cpp */; };
+		01A0EE5913AF13F900F2B382 /* ADialogAbstract.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE0013AF13F900F2B382 /* ADialogAbstract.h */; };
+		01A0EE5A13AF13F900F2B382 /* ADialogAskString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE0113AF13F900F2B382 /* ADialogAskString.cpp */; };
+		01A0EE5B13AF13F900F2B382 /* ADialogAskString.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE0213AF13F900F2B382 /* ADialogAskString.h */; };
+		01A0EE5C13AF13F900F2B382 /* ADialogMsg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE0313AF13F900F2B382 /* ADialogMsg.cpp */; };
+		01A0EE5D13AF13F900F2B382 /* ADialogMsg.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE0413AF13F900F2B382 /* ADialogMsg.h */; };
+		01A0EE5E13AF13F900F2B382 /* ADialogWithButtons.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE0513AF13F900F2B382 /* ADialogWithButtons.cpp */; };
+		01A0EE5F13AF13F900F2B382 /* ADialogWithButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE0613AF13F900F2B382 /* ADialogWithButtons.h */; };
+		01A0EE6013AF13F900F2B382 /* ADisplay.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE0713AF13F900F2B382 /* ADisplay.cpp */; };
+		01A0EE6113AF13F900F2B382 /* ADisplay.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE0813AF13F900F2B382 /* ADisplay.h */; };
+		01A0EE6213AF13F900F2B382 /* ADisplayMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE0913AF13F900F2B382 /* ADisplayMode.cpp */; };
+		01A0EE6313AF13F900F2B382 /* ADisplayMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE0A13AF13F900F2B382 /* ADisplayMode.h */; };
+		01A0EE6413AF13F900F2B382 /* AEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE0B13AF13F900F2B382 /* AEvent.cpp */; };
+		01A0EE6513AF13F900F2B382 /* AEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE0C13AF13F900F2B382 /* AEvent.h */; };
+		01A0EE6613AF13F900F2B382 /* alib_amiga.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE0D13AF13F900F2B382 /* alib_amiga.cpp */; };
+		01A0EE6713AF13F900F2B382 /* alib_amiga.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE0E13AF13F900F2B382 /* alib_amiga.h */; };
+		01A0EE6813AF13F900F2B382 /* alib_carbon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE0F13AF13F900F2B382 /* alib_carbon.cpp */; };
+		01A0EE6913AF13F900F2B382 /* alib_carbon.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1013AF13F900F2B382 /* alib_carbon.h */; };
+		01A0EE6A13AF13F900F2B382 /* alib_carbon_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1113AF13F900F2B382 /* alib_carbon_Prefix.pch */; };
+		01A0EE6B13AF13F900F2B382 /* alib_cocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1213AF13F900F2B382 /* alib_cocoa.h */; };
+		01A0EE6C13AF13F900F2B382 /* alib_cocoa.m in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE1313AF13F900F2B382 /* alib_cocoa.m */; };
+		01A0EE6D13AF13F900F2B382 /* alib_cocoa_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1413AF13F900F2B382 /* alib_cocoa_Prefix.pch */; };
+		01A0EE6E13AF13F900F2B382 /* alib_curses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE1513AF13F900F2B382 /* alib_curses.cpp */; };
+		01A0EE6F13AF13F900F2B382 /* alib_curses.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1613AF13F900F2B382 /* alib_curses.h */; };
+		01A0EE7013AF13F900F2B382 /* alib_dos.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE1713AF13F900F2B382 /* alib_dos.cpp */; };
+		01A0EE7113AF13F900F2B382 /* alib_dos.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1813AF13F900F2B382 /* alib_dos.h */; };
+		01A0EE7213AF13F900F2B382 /* alib_glut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE1913AF13F900F2B382 /* alib_glut.cpp */; };
+		01A0EE7313AF13F900F2B382 /* alib_glut.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1A13AF13F900F2B382 /* alib_glut.h */; };
+		01A0EE7413AF13F900F2B382 /* alib_os2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE1B13AF13F900F2B382 /* alib_os2.cpp */; };
+		01A0EE7513AF13F900F2B382 /* alib_os2.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1C13AF13F900F2B382 /* alib_os2.h */; };
+		01A0EE7613AF13F900F2B382 /* alib_palm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE1D13AF13F900F2B382 /* alib_palm.cpp */; };
+		01A0EE7713AF13F900F2B382 /* alib_palm.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE1E13AF13F900F2B382 /* alib_palm.h */; };
+		01A0EE7813AF13F900F2B382 /* alib_win.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE1F13AF13F900F2B382 /* alib_win.cpp */; };
+		01A0EE7913AF13F900F2B382 /* alib_win.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE2013AF13F900F2B382 /* alib_win.h */; };
+		01A0EE7A13AF13F900F2B382 /* alib_x11.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE2113AF13F900F2B382 /* alib_x11.cpp */; };
+		01A0EE7B13AF13F900F2B382 /* alib_x11.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE2213AF13F900F2B382 /* alib_x11.h */; };
+		01A0EE7C13AF13F900F2B382 /* alibMacHeadersCarbon.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE2313AF13F900F2B382 /* alibMacHeadersCarbon.h */; };
+		01A0EE7D13AF13F900F2B382 /* APlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE2413AF13F900F2B382 /* APlatform.h */; };
+		01A0EE7E13AF13F900F2B382 /* APrivateBitmap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE2513AF13F900F2B382 /* APrivateBitmap.cpp */; };
+		01A0EE7F13AF13F900F2B382 /* APrivateBitmap.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE2613AF13F900F2B382 /* APrivateBitmap.h */; };
+		01A0EE8213AF13F900F2B382 /* ARequestAbstract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE2913AF13F900F2B382 /* ARequestAbstract.cpp */; };
+		01A0EE8313AF13F900F2B382 /* ARequestAbstract.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE2A13AF13F900F2B382 /* ARequestAbstract.h */; };
+		01A0EE8413AF13F900F2B382 /* ARequesterDisplayMode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE2B13AF13F900F2B382 /* ARequesterDisplayMode.cpp */; };
+		01A0EE8513AF13F900F2B382 /* ARequesterDisplayMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE2C13AF13F900F2B382 /* ARequesterDisplayMode.h */; };
+		01A0EE8613AF13F900F2B382 /* ARequesterFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE2D13AF13F900F2B382 /* ARequesterFile.cpp */; };
+		01A0EE8713AF13F900F2B382 /* ARequesterFile.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE2E13AF13F900F2B382 /* ARequesterFile.h */; };
+		01A0EE8813AF13F900F2B382 /* ARequesterNetwork.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE2F13AF13F900F2B382 /* ARequesterNetwork.cpp */; };
+		01A0EE8913AF13F900F2B382 /* ARequesterNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3013AF13F900F2B382 /* ARequesterNetwork.h */; };
+		01A0EE8A13AF13F900F2B382 /* AThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE3113AF13F900F2B382 /* AThread.cpp */; };
+		01A0EE8B13AF13F900F2B382 /* AThread.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3213AF13F900F2B382 /* AThread.h */; };
+		01A0EE8C13AF13F900F2B382 /* ATypeDefs.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3313AF13F900F2B382 /* ATypeDefs.h */; };
+		01A0EE8D13AF13F900F2B382 /* AWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE3413AF13F900F2B382 /* AWindow.cpp */; };
+		01A0EE8E13AF13F900F2B382 /* AWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3513AF13F900F2B382 /* AWindow.h */; };
+		01A0EE8F13AF13F900F2B382 /* AWindowAbstract.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE3613AF13F900F2B382 /* AWindowAbstract.cpp */; };
+		01A0EE9013AF13F900F2B382 /* AWindowAbstract.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3713AF13F900F2B382 /* AWindowAbstract.h */; };
+		01A0EE9113AF13F900F2B382 /* AWindowCharMapped.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE3813AF13F900F2B382 /* AWindowCharMapped.cpp */; };
+		01A0EE9213AF13F900F2B382 /* AWindowCharMapped.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3913AF13F900F2B382 /* AWindowCharMapped.h */; };
+		01A0EE9313AF13F900F2B382 /* AWindowInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE3A13AF13F900F2B382 /* AWindowInputStream.cpp */; };
+		01A0EE9413AF13F900F2B382 /* AWindowInputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3B13AF13F900F2B382 /* AWindowInputStream.h */; };
+		01A0EE9513AF13F900F2B382 /* AWindowOutputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE3C13AF13F900F2B382 /* AWindowOutputStream.cpp */; };
+		01A0EE9613AF13F900F2B382 /* AWindowOutputStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3D13AF13F900F2B382 /* AWindowOutputStream.h */; };
+		01A0EE9713AF13F900F2B382 /* AWindowStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE3E13AF13F900F2B382 /* AWindowStream.cpp */; };
+		01A0EE9813AF13F900F2B382 /* AWindowStream.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE3F13AF13F900F2B382 /* AWindowStream.h */; };
+		01A0EE9A13AF13F900F2B382 /* nickguilib.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01A0EE4113AF13F900F2B382 /* nickguilib.cpp */; };
+		01A0EE9B13AF13F900F2B382 /* nickguilib.h in Headers */ = {isa = PBXBuildFile; fileRef = 01A0EE4213AF13F900F2B382 /* nickguilib.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01A0EDEB13AF13F900F2B382 /* aapp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = aapp.cpp; sourceTree = "<group>"; };
+		01A0EDEC13AF13F900F2B382 /* AApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AApp.h; sourceTree = "<group>"; };
+		01A0EDED13AF13F900F2B382 /* AApplicationLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AApplicationLoop.cpp; sourceTree = "<group>"; };
+		01A0EDEE13AF13F900F2B382 /* AApplicationLoop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AApplicationLoop.h; sourceTree = "<group>"; };
+		01A0EDEF13AF13F900F2B382 /* ABitmapBanks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABitmapBanks.cpp; sourceTree = "<group>"; };
+		01A0EDF013AF13F900F2B382 /* ABitmapBanks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABitmapBanks.h; sourceTree = "<group>"; };
+		01A0EDF113AF13F900F2B382 /* ABitmapBanksPlanes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABitmapBanksPlanes.cpp; sourceTree = "<group>"; };
+		01A0EDF213AF13F900F2B382 /* ABitmapBanksPlanes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABitmapBanksPlanes.h; sourceTree = "<group>"; };
+		01A0EDF313AF13F900F2B382 /* ABitmapFlipped.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABitmapFlipped.cpp; sourceTree = "<group>"; };
+		01A0EDF413AF13F900F2B382 /* ABitmapFlipped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABitmapFlipped.h; sourceTree = "<group>"; };
+		01A0EDF513AF13F900F2B382 /* ABitmapInter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABitmapInter.cpp; sourceTree = "<group>"; };
+		01A0EDF613AF13F900F2B382 /* ABitmapInter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABitmapInter.h; sourceTree = "<group>"; };
+		01A0EDF713AF13F900F2B382 /* ABitmapInterFour.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABitmapInterFour.cpp; sourceTree = "<group>"; };
+		01A0EDF813AF13F900F2B382 /* ABitmapInterFour.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABitmapInterFour.h; sourceTree = "<group>"; };
+		01A0EDF913AF13F900F2B382 /* ABitmapPlanes.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABitmapPlanes.cpp; sourceTree = "<group>"; };
+		01A0EDFA13AF13F900F2B382 /* ABitmapPlanes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABitmapPlanes.h; sourceTree = "<group>"; };
+		01A0EDFB13AF13F900F2B382 /* ABitmapSimple.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABitmapSimple.cpp; sourceTree = "<group>"; };
+		01A0EDFC13AF13F900F2B382 /* ABitmapSimple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABitmapSimple.h; sourceTree = "<group>"; };
+		01A0EDFD13AF13F900F2B382 /* ABitmapText.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ABitmapText.cpp; sourceTree = "<group>"; };
+		01A0EDFE13AF13F900F2B382 /* ABitmapText.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABitmapText.h; sourceTree = "<group>"; };
+		01A0EDFF13AF13F900F2B382 /* ADialogAbstract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ADialogAbstract.cpp; sourceTree = "<group>"; };
+		01A0EE0013AF13F900F2B382 /* ADialogAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADialogAbstract.h; sourceTree = "<group>"; };
+		01A0EE0113AF13F900F2B382 /* ADialogAskString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ADialogAskString.cpp; sourceTree = "<group>"; };
+		01A0EE0213AF13F900F2B382 /* ADialogAskString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADialogAskString.h; sourceTree = "<group>"; };
+		01A0EE0313AF13F900F2B382 /* ADialogMsg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ADialogMsg.cpp; sourceTree = "<group>"; };
+		01A0EE0413AF13F900F2B382 /* ADialogMsg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADialogMsg.h; sourceTree = "<group>"; };
+		01A0EE0513AF13F900F2B382 /* ADialogWithButtons.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ADialogWithButtons.cpp; sourceTree = "<group>"; };
+		01A0EE0613AF13F900F2B382 /* ADialogWithButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADialogWithButtons.h; sourceTree = "<group>"; };
+		01A0EE0713AF13F900F2B382 /* ADisplay.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ADisplay.cpp; sourceTree = "<group>"; };
+		01A0EE0813AF13F900F2B382 /* ADisplay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADisplay.h; sourceTree = "<group>"; };
+		01A0EE0913AF13F900F2B382 /* ADisplayMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ADisplayMode.cpp; sourceTree = "<group>"; };
+		01A0EE0A13AF13F900F2B382 /* ADisplayMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADisplayMode.h; sourceTree = "<group>"; };
+		01A0EE0B13AF13F900F2B382 /* AEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AEvent.cpp; sourceTree = "<group>"; };
+		01A0EE0C13AF13F900F2B382 /* AEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AEvent.h; sourceTree = "<group>"; };
+		01A0EE0D13AF13F900F2B382 /* alib_amiga.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_amiga.cpp; sourceTree = "<group>"; };
+		01A0EE0E13AF13F900F2B382 /* alib_amiga.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_amiga.h; sourceTree = "<group>"; };
+		01A0EE0F13AF13F900F2B382 /* alib_carbon.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_carbon.cpp; sourceTree = "<group>"; };
+		01A0EE1013AF13F900F2B382 /* alib_carbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_carbon.h; sourceTree = "<group>"; };
+		01A0EE1113AF13F900F2B382 /* alib_carbon_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_carbon_Prefix.pch; sourceTree = "<group>"; };
+		01A0EE1213AF13F900F2B382 /* alib_cocoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_cocoa.h; sourceTree = "<group>"; };
+		01A0EE1313AF13F900F2B382 /* alib_cocoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = alib_cocoa.m; sourceTree = "<group>"; };
+		01A0EE1413AF13F900F2B382 /* alib_cocoa_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_cocoa_Prefix.pch; sourceTree = "<group>"; };
+		01A0EE1513AF13F900F2B382 /* alib_curses.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_curses.cpp; sourceTree = "<group>"; };
+		01A0EE1613AF13F900F2B382 /* alib_curses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_curses.h; sourceTree = "<group>"; };
+		01A0EE1713AF13F900F2B382 /* alib_dos.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_dos.cpp; sourceTree = "<group>"; };
+		01A0EE1813AF13F900F2B382 /* alib_dos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_dos.h; sourceTree = "<group>"; };
+		01A0EE1913AF13F900F2B382 /* alib_glut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_glut.cpp; sourceTree = "<group>"; };
+		01A0EE1A13AF13F900F2B382 /* alib_glut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_glut.h; sourceTree = "<group>"; };
+		01A0EE1B13AF13F900F2B382 /* alib_os2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_os2.cpp; sourceTree = "<group>"; };
+		01A0EE1C13AF13F900F2B382 /* alib_os2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_os2.h; sourceTree = "<group>"; };
+		01A0EE1D13AF13F900F2B382 /* alib_palm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_palm.cpp; sourceTree = "<group>"; };
+		01A0EE1E13AF13F900F2B382 /* alib_palm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_palm.h; sourceTree = "<group>"; };
+		01A0EE1F13AF13F900F2B382 /* alib_win.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_win.cpp; sourceTree = "<group>"; };
+		01A0EE2013AF13F900F2B382 /* alib_win.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_win.h; sourceTree = "<group>"; };
+		01A0EE2113AF13F900F2B382 /* alib_x11.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = alib_x11.cpp; sourceTree = "<group>"; };
+		01A0EE2213AF13F900F2B382 /* alib_x11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alib_x11.h; sourceTree = "<group>"; };
+		01A0EE2313AF13F900F2B382 /* alibMacHeadersCarbon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = alibMacHeadersCarbon.h; sourceTree = "<group>"; };
+		01A0EE2413AF13F900F2B382 /* APlatform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APlatform.h; sourceTree = "<group>"; };
+		01A0EE2513AF13F900F2B382 /* APrivateBitmap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = APrivateBitmap.cpp; sourceTree = "<group>"; };
+		01A0EE2613AF13F900F2B382 /* APrivateBitmap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APrivateBitmap.h; sourceTree = "<group>"; };
+		01A0EE2913AF13F900F2B382 /* ARequestAbstract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARequestAbstract.cpp; sourceTree = "<group>"; };
+		01A0EE2A13AF13F900F2B382 /* ARequestAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARequestAbstract.h; sourceTree = "<group>"; };
+		01A0EE2B13AF13F900F2B382 /* ARequesterDisplayMode.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARequesterDisplayMode.cpp; sourceTree = "<group>"; };
+		01A0EE2C13AF13F900F2B382 /* ARequesterDisplayMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARequesterDisplayMode.h; sourceTree = "<group>"; };
+		01A0EE2D13AF13F900F2B382 /* ARequesterFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARequesterFile.cpp; sourceTree = "<group>"; };
+		01A0EE2E13AF13F900F2B382 /* ARequesterFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARequesterFile.h; sourceTree = "<group>"; };
+		01A0EE2F13AF13F900F2B382 /* ARequesterNetwork.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARequesterNetwork.cpp; sourceTree = "<group>"; };
+		01A0EE3013AF13F900F2B382 /* ARequesterNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARequesterNetwork.h; sourceTree = "<group>"; };
+		01A0EE3113AF13F900F2B382 /* AThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AThread.cpp; sourceTree = "<group>"; };
+		01A0EE3213AF13F900F2B382 /* AThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AThread.h; sourceTree = "<group>"; };
+		01A0EE3313AF13F900F2B382 /* ATypeDefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATypeDefs.h; sourceTree = "<group>"; };
+		01A0EE3413AF13F900F2B382 /* AWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AWindow.cpp; sourceTree = "<group>"; };
+		01A0EE3513AF13F900F2B382 /* AWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWindow.h; sourceTree = "<group>"; };
+		01A0EE3613AF13F900F2B382 /* AWindowAbstract.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AWindowAbstract.cpp; sourceTree = "<group>"; };
+		01A0EE3713AF13F900F2B382 /* AWindowAbstract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWindowAbstract.h; sourceTree = "<group>"; };
+		01A0EE3813AF13F900F2B382 /* AWindowCharMapped.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AWindowCharMapped.cpp; sourceTree = "<group>"; };
+		01A0EE3913AF13F900F2B382 /* AWindowCharMapped.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWindowCharMapped.h; sourceTree = "<group>"; };
+		01A0EE3A13AF13F900F2B382 /* AWindowInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AWindowInputStream.cpp; sourceTree = "<group>"; };
+		01A0EE3B13AF13F900F2B382 /* AWindowInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWindowInputStream.h; sourceTree = "<group>"; };
+		01A0EE3C13AF13F900F2B382 /* AWindowOutputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AWindowOutputStream.cpp; sourceTree = "<group>"; };
+		01A0EE3D13AF13F900F2B382 /* AWindowOutputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWindowOutputStream.h; sourceTree = "<group>"; };
+		01A0EE3E13AF13F900F2B382 /* AWindowStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AWindowStream.cpp; sourceTree = "<group>"; };
+		01A0EE3F13AF13F900F2B382 /* AWindowStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWindowStream.h; sourceTree = "<group>"; };
+		01A0EE4113AF13F900F2B382 /* nickguilib.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nickguilib.cpp; sourceTree = "<group>"; };
+		01A0EE4213AF13F900F2B382 /* nickguilib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nickguilib.h; sourceTree = "<group>"; };
+		D2AAC046055464E500DB518D /* libcpp_guilib_static.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcpp_guilib_static.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D289987405E68DCB004EDB86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01A0EDEA13AF13F900F2B382 /* guilib */ = {
+			isa = PBXGroup;
+			children = (
+				01A0EDEB13AF13F900F2B382 /* aapp.cpp */,
+				01A0EDEC13AF13F900F2B382 /* AApp.h */,
+				01A0EDED13AF13F900F2B382 /* AApplicationLoop.cpp */,
+				01A0EDEE13AF13F900F2B382 /* AApplicationLoop.h */,
+				01A0EDEF13AF13F900F2B382 /* ABitmapBanks.cpp */,
+				01A0EDF013AF13F900F2B382 /* ABitmapBanks.h */,
+				01A0EDF113AF13F900F2B382 /* ABitmapBanksPlanes.cpp */,
+				01A0EDF213AF13F900F2B382 /* ABitmapBanksPlanes.h */,
+				01A0EDF313AF13F900F2B382 /* ABitmapFlipped.cpp */,
+				01A0EDF413AF13F900F2B382 /* ABitmapFlipped.h */,
+				01A0EDF513AF13F900F2B382 /* ABitmapInter.cpp */,
+				01A0EDF613AF13F900F2B382 /* ABitmapInter.h */,
+				01A0EDF713AF13F900F2B382 /* ABitmapInterFour.cpp */,
+				01A0EDF813AF13F900F2B382 /* ABitmapInterFour.h */,
+				01A0EDF913AF13F900F2B382 /* ABitmapPlanes.cpp */,
+				01A0EDFA13AF13F900F2B382 /* ABitmapPlanes.h */,
+				01A0EDFB13AF13F900F2B382 /* ABitmapSimple.cpp */,
+				01A0EDFC13AF13F900F2B382 /* ABitmapSimple.h */,
+				01A0EDFD13AF13F900F2B382 /* ABitmapText.cpp */,
+				01A0EDFE13AF13F900F2B382 /* ABitmapText.h */,
+				01A0EDFF13AF13F900F2B382 /* ADialogAbstract.cpp */,
+				01A0EE0013AF13F900F2B382 /* ADialogAbstract.h */,
+				01A0EE0113AF13F900F2B382 /* ADialogAskString.cpp */,
+				01A0EE0213AF13F900F2B382 /* ADialogAskString.h */,
+				01A0EE0313AF13F900F2B382 /* ADialogMsg.cpp */,
+				01A0EE0413AF13F900F2B382 /* ADialogMsg.h */,
+				01A0EE0513AF13F900F2B382 /* ADialogWithButtons.cpp */,
+				01A0EE0613AF13F900F2B382 /* ADialogWithButtons.h */,
+				01A0EE0713AF13F900F2B382 /* ADisplay.cpp */,
+				01A0EE0813AF13F900F2B382 /* ADisplay.h */,
+				01A0EE0913AF13F900F2B382 /* ADisplayMode.cpp */,
+				01A0EE0A13AF13F900F2B382 /* ADisplayMode.h */,
+				01A0EE0B13AF13F900F2B382 /* AEvent.cpp */,
+				01A0EE0C13AF13F900F2B382 /* AEvent.h */,
+				01A0EE0D13AF13F900F2B382 /* alib_amiga.cpp */,
+				01A0EE0E13AF13F900F2B382 /* alib_amiga.h */,
+				01A0EE0F13AF13F900F2B382 /* alib_carbon.cpp */,
+				01A0EE1013AF13F900F2B382 /* alib_carbon.h */,
+				01A0EE1113AF13F900F2B382 /* alib_carbon_Prefix.pch */,
+				01A0EE1213AF13F900F2B382 /* alib_cocoa.h */,
+				01A0EE1313AF13F900F2B382 /* alib_cocoa.m */,
+				01A0EE1413AF13F900F2B382 /* alib_cocoa_Prefix.pch */,
+				01A0EE1513AF13F900F2B382 /* alib_curses.cpp */,
+				01A0EE1613AF13F900F2B382 /* alib_curses.h */,
+				01A0EE1713AF13F900F2B382 /* alib_dos.cpp */,
+				01A0EE1813AF13F900F2B382 /* alib_dos.h */,
+				01A0EE1913AF13F900F2B382 /* alib_glut.cpp */,
+				01A0EE1A13AF13F900F2B382 /* alib_glut.h */,
+				01A0EE1B13AF13F900F2B382 /* alib_os2.cpp */,
+				01A0EE1C13AF13F900F2B382 /* alib_os2.h */,
+				01A0EE1D13AF13F900F2B382 /* alib_palm.cpp */,
+				01A0EE1E13AF13F900F2B382 /* alib_palm.h */,
+				01A0EE1F13AF13F900F2B382 /* alib_win.cpp */,
+				01A0EE2013AF13F900F2B382 /* alib_win.h */,
+				01A0EE2113AF13F900F2B382 /* alib_x11.cpp */,
+				01A0EE2213AF13F900F2B382 /* alib_x11.h */,
+				01A0EE2313AF13F900F2B382 /* alibMacHeadersCarbon.h */,
+				01A0EE2413AF13F900F2B382 /* APlatform.h */,
+				01A0EE2513AF13F900F2B382 /* APrivateBitmap.cpp */,
+				01A0EE2613AF13F900F2B382 /* APrivateBitmap.h */,
+				01A0EE2913AF13F900F2B382 /* ARequestAbstract.cpp */,
+				01A0EE2A13AF13F900F2B382 /* ARequestAbstract.h */,
+				01A0EE2B13AF13F900F2B382 /* ARequesterDisplayMode.cpp */,
+				01A0EE2C13AF13F900F2B382 /* ARequesterDisplayMode.h */,
+				01A0EE2D13AF13F900F2B382 /* ARequesterFile.cpp */,
+				01A0EE2E13AF13F900F2B382 /* ARequesterFile.h */,
+				01A0EE2F13AF13F900F2B382 /* ARequesterNetwork.cpp */,
+				01A0EE3013AF13F900F2B382 /* ARequesterNetwork.h */,
+				01A0EE3113AF13F900F2B382 /* AThread.cpp */,
+				01A0EE3213AF13F900F2B382 /* AThread.h */,
+				01A0EE3313AF13F900F2B382 /* ATypeDefs.h */,
+				01A0EE3413AF13F900F2B382 /* AWindow.cpp */,
+				01A0EE3513AF13F900F2B382 /* AWindow.h */,
+				01A0EE3613AF13F900F2B382 /* AWindowAbstract.cpp */,
+				01A0EE3713AF13F900F2B382 /* AWindowAbstract.h */,
+				01A0EE3813AF13F900F2B382 /* AWindowCharMapped.cpp */,
+				01A0EE3913AF13F900F2B382 /* AWindowCharMapped.h */,
+				01A0EE3A13AF13F900F2B382 /* AWindowInputStream.cpp */,
+				01A0EE3B13AF13F900F2B382 /* AWindowInputStream.h */,
+				01A0EE3C13AF13F900F2B382 /* AWindowOutputStream.cpp */,
+				01A0EE3D13AF13F900F2B382 /* AWindowOutputStream.h */,
+				01A0EE3E13AF13F900F2B382 /* AWindowStream.cpp */,
+				01A0EE3F13AF13F900F2B382 /* AWindowStream.h */,
+				01A0EE4113AF13F900F2B382 /* nickguilib.cpp */,
+				01A0EE4213AF13F900F2B382 /* nickguilib.h */,
+			);
+			name = guilib;
+			path = ../../cpp/guilib;
+			sourceTree = SOURCE_ROOT;
+		};
+		08FB7794FE84155DC02AAC07 /* cpp_guilib_static */ = {
+			isa = PBXGroup;
+			children = (
+				08FB7795FE84155DC02AAC07 /* Source */,
+				C6A0FF2B0290797F04C91782 /* Documentation */,
+				1AB674ADFE9D54B511CA2CBB /* Products */,
+			);
+			name = cpp_guilib_static;
+			sourceTree = "<group>";
+		};
+		08FB7795FE84155DC02AAC07 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				01A0EDEA13AF13F900F2B382 /* guilib */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		1AB674ADFE9D54B511CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D2AAC046055464E500DB518D /* libcpp_guilib_static.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6A0FF2B0290797F04C91782 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC043055464E500DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A0EE4513AF13F900F2B382 /* AApp.h in Headers */,
+				01A0EE4713AF13F900F2B382 /* AApplicationLoop.h in Headers */,
+				01A0EE4913AF13F900F2B382 /* ABitmapBanks.h in Headers */,
+				01A0EE4B13AF13F900F2B382 /* ABitmapBanksPlanes.h in Headers */,
+				01A0EE4D13AF13F900F2B382 /* ABitmapFlipped.h in Headers */,
+				01A0EE4F13AF13F900F2B382 /* ABitmapInter.h in Headers */,
+				01A0EE5113AF13F900F2B382 /* ABitmapInterFour.h in Headers */,
+				01A0EE5313AF13F900F2B382 /* ABitmapPlanes.h in Headers */,
+				01A0EE5513AF13F900F2B382 /* ABitmapSimple.h in Headers */,
+				01A0EE5713AF13F900F2B382 /* ABitmapText.h in Headers */,
+				01A0EE5913AF13F900F2B382 /* ADialogAbstract.h in Headers */,
+				01A0EE5B13AF13F900F2B382 /* ADialogAskString.h in Headers */,
+				01A0EE5D13AF13F900F2B382 /* ADialogMsg.h in Headers */,
+				01A0EE5F13AF13F900F2B382 /* ADialogWithButtons.h in Headers */,
+				01A0EE6113AF13F900F2B382 /* ADisplay.h in Headers */,
+				01A0EE6313AF13F900F2B382 /* ADisplayMode.h in Headers */,
+				01A0EE6513AF13F900F2B382 /* AEvent.h in Headers */,
+				01A0EE6713AF13F900F2B382 /* alib_amiga.h in Headers */,
+				01A0EE6913AF13F900F2B382 /* alib_carbon.h in Headers */,
+				01A0EE6A13AF13F900F2B382 /* alib_carbon_Prefix.pch in Headers */,
+				01A0EE6B13AF13F900F2B382 /* alib_cocoa.h in Headers */,
+				01A0EE6D13AF13F900F2B382 /* alib_cocoa_Prefix.pch in Headers */,
+				01A0EE6F13AF13F900F2B382 /* alib_curses.h in Headers */,
+				01A0EE7113AF13F900F2B382 /* alib_dos.h in Headers */,
+				01A0EE7313AF13F900F2B382 /* alib_glut.h in Headers */,
+				01A0EE7513AF13F900F2B382 /* alib_os2.h in Headers */,
+				01A0EE7713AF13F900F2B382 /* alib_palm.h in Headers */,
+				01A0EE7913AF13F900F2B382 /* alib_win.h in Headers */,
+				01A0EE7B13AF13F900F2B382 /* alib_x11.h in Headers */,
+				01A0EE7C13AF13F900F2B382 /* alibMacHeadersCarbon.h in Headers */,
+				01A0EE7D13AF13F900F2B382 /* APlatform.h in Headers */,
+				01A0EE7F13AF13F900F2B382 /* APrivateBitmap.h in Headers */,
+				01A0EE8313AF13F900F2B382 /* ARequestAbstract.h in Headers */,
+				01A0EE8513AF13F900F2B382 /* ARequesterDisplayMode.h in Headers */,
+				01A0EE8713AF13F900F2B382 /* ARequesterFile.h in Headers */,
+				01A0EE8913AF13F900F2B382 /* ARequesterNetwork.h in Headers */,
+				01A0EE8B13AF13F900F2B382 /* AThread.h in Headers */,
+				01A0EE8C13AF13F900F2B382 /* ATypeDefs.h in Headers */,
+				01A0EE8E13AF13F900F2B382 /* AWindow.h in Headers */,
+				01A0EE9013AF13F900F2B382 /* AWindowAbstract.h in Headers */,
+				01A0EE9213AF13F900F2B382 /* AWindowCharMapped.h in Headers */,
+				01A0EE9413AF13F900F2B382 /* AWindowInputStream.h in Headers */,
+				01A0EE9613AF13F900F2B382 /* AWindowOutputStream.h in Headers */,
+				01A0EE9813AF13F900F2B382 /* AWindowStream.h in Headers */,
+				01A0EE9B13AF13F900F2B382 /* nickguilib.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC045055464E500DB518D /* cpp_guilib_static */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "cpp_guilib_static" */;
+			buildPhases = (
+				D2AAC043055464E500DB518D /* Headers */,
+				D2AAC044055464E500DB518D /* Sources */,
+				D289987405E68DCB004EDB86 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cpp_guilib_static;
+			productName = cpp_guilib_static;
+			productReference = D2AAC046055464E500DB518D /* libcpp_guilib_static.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "cpp_guilib_static" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 08FB7794FE84155DC02AAC07 /* cpp_guilib_static */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC045055464E500DB518D /* cpp_guilib_static */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC044055464E500DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01A0EE4413AF13F900F2B382 /* aapp.cpp in Sources */,
+				01A0EE4613AF13F900F2B382 /* AApplicationLoop.cpp in Sources */,
+				01A0EE4813AF13F900F2B382 /* ABitmapBanks.cpp in Sources */,
+				01A0EE4A13AF13F900F2B382 /* ABitmapBanksPlanes.cpp in Sources */,
+				01A0EE4C13AF13F900F2B382 /* ABitmapFlipped.cpp in Sources */,
+				01A0EE4E13AF13F900F2B382 /* ABitmapInter.cpp in Sources */,
+				01A0EE5013AF13F900F2B382 /* ABitmapInterFour.cpp in Sources */,
+				01A0EE5213AF13F900F2B382 /* ABitmapPlanes.cpp in Sources */,
+				01A0EE5413AF13F900F2B382 /* ABitmapSimple.cpp in Sources */,
+				01A0EE5613AF13F900F2B382 /* ABitmapText.cpp in Sources */,
+				01A0EE5813AF13F900F2B382 /* ADialogAbstract.cpp in Sources */,
+				01A0EE5A13AF13F900F2B382 /* ADialogAskString.cpp in Sources */,
+				01A0EE5C13AF13F900F2B382 /* ADialogMsg.cpp in Sources */,
+				01A0EE5E13AF13F900F2B382 /* ADialogWithButtons.cpp in Sources */,
+				01A0EE6013AF13F900F2B382 /* ADisplay.cpp in Sources */,
+				01A0EE6213AF13F900F2B382 /* ADisplayMode.cpp in Sources */,
+				01A0EE6413AF13F900F2B382 /* AEvent.cpp in Sources */,
+				01A0EE6613AF13F900F2B382 /* alib_amiga.cpp in Sources */,
+				01A0EE6813AF13F900F2B382 /* alib_carbon.cpp in Sources */,
+				01A0EE6C13AF13F900F2B382 /* alib_cocoa.m in Sources */,
+				01A0EE6E13AF13F900F2B382 /* alib_curses.cpp in Sources */,
+				01A0EE7013AF13F900F2B382 /* alib_dos.cpp in Sources */,
+				01A0EE7213AF13F900F2B382 /* alib_glut.cpp in Sources */,
+				01A0EE7413AF13F900F2B382 /* alib_os2.cpp in Sources */,
+				01A0EE7613AF13F900F2B382 /* alib_palm.cpp in Sources */,
+				01A0EE7813AF13F900F2B382 /* alib_win.cpp in Sources */,
+				01A0EE7A13AF13F900F2B382 /* alib_x11.cpp in Sources */,
+				01A0EE7E13AF13F900F2B382 /* APrivateBitmap.cpp in Sources */,
+				01A0EE8213AF13F900F2B382 /* ARequestAbstract.cpp in Sources */,
+				01A0EE8413AF13F900F2B382 /* ARequesterDisplayMode.cpp in Sources */,
+				01A0EE8613AF13F900F2B382 /* ARequesterFile.cpp in Sources */,
+				01A0EE8813AF13F900F2B382 /* ARequesterNetwork.cpp in Sources */,
+				01A0EE8A13AF13F900F2B382 /* AThread.cpp in Sources */,
+				01A0EE8D13AF13F900F2B382 /* AWindow.cpp in Sources */,
+				01A0EE8F13AF13F900F2B382 /* AWindowAbstract.cpp in Sources */,
+				01A0EE9113AF13F900F2B382 /* AWindowCharMapped.cpp in Sources */,
+				01A0EE9313AF13F900F2B382 /* AWindowInputStream.cpp in Sources */,
+				01A0EE9513AF13F900F2B382 /* AWindowOutputStream.cpp in Sources */,
+				01A0EE9713AF13F900F2B382 /* AWindowStream.cpp in Sources */,
+				01A0EE9A13AF13F900F2B382 /* nickguilib.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91EC08733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../cpp/guilib\"",
+				);
+				PRODUCT_NAME = cpp_guilib_static;
+			};
+			name = Debug;
+		};
+		1DEB91ED08733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../cpp/guilib\"",
+				);
+				PRODUCT_NAME = cpp_guilib_static;
+			};
+			name = Release;
+		};
+		1DEB91F008733DB70010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"TARGET_API_CARBON=1",
+					"NICK_USE_GUILIB=1",
+					"ASYS_MAC=1",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "~/src/cpp";
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		1DEB91F108733DB70010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91EB08733DB70010E9CD /* Build configuration list for PBXNativeTarget "cpp_guilib_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91EC08733DB70010E9CD /* Debug */,
+				1DEB91ED08733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91EF08733DB70010E9CD /* Build configuration list for PBXProject "cpp_guilib_static" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91F008733DB70010E9CD /* Debug */,
+				1DEB91F108733DB70010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

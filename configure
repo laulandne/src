@@ -1,0 +1,23 @@
+#! /bin/bash
+
+# NOTE: This is just a nasty-hack-placeholder until I learn autoconfig
+# This file is used by multiple projects,
+# When modifying be sure to update central copy!
+
+echo "Configuring..."
+
+
+########################################
+
+./configure_runtime
+./configure_build
+
+cp config.build config.runtime alib
+cp config.build config.runtime nickcpp
+cp config.build config.runtime nick3d
+cp config.build config.runtime guilib
+cp config.build config.runtime javacpp
+cp config.build config.runtime ndecoder
+cp config.build config.runtime netlib
+cp config.build config.runtime platform
+cp config.build config.runtime soundlib

@@ -1,0 +1,251 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: cpp_portable_static_wce - Win32 (WCE MIPS) Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\nick\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+/nologo /MLd /W3 /GX- /Zi /Od /I "e:\src" /D "DEBUG" /D "MIPS" /D "_MIPS_" /D _WIN32_WCE=200 /D "H/PC Ver. 2.00" /D UNDER_CE=200 /D "UNICODE" /D "_MBCS" /D "_LIB" /D "ASYS_WIN32" /Fp"WMIPSDbg/cpp_portable_static_wce.pch" /YX /Fo"WMIPSDbg/" /Fd"WMIPSDbg/" /QMRWCE   /c 
+"E:\src\cpp\portable\ndecoder\ABMPDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\ADecoder.cpp"
+"E:\src\cpp\portable\ndecoder\ADecoderHelper.cpp"
+"E:\src\cpp\portable\ndecoder\AGIFDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\AIFFDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\AImageDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\AJFIFDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\AMovieDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\AMultiImageDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\AMultiMovieDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\APCXDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\AQTDecoderHelper.cpp"
+"E:\src\cpp\portable\ndecoder\AQTImageDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\AQTMovieDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\ASmartDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\ASmartImageDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\ASmartMovieDecoder.cpp"
+"E:\src\cpp\portable\ndecoder\ATGADecoder.cpp"
+"E:\src\cpp\portable\netlib\AHost.cpp"
+"E:\src\cpp\portable\netlib\ANetAbstract.cpp"
+"E:\src\cpp\portable\netlib\ANetwork.cpp"
+"E:\src\cpp\portable\netlib\ASocket.cpp"
+"E:\src\cpp\portable\netlib\ASocketNonBlocking.cpp"
+"E:\src\cpp\portable\nick3d\A3DDecoder.cpp"
+"E:\src\cpp\portable\nick3d\A3DSDecoder.cpp"
+"E:\src\cpp\portable\nick3d\ABspDecoder.cpp"
+"E:\src\cpp\portable\nick3d\ACamera3D.cpp"
+"E:\src\cpp\portable\nick3d\ADXFDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AFace3D.cpp"
+"E:\src\cpp\portable\nick3d\AHalfLifeDecoder.cpp"
+"E:\src\cpp\portable\nick3d\ALight3D.cpp"
+"E:\src\cpp\portable\nick3d\ALightwaveDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AMapDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AMatrix3D.cpp"
+"E:\src\cpp\portable\nick3d\AMayaDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AMD2Decoder.cpp"
+"E:\src\cpp\portable\nick3d\AMD3Decoder.cpp"
+"E:\src\cpp\portable\nick3d\AMD5Decoder.cpp"
+"E:\src\cpp\portable\nick3d\AMDLDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AMesh3D.cpp"
+"E:\src\cpp\portable\nick3d\AMeshDecoder.cpp"
+"E:\src\cpp\portable\nick3d\APart3D.cpp"
+"E:\src\cpp\portable\nick3d\APLGDecoder.cpp"
+"E:\src\cpp\portable\nick3d\ARendererAbstract3D.cpp"
+"E:\src\cpp\portable\nick3d\AScene3D.cpp"
+"E:\src\cpp\portable\nick3d\ASceneDecoder.cpp"
+"E:\src\cpp\portable\nick3d\ASmartMeshDecoder.cpp"
+"E:\src\cpp\portable\nick3d\ASmartSceneDecoder.cpp"
+"E:\src\cpp\portable\nick3d\ATextCoord3D.cpp"
+"E:\src\cpp\portable\nick3d\ATexture3D.cpp"
+"E:\src\cpp\portable\nick3d\AVertex3D.cpp"
+"E:\src\cpp\portable\nick3d\AVRMLDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AWADDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AWavefrontDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AWLDDecoder.cpp"
+"E:\src\cpp\portable\nick3d\AWolf3dDecoder.cpp"
+"E:\src\cpp\portable\nickcpp\AAbsRect.cpp"
+"E:\src\cpp\portable\nickcpp\ABitmap.cpp"
+"E:\src\cpp\portable\nickcpp\ABitmapAbstract.cpp"
+"E:\src\cpp\portable\nickcpp\ACell.cpp"
+"E:\src\cpp\portable\nickcpp\AClock.cpp"
+"E:\src\cpp\portable\nickcpp\AColor.cpp"
+"E:\src\cpp\portable\nickcpp\AConvertingBitLine.cpp"
+"E:\src\cpp\portable\nickcpp\ADataSourceAbstract.cpp"
+"E:\src\cpp\portable\nickcpp\ADrawableAbstract.cpp"
+"E:\src\cpp\portable\nickcpp\AError.cpp"
+"E:\src\cpp\portable\nickcpp\AFileInputStream.cpp"
+"E:\src\cpp\portable\nickcpp\AFileOutputStream.cpp"
+"E:\src\cpp\portable\nickcpp\AFrameAbstract.cpp"
+"E:\src\cpp\portable\nickcpp\AGenericNode.cpp"
+"E:\src\cpp\portable\nickcpp\AInputStream.cpp"
+"E:\src\cpp\portable\nickcpp\AList.cpp"
+"E:\src\cpp\portable\nickcpp\AMovie.cpp"
+"E:\src\cpp\portable\nickcpp\ANullStream.cpp"
+"E:\src\cpp\portable\nickcpp\AOutputStream.cpp"
+"E:\src\cpp\portable\nickcpp\APalette.cpp"
+"E:\src\cpp\portable\nickcpp\APoint.cpp"
+"E:\src\cpp\portable\nickcpp\ARect.cpp"
+"E:\src\cpp\portable\nickcpp\AStringHelper.cpp"
+"E:\src\cpp\portable\soundlib\A8SVXDecoder.cpp"
+"E:\src\cpp\portable\soundlib\AAUDecoder.cpp"
+"E:\src\cpp\portable\soundlib\AAudioDevice.cpp"
+"E:\src\cpp\portable\soundlib\AMidiDecoder.cpp"
+"E:\src\cpp\portable\soundlib\AMP3Decoder.cpp"
+"E:\src\cpp\portable\soundlib\AMultiSongDecoder.cpp"
+"E:\src\cpp\portable\soundlib\AMultiSoundDecoder.cpp"
+"E:\src\cpp\portable\soundlib\AQTSongDecoder.cpp"
+"E:\src\cpp\portable\soundlib\AQTSoundDecoder.cpp"
+"E:\src\cpp\portable\soundlib\ASmartSongDecoder.cpp"
+"E:\src\cpp\portable\soundlib\ASmartSoundDecoder.cpp"
+"E:\src\cpp\portable\soundlib\ASong.cpp"
+"E:\src\cpp\portable\soundlib\ASongDecoder.cpp"
+"E:\src\cpp\portable\soundlib\ASound.cpp"
+"E:\src\cpp\portable\soundlib\ASoundAbstract.cpp"
+"E:\src\cpp\portable\soundlib\ASoundDecoder.cpp"
+"E:\src\cpp\portable\soundlib\AWAVDecoder.cpp"
+]
+Creating command line "clmips.exe @C:\DOCUME~1\nick\LOCALS~1\Temp\RSP1C.tmp" 
+Creating temporary file "C:\DOCUME~1\nick\LOCALS~1\Temp\RSP1D.tmp" with contents
+[
+/nologo /out:"WMIPSDbg\cpp_portable_static_wce.lib" 
+.\WMIPSDbg\ABMPDecoder.obj
+.\WMIPSDbg\ADecoder.obj
+.\WMIPSDbg\ADecoderHelper.obj
+.\WMIPSDbg\AGIFDecoder.obj
+.\WMIPSDbg\AIFFDecoder.obj
+.\WMIPSDbg\AImageDecoder.obj
+.\WMIPSDbg\AJFIFDecoder.obj
+.\WMIPSDbg\AMovieDecoder.obj
+.\WMIPSDbg\AMultiImageDecoder.obj
+.\WMIPSDbg\AMultiMovieDecoder.obj
+.\WMIPSDbg\APCXDecoder.obj
+.\WMIPSDbg\AQTDecoderHelper.obj
+.\WMIPSDbg\AQTImageDecoder.obj
+.\WMIPSDbg\AQTMovieDecoder.obj
+.\WMIPSDbg\ASmartDecoder.obj
+.\WMIPSDbg\ASmartImageDecoder.obj
+.\WMIPSDbg\ASmartMovieDecoder.obj
+.\WMIPSDbg\ATGADecoder.obj
+.\WMIPSDbg\AHost.obj
+.\WMIPSDbg\ANetAbstract.obj
+.\WMIPSDbg\ANetwork.obj
+.\WMIPSDbg\ASocket.obj
+.\WMIPSDbg\ASocketNonBlocking.obj
+.\WMIPSDbg\A3DDecoder.obj
+.\WMIPSDbg\A3DSDecoder.obj
+.\WMIPSDbg\ABspDecoder.obj
+.\WMIPSDbg\ACamera3D.obj
+.\WMIPSDbg\ADXFDecoder.obj
+.\WMIPSDbg\AFace3D.obj
+.\WMIPSDbg\AHalfLifeDecoder.obj
+.\WMIPSDbg\ALight3D.obj
+.\WMIPSDbg\ALightwaveDecoder.obj
+.\WMIPSDbg\AMapDecoder.obj
+.\WMIPSDbg\AMatrix3D.obj
+.\WMIPSDbg\AMayaDecoder.obj
+.\WMIPSDbg\AMD2Decoder.obj
+.\WMIPSDbg\AMD3Decoder.obj
+.\WMIPSDbg\AMD5Decoder.obj
+.\WMIPSDbg\AMDLDecoder.obj
+.\WMIPSDbg\AMesh3D.obj
+.\WMIPSDbg\AMeshDecoder.obj
+.\WMIPSDbg\APart3D.obj
+.\WMIPSDbg\APLGDecoder.obj
+.\WMIPSDbg\ARendererAbstract3D.obj
+.\WMIPSDbg\AScene3D.obj
+.\WMIPSDbg\ASceneDecoder.obj
+.\WMIPSDbg\ASmartMeshDecoder.obj
+.\WMIPSDbg\ASmartSceneDecoder.obj
+.\WMIPSDbg\ATextCoord3D.obj
+.\WMIPSDbg\ATexture3D.obj
+.\WMIPSDbg\AVertex3D.obj
+.\WMIPSDbg\AVRMLDecoder.obj
+.\WMIPSDbg\AWADDecoder.obj
+.\WMIPSDbg\AWavefrontDecoder.obj
+.\WMIPSDbg\AWLDDecoder.obj
+.\WMIPSDbg\AWolf3dDecoder.obj
+.\WMIPSDbg\AAbsRect.obj
+.\WMIPSDbg\ABitmap.obj
+.\WMIPSDbg\ABitmapAbstract.obj
+.\WMIPSDbg\ACell.obj
+.\WMIPSDbg\AClock.obj
+.\WMIPSDbg\AColor.obj
+.\WMIPSDbg\AConvertingBitLine.obj
+.\WMIPSDbg\ADataSourceAbstract.obj
+.\WMIPSDbg\ADrawableAbstract.obj
+.\WMIPSDbg\AError.obj
+.\WMIPSDbg\AFileInputStream.obj
+.\WMIPSDbg\AFileOutputStream.obj
+.\WMIPSDbg\AFrameAbstract.obj
+.\WMIPSDbg\AGenericNode.obj
+.\WMIPSDbg\AInputStream.obj
+.\WMIPSDbg\AList.obj
+.\WMIPSDbg\AMovie.obj
+.\WMIPSDbg\ANullStream.obj
+.\WMIPSDbg\AOutputStream.obj
+.\WMIPSDbg\APalette.obj
+.\WMIPSDbg\APoint.obj
+.\WMIPSDbg\ARect.obj
+.\WMIPSDbg\AStringHelper.obj
+.\WMIPSDbg\A8SVXDecoder.obj
+.\WMIPSDbg\AAUDecoder.obj
+.\WMIPSDbg\AAudioDevice.obj
+.\WMIPSDbg\AMidiDecoder.obj
+.\WMIPSDbg\AMP3Decoder.obj
+.\WMIPSDbg\AMultiSongDecoder.obj
+.\WMIPSDbg\AMultiSoundDecoder.obj
+.\WMIPSDbg\AQTSongDecoder.obj
+.\WMIPSDbg\AQTSoundDecoder.obj
+.\WMIPSDbg\ASmartSongDecoder.obj
+.\WMIPSDbg\ASmartSoundDecoder.obj
+.\WMIPSDbg\ASong.obj
+.\WMIPSDbg\ASongDecoder.obj
+.\WMIPSDbg\ASound.obj
+.\WMIPSDbg\ASoundAbstract.obj
+.\WMIPSDbg\ASoundDecoder.obj
+.\WMIPSDbg\AWAVDecoder.obj
+]
+Creating command line "link.exe -lib @C:\DOCUME~1\nick\LOCALS~1\Temp\RSP1D.tmp"
+<h3>Output Window</h3>
+Compiling...
+ABMPDecoder.cpp
+E:\src\cpp\portable\ndecoder\ABMPDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+ADecoder.cpp
+E:\src\cpp\portable\ndecoder\ADecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+ADecoderHelper.cpp
+E:\src\cpp\portable\ndecoder\ADecoderHelper.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AGIFDecoder.cpp
+E:\src\cpp\portable\ndecoder\AGIFDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AIFFDecoder.cpp
+E:\src\cpp\portable\ndecoder\AIFFDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AImageDecoder.cpp
+E:\src\cpp\portable\ndecoder\AImageDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AJFIFDecoder.cpp
+E:\src\cpp\portable\ndecoder\AJFIFDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AMovieDecoder.cpp
+E:\src\cpp\portable\ndecoder\AMovieDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AMultiImageDecoder.cpp
+E:\src\cpp\portable\ndecoder\AMultiImageDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AMultiMovieDecoder.cpp
+E:\src\cpp\portable\ndecoder\AMultiMovieDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+APCXDecoder.cpp
+E:\src\cpp\portable\ndecoder\APCXDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AQTDecoderHelper.cpp
+E:\src\cpp\portable\ndecoder\AQTDecoderHelper.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AQTImageDecoder.cpp
+E:\src\cpp\portable\ndecoder\AQTImageDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+AQTMovieDecoder.cpp
+E:\src\cpp\portable\ndecoder\AQTMovieDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+ASmartDecoder.cpp
+E:\src\cpp\portable\ndecoder\ASmartDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+ASmartImageDecoder.cpp
+E:\src\cpp\portable\ndecoder\ASmartImageDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+ASmartMovieDecoder.cpp
+E:\src\cpp\portable\ndecoder\ASmartMovieDecoder.cpp(6) : fatal error C1083: Cannot open include file: 'iostream': No such file or directory
+clmips.exe terminated at user request.
+
+</pre>
+</body>
+</html>

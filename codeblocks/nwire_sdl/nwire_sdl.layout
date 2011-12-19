@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../cpp/javacpp/JApplet.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="178" />
+	</File>
+	<File name="../../cpp/javacpp/JApplet.h" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="30" />
+	</File>
+	<File name="../../cpp/javacpp/JGraphics.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="975" topLine="28" />
+	</File>
+	<File name="../../cpp/javacpp/JThread.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JUrl.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="9" />
+	</File>
+	<File name="../../cpp/javacpp/Model3Dcpp.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="353" />
+	</File>
+	<File name="../../cpp/javacpp/Model3Dcpp.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="46" />
+	</File>
+	<File name="../../cpp/javacpp/ThreeDcpp.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="161" />
+	</File>
+	<File name="../../cpp/javacpp/ThreeDcpp.h" open="0" top="0" tabpos="0">
+		<Cursor position="2171" topLine="27" />
+	</File>
+	<File name="../../cpp/javacpp/javacpp.h" open="0" top="0" tabpos="0">
+		<Cursor position="226" topLine="0" />
+	</File>
+	<File name="../../cpp/nwire.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="13383" topLine="492" />
+	</File>
+	<File name="../../cpp/sdl/nicksdl.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="10557" topLine="345" />
+	</File>
+	<File name="../../cpp/sdl/nicksdl.h" open="0" top="0" tabpos="0">
+		<Cursor position="1513" topLine="26" />
+	</File>
+</CodeBlocks_layout_file>

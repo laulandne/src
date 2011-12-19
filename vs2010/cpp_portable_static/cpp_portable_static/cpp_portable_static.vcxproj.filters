@@ -1,0 +1,624 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx</Extensions>
+    </Filter>
+    <Filter Include="ndecoder">
+      <UniqueIdentifier>{6a12b0a0-ceb7-43c3-ac95-deae4da6dc5e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="netlib">
+      <UniqueIdentifier>{24478083-5064-49b1-9129-416ec8f17441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nick3d">
+      <UniqueIdentifier>{ff5adf84-b0e7-4fd1-926c-c368b8fa3fa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="nickcpp">
+      <UniqueIdentifier>{6e5e90a2-8bbf-4c01-b92c-1b3cae01802f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="soundlib">
+      <UniqueIdentifier>{92d7b2f1-51ba-4a26-ad2a-79adb6ef8278}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ABMPDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ADecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ADecoderHelper.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AGIFDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AIFFDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AImageDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AJFIFDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AMovieDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AMultiImageDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AMultiMovieDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\APCXDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AQTDecoderHelper.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AQTImageDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AQTMovieDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ASmartDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ASmartImageDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ASmartMovieDecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ATGADecoder.cpp">
+      <Filter>ndecoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\netlib\AHost.cpp">
+      <Filter>netlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\netlib\ANetAbstract.cpp">
+      <Filter>netlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\netlib\ANetwork.cpp">
+      <Filter>netlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\netlib\ASocket.cpp">
+      <Filter>netlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\netlib\ASocketNonBlocking.cpp">
+      <Filter>netlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\A3DDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\A3DSDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ABspDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ACamera3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ADXFDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AFace3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AHalfLifeDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ALight3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ALightwaveDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMapDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMatrix3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMayaDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMD2Decoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMD3Decoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMD5Decoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMDLDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMesh3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMeshDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\APart3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\APLGDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ARendererAbstract3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AScene3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ASceneDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ASmartMeshDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ASmartSceneDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ATextCoord3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ATexture3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AVertex3D.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AVRMLDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AWADDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AWavefrontDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AWLDDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AWolf3dDecoder.cpp">
+      <Filter>nick3d</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AAbsRect.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ABitmap.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ABitmapAbstract.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ACell.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AClock.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AColor.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AConvertingBitLine.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ADataSourceAbstract.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ADrawableAbstract.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AError.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AFileInputStream.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AFileOutputStream.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AFrameAbstract.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AGenericNode.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AInputStream.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AList.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AMovie.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ANullStream.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AOutputStream.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\APalette.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\APoint.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ARect.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AStringHelper.cpp">
+      <Filter>nickcpp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\A8SVXDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AAUDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AAudioDevice.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AMidiDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AMP3Decoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AMultiSongDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AMultiSoundDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AQTSongDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AQTSoundDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASmartSongDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASmartSoundDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASong.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASongDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASound.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASoundAbstract.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASoundDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AWAVDecoder.cpp">
+      <Filter>soundlib</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ABMPDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ADecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ADecoderHelper.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AGIFDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AIFFDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AImageDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AJFIFDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AMovieDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AMultiImageDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AMultiMovieDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\APCXDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AQTDecoderHelper.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AQTImageDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AQTMovieDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ASmartDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ASmartImageDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ASmartMovieDecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ATGADecoder.h">
+      <Filter>ndecoder</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\netlib\AHost.h">
+      <Filter>netlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\netlib\ANetAbstract.h">
+      <Filter>netlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\netlib\ANetwork.h">
+      <Filter>netlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\netlib\ASocket.h">
+      <Filter>netlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\netlib\ASocketNonBlocking.h">
+      <Filter>netlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\A3DDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\A3DSDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ABspDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ACamera3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ADXFDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AFace3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AHalfLifeDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ALight3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ALightwaveDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMapDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMatrix3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMayaDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMD2Decoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMD3Decoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMD5Decoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMDLDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMesh3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMeshDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\APart3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\APLGDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ARendererAbstract3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AScene3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ASceneDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ASmartMeshDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ASmartSceneDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ATextCoord3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ATexture3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AVertex3D.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AVRMLDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AWADDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AWavefrontDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AWLDDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AWolf3dDecoder.h">
+      <Filter>nick3d</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AAbsRect.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ABitmap.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ABitmapAbstract.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ACell.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AClock.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AColor.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AConvertingBitLine.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ADataSourceAbstract.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ADirection2d.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ADrawableAbstract.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AError.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AFileInputStream.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AFileOutputStream.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AFrameAbstract.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AGenericNode.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AInputStream.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AList.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AMovie.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ANullStream.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AOutputStream.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\APalette.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\APoint.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ARect.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AStringHelper.h">
+      <Filter>nickcpp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\A8SVXDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AAUDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AAudioDevice.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AMidiDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AMP3Decoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AMultiSongDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AMultiSoundDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AQTSongDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AQTSoundDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASmartSongDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASmartSoundDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASong.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASongDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASound.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASoundAbstract.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASoundDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AWAVDecoder.h">
+      <Filter>soundlib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2BCF5CA9-46EB-4F6F-9D6B-A693E8DD5C78}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>c:\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ASYS_WIN32=1;NICK_USE_GUILIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)nwire_win32.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)nwire_win32.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;ASYS_WIN32=1;NICK_USE_GUILIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <OutputFile>$(OutDir)nwire_win32.exe</OutputFile>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\cpp\nwire.cpp" />
+    <ClCompile Include="nwire_win32.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\cpp\javacpp\JApplet.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\jbox_thing_class.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JColor.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JEvent.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JException.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JFloat.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JGraphics.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JInputStream.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JMath.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JRunnable.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JStream.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JStreamTokenizer.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JSystem.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JThread.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\JUrl.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\Matrix3Dcpp.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\Model3Dcpp.cpp" />
+    <ClCompile Include="..\..\cpp\javacpp\ThreeDcpp.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="nwire_win32.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JApplet.h" />
+    <ClInclude Include="..\..\cpp\javacpp\javacpp.h" />
+    <ClInclude Include="..\..\cpp\javacpp\jbox_thing_class.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JColor.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JEvent.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JException.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JFloat.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JGraphics.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JInputStream.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JMath.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JRunnable.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JStream.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JStreamTokenizer.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JSystem.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JThread.h" />
+    <ClInclude Include="..\..\cpp\javacpp\JUrl.h" />
+    <ClInclude Include="..\..\cpp\javacpp\Matrix3Dcpp.h" />
+    <ClInclude Include="..\..\cpp\javacpp\Model3Dcpp.h" />
+    <ClInclude Include="..\..\cpp\javacpp\ThreeDcpp.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="nwire_win32.ico" />
+    <None Include="small.ico" />
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="nwire_win32.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\cpp_guilib_static\cpp_guilib_static\Debug\cpp_guilib_static.lib" />
+    <Library Include="..\cpp_portable_static\cpp_portable_static\Debug\cpp_portable_static.lib" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

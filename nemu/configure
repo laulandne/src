@@ -1,0 +1,14 @@
+#! /bin/bash
+
+# NOTE: This is just a nasty-hack-placeholder until I learn autoconfig
+# This file is used by multiple projects,
+# When modifying be sure to update central copy!
+
+echo "Configuring..."
+
+
+########################################
+
+./configure_runtime
+./configure_build
+

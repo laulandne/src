@@ -1,0 +1,363 @@
+#! /bin/bash
+
+echo "# Created by configure_runtime" >config.runtime
+
+########################################
+
+TEST=test
+if [ -f /usr/bin/test ]; then
+	TEST=/usr/bin/test
+fi
+if [ -f /usr/local/bin/test ]; then
+	TEST=/usr/local/bin/test
+fi
+
+
+########################################
+
+echo "Going to call config.guess..."
+CONFIG_GUESS=`./config.guess`
+echo "Configuring for host $CONFIG_GUESS"
+echo "CONFIG_GUESS=$CONFIG_GUESS" >>config.runtime
+
+printf "Determining host system release and cpu..."
+CONFIG_GUESS_ALL=`echo $CONFIG_GUESS | tr -d .0-9`
+HOST_SYSTEM=`echo $CONFIG_GUESS_ALL | sed -e 's/.*-.*-\(.*\)/\1/g'`
+HOST_RELEASE=`(uname -r) 2>/dev/null` || HOST_RELEASE=unknown
+HOST_CPU=`(arch) 2>/dev/null` || HOST_CPU=unknown
+if $TEST $HOST_CPU = "unknown" ; then
+  HOST_CPU=`(uname -p) 2>/dev/null` || HOST_CPU=unknown
+fi
+if $TEST $HOST_CPU = "unknown" ; then
+  HOST_CPU=`echo $CONFIG_GUESS | sed -e 's/\(.*\)-.*-.*/\1/g'`
+fi
+HOST_PLATFORM="ASYS_POSIX"
+#
+echo "$HOST_SYSTEM $HOST_RELEASE $HOST_CPU"
+
+
+########################################
+
+printf "Checking for Unix, Windows or Mac host..."
+DONT_USE_DEV_NULL=0
+UNIX_HOST=yes
+WIN_HOST=no
+MAC_HOST=no
+if $TEST $HOST_SYSTEM = "darwin" ; then
+  MAC_HOST=yes
+fi
+if $TEST $HOST_SYSTEM = "cygwin" ; then
+  DONT_USE_DEV_NULL=1
+  UNIX_HOST=no
+  WIN_HOST=yes
+fi
+if $TEST $HOST_SYSTEM = "mingw" ; then
+  DONT_USE_DEV_NULL=1
+  UNIX_HOST=no
+  WIN_HOST=yes
+fi
+if $TEST $HOST_SYSTEM = "microsoft" ; then
+  DONT_USE_DEV_NULL=1
+  UNIX_HOST=no
+  WIN_HOST=yes
+fi
+if $TEST $HOST_SYSTEM = "machten" ; then
+  DONT_USE_DEV_NULL=1
+fi
+if $TEST $HOST_SYSTEM = "nextstep" ; then
+  DONT_USE_DEV_NULL=1
+fi
+if $TEST $HOST_SYSTEM = "rhapsody" ; then
+  DONT_USE_DEV_NULL=1
+fi
+if $TEST $HOST_SYSTEM = "openstep" ; then
+  DONT_USE_DEV_NULL=1
+fi
+if $TEST $HOST_SYSTEM = "freebsd" ; then
+  DONT_USE_DEV_NULL=1
+  UNIX_HOST=yes
+  WIN_HOST=no
+fi
+#
+echo "UNIX_HOST=$UNIX_HOST" >>config.runtime
+echo "WIN_HOST=$WIN_HOST" >>config.runtime
+echo "MAC_HOST=$MAC_HOST" >>config.runtime
+echo "$UNIX_HOST, $WIN_HOST and $MAC_HOST"
+
+
+########################################
+
+if $TEST $UNIX_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+echo "Checking xdpyinfo..."
+xdpyinfo >xdpyinfo.out
+HOST_XEXT_GLX=`grep \ GLX xdpyinfo.out`
+if ! $TEST 0$HOST_XEXT_GLX = "0" ; then
+  HOST_XEXT_GLX=yes
+fi
+HOST_ATIFGLEXTENSION=`grep ATIFGLEXTENSION xdpyinfo.out`
+if ! $TEST 0$HOST_ATIFGLEXTENSION = "0" ; then
+  HOST_ATIFGLEXTENSION=yes
+fi
+HOST_GLX_ATI=`grep ATI-GLX xdpyinfo.out`
+if ! $TEST 0$HOST_GLX_ATI = "0" ; then
+  HOST_GLX_ATI=yes
+fi
+HOST_GLX_NVIDIA=`grep NV-GLX xdpyinfo.out`
+if ! $TEST 0$HOST_GLX_NVIDIA = "0" ; then
+  HOST_GLX_NVIDIA=yes
+fi
+HOST_GLX_SGI=`grep SGI-GLX xdpyinfo.out`
+if ! $TEST 0$HOST_GLX_SGI = "0" ; then
+  HOST_GLX_SGI=yes
+fi
+HOST_DRI2=`grep DRI2 xdpyinfo.out`
+if ! $TEST 0$HOST_DRI2 = "0" ; then
+  HOST_DRI2=yes
+fi
+HOST_XFREE86DRI=`grep XFree86-DRI xdpyinfo.out`
+if ! $TEST 0$HOST_XFREE86DRI = "0" ; then
+  HOST_XFREE86DRI=yes
+fi
+HOST_ATIFGLRXDRI=`grep ATIFGLRXDRI xdpyinfo.out`
+if ! $TEST 0$HOST_ATIFGLRXDRI = "0" ; then
+  HOST_ATIFGLRXDRI=yes
+fi
+HOST_APPLEDRI=`grep Apple-DRI xdpyinfo.out`
+if ! $TEST 0$HOST_APPLEDRI = "0" ; then
+  HOST_APPLEDRI=yes
+fi
+echo "Checking glxinfo..."
+glxinfo >glxinfo.out
+OPENGL_SERVERVENDOR=`grep "server glx vendor string" glxinfo.out`
+OPENGL_SERVERVERSION=`grep "server glx version string" glxinfo.out`
+OPENGL_CLIENTVENDOR=`grep "client glx vendor string" glxinfo.out`
+OPENGL_CLIENTVERSION=`grep "client glx version string" glxinfo.out`
+OPENGL_GLXVERSION=`grep "GLX version" glxinfo.out`
+OPENGL_GLVENDOR=`grep "OpenGL vendor string" glxinfo.out`
+OPENGL_GLVERSION=`grep "OpenGL version string" glxinfo.out`
+OPENGL_RENDERER=`grep "OpenGL renderer string" glxinfo.out`
+OPENGL_SHADING=`grep "OpenGL shading language version string" glxinfo.out`
+OPENGL_DIRECT_RENDERING=`grep "direct rendering: Yes" glxinfo.out`
+if ! $TEST 0$OPENGL_DIRECT_RENDERING = "0" ; then
+  OPENGL_DIRECT_RENDERING=yes
+fi
+echo "Checking glewinfo..."
+glewinfo >glewinfo.out
+# TODO: look at ouput
+echo "Checking xvinfo..."
+xvinfo >xvinfo.out
+# TODO: look at ouput
+echo "Checking visualinfo..."
+visualinfo >visualinfo.out
+# TODO: look at ouput
+echo "Checking xdriinfo..."
+XDRIINFO=`xdriinfo`
+#
+echo "HOST_XEXT_GLX=$HOST_XEXT_GLX" >>config.runtime
+echo "HOST_GLX_SGI=$HOST_GLX_SGI" >>config.runtime
+echo "HOST_GLX_NVIDIA=$HOST_GLX_NVIDIA" >>config.runtime
+echo "HOST_GLX_ATI=$HOST_GLX_ATI" >>config.runtime
+echo "HOST_ATIFGLEXTENSION=$HOST_ATIFGLEXTENSION" >>config.runtime
+echo "HOST_DRI2=$HOST_DRI2" >>config.runtime
+echo "HOST_XFREE86DRI=$HOST_XFREE86DRI" >>config.runtime
+echo "HOST_ATIFGLRXDRI=$HOST_ATIFGLRXDRI" >>config.runtime
+echo "HOST_APPLEDRI=$HOST_APPLEDRI" >>config.runtime
+echo "OPENGL_DIRECT_RENDERING=$OPENGL_DIRECT_RENDERING" >>config.runtime
+#echo "OPENGL_SERVERVENDOR=$OPENGL_SERVERVENDOR" >>config.runtime
+#echo "OPENGL_SERVERVERSION=$OPENGL_SERVERVERSION" >>config.runtime
+#echo "OPENGL_CLIENTVENDOR=$OPENGL_CLIENTVENDOR" >>config.runtime
+#echo "OPENGL_CLIENTVERSION=$OPENGL_CLIENTVERSION" >>config.runtime
+#echo "OPENGL_GLVENDOR=$OPENGL_GLVENDOR" >>config.runtime
+#echo "OPENGL_GLVERSION=$OPENGL_GLVERSION" >>config.runtime
+#echo "OPENGL_GLXVERSION=$OPENGL_GLXVERSION" >>config.runtime
+#echo "OPENGL_RENDERER=$OPENGL_RENDERER" >>config.runtime
+#echo "OPENGL_SHADING=$OPENGL_SHADING" >>config.runtime
+#echo "XDRIINFO=$XDRIINFO" >>config.runtime
+fi
+fi
+
+
+DRI_OPINION="broken"
+if $TEST $HOST_XFREE86DRI ; then
+  echo "NOTE: Found DRI..."
+  DRI_OPINION="DRI"
+fi
+if $TEST $HOST_DRI2 ; then
+  echo "NOTE: Found DRI2..."
+  DRI_OPINION="DRI2"
+fi
+if $TEST $HOST_APPLEDRI ; then
+  echo "NOTE: Found Apple DRI..."
+  DRI_OPINION="apple"
+fi
+GLX_OPINION="standard"
+HARDWARE_OPINION="none"
+TEST_INTEL=`grep Intel glxinfo.out`
+TEST_SOFT=`grep Software glxinfo.out`
+TEST_TUNGSTEN=`grep Tungsten glxinfo.out`
+#TEST_NVIDIA=`grep NVIDIA glxinfo.out`
+TEST_MESA_DRI=`grep Mesa\ DRI glxinfo.out`
+TEST_GEM=`grep GEM glxinfo.out`
+if $TEST $HOST_GLX_SGI ; then
+  echo "NOTE: Found SGI GLX..."
+  GLX_INFO=sgi_software
+fi
+if $TEST "$TEST_INTEL" ; then
+  echo "NOTE: Found Intel 3D hardware..."
+  HARDWARE_OPINION="intel"
+fi
+if $TEST $HOST_GLX_NVIDIA ; then
+  echo "NOTE: Found NVIDIA GLX..."
+  HARDWARE_OPINION="nvidia"
+  GLX_OPINION="nvidia"
+fi
+if $TEST "$TEST_NVIDIA" ; then
+  echo "NOTE: Found NVIDIA..."
+  HARDWARE_OPINION="nvidia"
+fi
+if ! $TEST $HOST_XEXT_GLX ; then
+  echo "NOTE: No GLX..."
+  GLX_OPINION="broken"
+fi
+rm fglrxinfo.out
+if $TEST $HOST_GLX_ATI ; then
+  echo "NOTE: Found ATI GLX..."
+  HARDWARE_OPINION="ati"
+  GLX_OPINION="ati"
+  echo "Checking fglrxinfo..."
+  fglrxinfo >fglrxinfo.out
+  # TODO: Look at the output for useful info...
+  if ! $TEST $HOST_ATIFGLEXTENSION ; then
+    echo "NOTE: No ATIFGL..."
+    GLX_OPINION="ati_broken"
+  fi
+  if ! $TEST $HOST_ATIFGLRXDRI ; then
+    echo "NOTE: No ATIFGLDRI..."
+    DRI_OPINION="ati_broken"
+  fi
+fi
+if $TEST "$TEST_TUNGSTEN" ; then
+  echo "NOTE: Found Tunsten..."
+  GLX_OPINION="tungsten"
+  # TODO: Check hardware string and set hardware_opinion...we don't have
+  # the vendor's drivers, but we do have tungsten support (old ati, etc)
+fi
+if $TEST "$TEST_SOFT" ; then
+  echo "NOTE: Found Software..."
+  GLX_OPINION="software_only"
+fi
+echo "HARDWARE_OPINION=$HARDWARE_OPINION" >>config.runtime
+echo "DRI_OPINION=$DRI_OPINION" >>config.runtime
+echo "GLX_OPINION=$GLX_OPINION" >>config.runtime
+#echo "TEST_INTEL=$TEST_INTEL" >>config.runtime
+#echo "TEST_SOFT=$TEST_SOFT" >>config.runtime
+#echo "TEST_TUNGSTEN=$TEST_TUNGSTEN" >>config.runtime
+#echo "TEST_MESA_DRI=$TEST_MESA_DRI" >>config.runtime
+#echo "TEST_GEM=$TEST_GEM" >>config.runtime
+
+
+########################################
+
+# Should test path, for example for darwin fink /sw
+if $TEST $UNIX_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+printf "Checking for djpeg..."
+if $TEST -e /usr/bin/djpeg ; then
+  HOST_DJPEG=yes
+  echo "yes"
+else
+  echo "no"
+fi
+#
+echo "HOST_DJPEG=$HOST_DJPEG" >>config.runtime
+fi
+fi
+
+
+# Should test path, for example for darwin fink /sw
+if $TEST $UNIX_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+printf "Checking for anytopnm..."
+if $TEST -e /usr/bin/anytopnm ; then
+  HOST_ANYTOPNM=yes
+  echo "yes"
+else
+  echo "no"
+fi
+#
+echo "HOST_ANYTOPNM=$HOST_ANYTOPNM" >>config.runtime
+fi
+fi
+
+
+if $TEST $WIN_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+printf "Checking for Cygwin..."
+if $TEST -e /usr/bin/cygwin1.dll ; then 
+  echo "yes"
+  HOST_PLATFORM="ASYS_WIN32"
+  HOST_SYSTEM="cygwin"
+else
+  echo "no"
+fi
+printf "Checking for Mingw32..."
+if $TEST -e /bin/msys-1.0.dll ; then 
+  echo "yes"
+  HOST_PLATFORM="ASYS_WIN32"
+  HOST_SYSTEM="mingw32"
+else
+  echo "no"
+fi
+fi
+fi
+
+
+########################################
+
+# TODO: Should we use PREFIX here?  We only care about the host's java?
+PREFIX=/usr
+printf "Checking the JDK..."
+if $TEST -e /jdk1.3 ; then 
+  JDK_PATH="/jdk1.3"
+fi
+if $TEST -e /java ; then 
+  JDK_PATH="/java"
+fi
+if $TEST -e ${PREFIX}/jdk ; then 
+  JDK_PATH="/usr/jdk"
+fi
+if $TEST -e ${PREFIX}/java ; then 
+  JDK_PATH="/usr/java"
+fi
+if $TEST -e ${PREFIX}/lib/java ; then 
+  JDK_PATH="/usr/lib/java"
+fi
+if $TEST -e ${PREFIX}/lib/jvm ; then 
+  JDK_PATH="/usr/lib/jvm"
+fi
+if $TEST -e /System/Library/Frameworks/JavaVM.framework ; then 
+  JDK_PATH="/System/Library/Frameworks/JavaVM.framework"
+fi
+if $TEST -e ${PREFIX}/local/wabasdk ; then 
+  WABA_PATH="/usr/local/wabasdk"
+fi
+#
+echo "JDK_PATH=$JDK_PATH" >>config.runtime
+echo "WABA_PATH=$WABA_PATH" >>config.runtime
+echo "$JDK_PATH"
+
+
+########################################
+
+echo "HOST_CPU=$HOST_CPU" >>config.runtime
+echo "HOST_SYSTEM=$HOST_SYSTEM" >>config.runtime
+echo "HOST_RELEASE=$HOST_RELEASE" >>config.runtime
+echo "HOST_PLATFORM=$HOST_PLATFORM" >>config.runtime
+
+
+########################################
+
+echo "done."
+
+

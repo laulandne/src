@@ -1,0 +1,555 @@
+#! /bin/bash
+
+echo "# Machine gnereated - created by configure_build" >config.build
+
+########################################
+
+# Normal stuff...
+JNI="no"
+SHAREDLIBS="no"
+#TINY="yes"
+#TEENY="yes"
+#CROSS=$CC
+#MSVC="yes"
+#CROSS=winegcc
+#CROSS=x86_64-unknown-linux
+#CROSS="cc65-2.3.1/cc65/cc65"
+#CROSSAS="cc65-2.3.1/binutils/ca65/ca65"
+
+
+########################################
+
+echo "CROSS=$CROSS" >>config.build
+echo "CROSSAS=$CROSSAS" >>config.build
+echo "TINY=$TINY" >>config.build
+echo "TEENY=$TEENY" >>config.build
+echo "JNI=$JNI" >>config.build
+echo "SHAREDLIBS=$SHAREDLIBS" >>config.build
+
+
+########################################
+
+# We'll prefer /usr/local/bin/test if it's there
+# (Because that should be the GNU version on non-GNU systems)
+TEST=test
+if [ -f /usr/bin/test ]; then
+	TEST=/usr/bin/test
+fi
+if [ -f /usr/local/bin/test ]; then
+	TEST=/usr/local/bin/test
+fi
+
+
+########################################
+
+CPREFIX=
+PREFIX=/usr$CPREFIX
+if $TEST -n "$CROSS" ; then
+  echo "Configuring for target $CROSS"
+  CPREFIX=${CROSS}-
+  PREFIX=/usr/local/$CROSS
+fi
+echo "CPREFIX=$CPREFIX" >>config.build
+echo "PREFIX=$PREFIX" >>config.build
+
+
+########################################
+
+echo "Going to call config.guess..."
+CONFIG_GUESS=`./config.guess`
+echo "Configuring for host $CONFIG_GUESS"
+echo "CONFIG_GUESS=$CONFIG_GUESS" >>config.build
+
+printf "Determining host system release and cpu..."
+CONFIG_GUESS_ALL=`echo $CONFIG_GUESS | tr -d .0-9`
+HOST_SYSTEM=`echo $CONFIG_GUESS_ALL | sed -e 's/.*-.*-\(.*\)/\1/g'`
+HOST_RELEASE=`(uname -r) 2>/dev/null` || HOST_RELEASE=unknown
+HOST_CPU=`(arch) 2>/dev/null` || HOST_CPU=unknown
+if $TEST $HOST_CPU = "unknown" ; then
+  HOST_CPU=`(uname -p) 2>/dev/null` || HOST_CPU=unknown
+fi
+if $TEST $HOST_CPU = "unknown" ; then
+  HOST_CPU=`echo $CONFIG_GUESS | sed -e 's/\(.*\)-.*-.*/\1/g'`
+fi
+HOST_PLATFORM="ASYS_POSIX"
+#
+echo "$HOST_SYSTEM $HOST_RELEASE $HOST_CPU"
+
+# NOTE: Order is important here, with more prefered going later...
+printf "Checking for X11..."
+X11_DIR="no"
+if $TEST -f ${PREFIX}/include/X11/X.h ; then 
+  HOST_PLATFORM="ASYS_X11"
+  X11_DIR=/usr
+fi
+if $TEST -f ${PREFIX}/openwin/include/X11/X.h ; then 
+  HOST_PLATFORM="ASYS_X11"
+  X11_DIR=/usr/openwin
+fi
+if $TEST -f ${PREFIX}/X11/include/X11/X.h ; then 
+  HOST_PLATFORM="ASYS_X11"
+  X11_DIR=/usr/X11
+fi
+if $TEST -f ${PREFIX}/X11R6/include/X11/X.h ; then 
+  HOST_PLATFORM="ASYS_X11"
+  X11_DIR=/usr/X11R6
+fi
+#
+echo "X11_DIR=$X11_DIR" >>config.build
+echo "$X11_DIR"
+
+
+########################################
+
+printf "Checking for Unix, Windows, or Mac host..."
+DONT_USE_DEV_NULL=0
+UNIX_HOST=yes
+WIN_HOST=no
+MAC_HOST=no
+if $TEST $HOST_SYSTEM = "darwin" ; then
+  MAC_HOST=yes
+  if $TEST 0$DISPLAY = "0" ; then
+    #echo "Mac picking carbon..."
+    HOST_PLATFORM="ASYS_CARBON"
+  else
+    #echo "Mac picking x11..."
+    HOST_PLATFORM="ASYS_X11"
+  fi
+fi
+if $TEST $HOST_SYSTEM = "cygwin" ; then
+  DONT_USE_DEV_NULL=1
+  UNIX_HOST=no
+  WIN_HOST=yes
+  HOST_PLATFORM="ASYS_WIN32"
+fi
+if $TEST $HOST_SYSTEM = "mingw" ; then
+  DONT_USE_DEV_NULL=1
+  UNIX_HOST=no
+  WIN_HOST=yes
+  HOST_PLATFORM="ASYS_WIN32"
+fi
+if $TEST $HOST_SYSTEM = "microsoft" ; then
+  DONT_USE_DEV_NULL=1
+  UNIX_HOST=no
+  WIN_HOST=yes
+  HOST_PLATFORM="ASYS_WIN32"
+fi
+if $TEST $HOST_SYSTEM = "machten" ; then
+  DONT_USE_DEV_NULL=1
+fi
+if $TEST $HOST_SYSTEM = "nextstep" ; then
+  DONT_USE_DEV_NULL=1
+fi
+if $TEST $HOST_SYSTEM = "rhapsody" ; then
+  DONT_USE_DEV_NULL=1
+fi
+if $TEST $HOST_SYSTEM = "openstep" ; then
+  DONT_USE_DEV_NULL=1
+fi
+if $TEST $HOST_SYSTEM = "freebsd" ; then
+  DONT_USE_DEV_NULL=1
+  UNIX_HOST=yes
+  WIN_HOST=no
+fi
+#
+echo "UNIX_HOST=$UNIX_HOST" >>config.build
+echo "WIN_HOST=$WIN_HOST" >>config.build
+echo "MAC_HOST=$MAC_HOST" >>config.build
+echo "$UNIX_HOST, $WIN_HOST and $MAC_HOST"
+
+
+########################################
+
+printf "Checking for compilers..."
+if $TEST $CC ; then
+  echo "CC already defined"
+else
+CCUCVER=`(${CPREFIX}CC -v 2>/dev/null) && echo yes`
+CLVER=`(${CPREFIX}cl 2>/dev/null) && echo yes`
+GPPVER=`(${CPREFIX}g++ -v 2>/dev/null) && echo yes`
+CPPVER=`(${CPREFIX}c++ -v 2>/dev/null) && echo yes`
+CCVER=`(${CPREFIX}gcc -v 2>/dev/null) && echo yes`
+CCVER=`(${CPREFIX}cc -v 2>/dev/null) && echo yes`
+CC="none"
+if $TEST $CCVER ; then
+  CC="cc"
+fi
+if $TEST $CCUCVER ; then
+  CC="CC"
+fi
+if $TEST $CCVER ; then
+  CC="gcc"
+fi
+if $TEST "$CLVER" ; then
+  CC="cl"
+fi
+if $TEST $CPPVER ; then
+  CC="c++"
+fi
+if $TEST $GPPVER ; then
+  CC="g++"
+fi
+fi
+if $TEST $CC = "none" ; then
+  echo " "
+  echo "No C++ compiler found, giving up."
+  exit 5
+fi
+#
+echo "CC=$CC" >>config.build
+echo "MSVC=$MSVC" >>config.build
+echo "$CC"
+
+
+# TODO: Check that if we find make, it is gnu
+printf "Checking which version of make you have..."
+MAKE="none"
+DMAKEVER=`(dmake -v >/dev/null 2>/dev/null) && echo yes`
+MAKEVER=`(make -v >/dev/null 2>/dev/null) && echo yes`
+CMAKEVER=`(cmake -v >/dev/null 2>/dev/null) && echo yes`
+GMAKEVER=`(gmake -v >/dev/null 2>/dev/null) && echo yes`
+GNUMAKEVER=`(gnumake -v >/dev/null 2>/dev/null) && echo yes`
+
+if $TEST $DMAKEVER ; then
+  MAKE="dmake"
+fi
+if $TEST $MAKEVER ; then
+  MAKE="make"
+fi
+if $TEST $CMAKEVER ; then
+  MAKE="cmake"
+fi
+if $TEST $GMAKEVER ; then
+  MAKE="gmake"
+fi
+if $TEST $GNUMAKEVER ; then
+  MAKE="gnumake"
+fi
+if $TEST $MAKE = "none" ; then
+  echo " "
+  echo "No Make utility found, giving up."
+  exit 5
+fi
+#
+#echo "MAKE=$MAKE" >>config.build
+echo "$MAKE"
+
+
+########################################
+
+# NOTE: Not finished obviously...doesn't actually work, in progress...
+if $TEST $UNIX_HOST = "yes" ; then
+MULTI_LIB=no
+LIB_DIR=lib
+echo "Checking for lib64 on 64-bit host systems..."
+if $TEST -d ${PREFIX}/lib ; then 
+  echo "/usr/lib is a directory!"
+fi
+if $TEST -h ${PREFIX}/lib ; then 
+  echo "/usr/lib is a symlink!"
+fi
+if $TEST -d ${PREFIX}/lib32 ; then 
+  echo "/usr/lib32 is a directory!"
+fi
+if $TEST -h ${PREFIX}/lib32 ; then 
+  echo "/usr/lib32 is a symlink!"
+fi
+if $TEST -d ${PREFIX}/lib64 ; then 
+  echo "/usr/lib64 is a directory!"
+fi
+if $TEST -h ${PREFIX}/lib64 ; then 
+  echo "/usr/lib64 is a symlink!"
+fi
+#
+echo "MULTI_LIB=$MULTI_LIB" >>config.build
+echo "LIB_DIR=$LIB_DIR" >>config.build
+fi
+
+
+########################################
+
+OPENGL_GLU_H=
+OPENGL_GLX_H=
+printf "Checking for /usr/include/GL/glx.h..."
+if $TEST -e /usr/include/GL/glx.h ; then 
+  OPENGL_GLX_H=/usr/include/GL/glx.h
+  echo /usr/include/GL/glx.h
+else
+  echo no
+fi
+printf "Checking for /usr/X11/include/GL/glx.h..."
+if $TEST -e /usr/X11/include/GL/glx.h ; then 
+  OPENGL_GLX_H=/usr/X11/include/GL/glx.h
+  echo /usr/X11/include/GL/glx.h
+else
+  echo no
+fi
+printf "Checking for /usr/include/GL/glu.h..."
+if $TEST -e /usr/include/GL/glu.h ; then 
+  OPENGL_GLU_H=/usr/include/GL/glu.h
+  echo /usr/include/GL/glu.h
+else
+  echo no
+fi
+printf "Checking for /usr/X11/include/GL/glu.h..."
+if $TEST -e /usr/X11/include/GL/glu.h ; then 
+  OPENGL_GLU_H=/usr/X11/include/GL/glu.h
+  echo /usr/X11/include/GL/glu.h
+else
+  echo no
+fi
+#
+echo "OPENGL_GLX_H=$OPENGL_GLX_H" >>config.runtime
+echo "OPENGL_GLU_H=$OPENGL_GLU_H" >>config.runtime
+
+
+########################################
+
+if $TEST $HOST_SYSTEM = "amigaos" ; then
+  MAKE="make"
+  CC="gnu"
+  DONT_USE_DEV_NULL="1"
+  HOST_PLATFORM="ASYS_AMIGA"
+fi
+
+if $TEST $WIN_HOST = "yes" ; then
+printf "Checking for Win32..."
+if $TEST -f ${PREFIX}/include/windows.h ; then 
+  HOST_PLATFORM="ASYS_WIN32"
+  echo "yes"
+else
+  echo "no"
+fi
+fi
+
+
+if $TEST $UNIX_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+printf "Checking for GTK+-2.0..."
+GTK2_VERSION=`pkg-config gtk+-2.0 --version`
+if $TEST GTK2_VERSION ; then
+#  HOST_PLATFORM="ASYS_GNOME"
+  echo $GTK2_VERSION
+else
+  echo "no"
+fi
+echo "GTK2_VERSION=$GTK2_VERSION" >>config.build
+fi
+fi
+
+
+if $TEST $UNIX_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+printf "Checking for FLTK..."
+FLTK_VERSION=`fltk-config --version`
+if $TEST FLTK_VERSION ; then
+#  HOST_PLATFORM="ASYS_FLTK"
+  echo $FLTK_VERSION
+else
+  echo "no"
+fi
+echo "FLTK_VERSION=$FLTK_VERSION" >>config.build
+fi
+fi
+
+
+if $TEST $UNIX_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+printf "Checking for SDL..."
+SDL_VERSION=`sdl-config --version`
+if $TEST SDL_VERSION ; then
+#  HOST_PLATFORM="ASYS_SDL"
+  echo $SDL_VERSION
+else
+  echo "no"
+fi
+echo "SDL_VERSION=$SDL_VERSION" >>config.build
+fi
+fi
+
+
+if $TEST $WIN_HOST = "yes" ; then
+printf "Checking for MSVC..."
+if $TEST "$MSVCDIR" ; then
+  echo "yes"
+  HOST_PLATFORM="ASYS_WIN32"
+  HOST_SYSTEM="microsoft"
+else
+  echo "no"
+fi
+fi
+
+
+if $TEST $MAC_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+printf "Checking for Cocoa..."
+COCOA_DIR="no"
+if $TEST -d /System/Library/Frameworks/Cocoa.framework ; then 
+  HOST_PLATFORM="ASYS_COCOA"
+  COCOA_DIR=/System/Library/Frameworks/Cocoa.framework
+fi
+echo "COCOA_DIR=$COCOA_DIR" >>config.build
+echo "$COCOA_DIR"
+fi
+fi
+
+
+if $TEST $MAC_HOST = "yes" ; then
+if $TEST 0$CROSS="0" ; then
+printf "Checking for Carbon..."
+CARBON_DIR="no"
+if $TEST -d /System/Library/Frameworks/Carbon.framework ; then 
+  HOST_PLATFORM="ASYS_CARBON"
+  CARBON_DIR=/System/Library/Frameworks/Carbon.framework
+fi
+echo "CARBON_DIR=$CARBON_DIR" >>config.build
+echo "$CARBON_DIR"
+fi
+fi
+
+
+BUILD_BUNDLE=no
+if $TEST $HOST_PLATFORM = "ASYS_COCOA" ; then
+  BUILD_BUNDLE=yes
+fi
+if $TEST $HOST_PLATFORM = "ASYS_CARBON" ; then
+  BUILD_BUNDLE=yes
+fi
+echo "BUILD_BUNDLE=$BUILD_BUNDLE" >>config.build
+
+
+########################################
+
+if $TEST $MAC_HOST = "yes" ; then
+printf "Checking for Mac devtools..."
+if $TEST -d /Developer/Tools ; then 
+  REZ_TOOLPATH="/Developer/Tools"
+  echo "yes"
+else
+  echo "no"
+fi
+echo "REZ_TOOLPATH=$REZ_TOOLPATH" >>config.build
+fi
+
+
+if $TEST $UNIX_HOST = "yes" ; then
+printf "Checking for Solaris devtools..."
+if $TEST -d /usr/ccs ; then 
+  CCS_TOOLPATH="/usr/ccs"
+  echo "yes"
+else
+  echo "no"
+fi
+echo "CCS_TOOLPATH=$CCS_TOOLPATH" >>config.build
+fi
+
+
+#if $TEST $UNIX_HOST = "yes" ; then
+echo "Checking for iPhone toolchain..."
+if $TEST -d /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin ; then 
+  TOOLCHAIN_IPHONE="/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin"
+fi
+if $TEST -d /toolchain ; then 
+  TOOLCHAIN_IPHONE="/toolchain/pre"
+fi
+echo "Checking for iPhone sdk..."
+if $TEST -d /Developer/Platforms/iPhoneOS.platform/Developer/SDKs ; then 
+  TOOLCHAIN_ISDK="/Developer/Platforms/iPhoneOS.platform/Developer/SDKs"
+fi
+echo "TOOLCHAIN_IPHONE=$TOOLCHAIN_IPHONE" >>config.build
+echo "TOOLCHAIN_ISDK=$TOOLCHAIN_ISDK" >>config.build
+#fi
+
+
+printf "Checking for curses..."
+if $TEST -e ${PREFIX}/include/curses.h ; then 
+  CURSES_PATH="${PREFIX}/include"
+fi
+if $TEST -e ${PREFIX}/include/ncurses.h ; then 
+  CURSES_PATH="${PREFIX}/include"
+fi
+echo "CURSES_PATH=$CURSES_PATH" >>config.build
+echo "$CURSES_PATH"
+
+
+########################################
+
+# TODO: Should we use PREFIX here?  We only care about the host's java?
+PREFIX=/usr
+printf "Checking the JDK..."
+if $TEST -e /jdk1.3 ; then 
+  JDK_PATH="/jdk1.3"
+fi
+if $TEST -e /java ; then 
+  JDK_PATH="/java"
+fi
+if $TEST -e ${PREFIX}/jdk ; then 
+  JDK_PATH="/usr/jdk"
+fi
+if $TEST -e ${PREFIX}/java ; then 
+  JDK_PATH="/usr/java"
+fi
+if $TEST -e ${PREFIX}/lib/java ; then 
+  JDK_PATH="/usr/lib/java"
+fi
+if $TEST -e ${PREFIX}/lib/jvm ; then 
+  JDK_PATH="/usr/lib/jvm"
+fi
+if $TEST -e /System/Library/Frameworks/JavaVM.framework ; then 
+  JDK_PATH="/System/Library/Frameworks/JavaVM.framework"
+fi
+if $TEST -e ${PREFIX}/local/wabasdk ; then 
+  WABA_PATH="/usr/local/wabasdk"
+fi
+#
+echo "JDK_PATH=$JDK_PATH" >>config.runtime
+echo "WABA_PATH=$WABA_PATH" >>config.runtime
+echo "$JDK_PATH"
+
+
+########################################
+
+echo "HOST_CPU=$HOST_CPU" >>config.build
+echo "HOST_SYSTEM=$HOST_SYSTEM" >>config.build
+echo "HOST_RELEASE=$HOST_RELEASE" >>config.build
+echo "HOST_PLATFORM=$HOST_PLATFORM" >>config.build
+
+
+# TODO: Crack $CROSS into cpu/system/release/platform
+if $TEST -n "$CROSS" ; then
+  echo "TARGET_CPU=unknown" >>config.build
+  echo "TARGET_SYSTEM=unknown" >>config.build
+  echo "TARGET_RELEASE=unknown" >>config.build
+else
+  echo "TARGET_CPU=$HOST_CPU" >>config.build
+  echo "TARGET_SYSTEM=$HOST_SYSTEM" >>config.build
+  echo "TARGET_RELEASE=$HOST_RELEASE" >>config.build
+fi
+
+if $TEST $TARGET_PLATFORM ; then
+  echo "TARGET_PLATFORM already defined"
+else
+  echo "Picking TARGET_PLATFORM=$HOST_PLATFORM"
+  echo "TARGET_PLATFORM=$HOST_PLATFORM" >>config.build
+fi
+
+
+########################################
+
+printf "Building dependencies...please wait..."
+if $TEST $DONT_USE_DEV_NULL = "1"  ; then
+  if $TEST $MAC_HOST = "yes" ; then
+    $MAKE -ik fix
+  fi
+  $MAKE -ik remove_depends
+  $MAKE -ik depend
+else
+  if $TEST $MAC_HOST = "yes" ; then
+    $MAKE >&/dev/null -ik fix
+  fi
+  $MAKE >&/dev/null -ik remove_depends
+  $MAKE >&/dev/null -ik depend
+fi
+
+echo "done."
+

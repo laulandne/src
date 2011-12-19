@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{1FF3F8A6-10BB-412F-9A4B-495810BF6FF1}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>c:\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)cpp_portable_static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>c:\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)cpp_portable_static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ABMPDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ADecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ADecoderHelper.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AGIFDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AIFFDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AImageDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AJFIFDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AMovieDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AMultiImageDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AMultiMovieDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\APCXDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AQTDecoderHelper.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AQTImageDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\AQTMovieDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ASmartDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ASmartImageDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ASmartMovieDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\ndecoder\ATGADecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\netlib\AHost.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\netlib\ANetAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\netlib\ANetwork.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\netlib\ASocket.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\netlib\ASocketNonBlocking.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\A3DDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\A3DSDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ABspDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ACamera3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ADXFDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AFace3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AHalfLifeDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ALight3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ALightwaveDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMapDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMatrix3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMayaDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMD2Decoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMD3Decoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMD5Decoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMDLDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMesh3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AMeshDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\APart3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\APLGDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ARendererAbstract3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AScene3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ASceneDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ASmartMeshDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ASmartSceneDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ATextCoord3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\ATexture3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AVertex3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AVRMLDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AWADDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AWavefrontDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AWLDDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nick3d\AWolf3dDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AAbsRect.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ABitmap.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ABitmapAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ACell.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AClock.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AColor.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AConvertingBitLine.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ADataSourceAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ADrawableAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AError.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AFileInputStream.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AFileOutputStream.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AFrameAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AGenericNode.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AInputStream.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AList.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AMovie.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ANullStream.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AOutputStream.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\APalette.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\APoint.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\ARect.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\nickcpp\AStringHelper.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\A8SVXDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AAUDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AAudioDevice.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AMidiDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AMP3Decoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AMultiSongDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AMultiSoundDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AQTSongDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AQTSoundDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASmartSongDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASmartSoundDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASong.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASongDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASound.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASoundAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\ASoundDecoder.cpp" />
+    <ClCompile Include="..\..\..\cpp\portable\soundlib\AWAVDecoder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ABMPDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ADecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ADecoderHelper.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AGIFDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AIFFDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AImageDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AJFIFDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AMovieDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AMultiImageDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AMultiMovieDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\APCXDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AQTDecoderHelper.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AQTImageDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\AQTMovieDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ASmartDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ASmartImageDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ASmartMovieDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\ndecoder\ATGADecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\netlib\AHost.h" />
+    <ClInclude Include="..\..\..\cpp\portable\netlib\ANetAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\portable\netlib\ANetwork.h" />
+    <ClInclude Include="..\..\..\cpp\portable\netlib\ASocket.h" />
+    <ClInclude Include="..\..\..\cpp\portable\netlib\ASocketNonBlocking.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\A3DDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\A3DSDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ABspDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ACamera3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ADXFDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AFace3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AHalfLifeDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ALight3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ALightwaveDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMapDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMatrix3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMayaDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMD2Decoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMD3Decoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMD5Decoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMDLDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMesh3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AMeshDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\APart3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\APLGDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ARendererAbstract3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AScene3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ASceneDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ASmartMeshDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ASmartSceneDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ATextCoord3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\ATexture3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AVertex3D.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AVRMLDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AWADDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AWavefrontDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AWLDDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nick3d\AWolf3dDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AAbsRect.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ABitmap.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ABitmapAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ACell.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AClock.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AColor.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AConvertingBitLine.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ADataSourceAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ADirection2d.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ADrawableAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AError.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AFileInputStream.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AFileOutputStream.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AFrameAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AGenericNode.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AInputStream.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AList.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AMovie.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ANullStream.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AOutputStream.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\APalette.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\APoint.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\ARect.h" />
+    <ClInclude Include="..\..\..\cpp\portable\nickcpp\AStringHelper.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\A8SVXDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AAUDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AAudioDevice.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AMidiDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AMP3Decoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AMultiSongDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AMultiSoundDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AQTSongDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AQTSoundDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASmartSongDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASmartSoundDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASong.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASongDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASound.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASoundAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\ASoundDecoder.h" />
+    <ClInclude Include="..\..\..\cpp\portable\soundlib\AWAVDecoder.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

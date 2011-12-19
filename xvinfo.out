@@ -1,0 +1,45 @@
+X-Video Extension version 2.2
+screen #0
+  Adaptor #0: "Intel(R) Textured Video"
+    number of ports: 16
+    port base: 64
+    operations supported: PutImage 
+    supported visuals:
+      depth 24, visualID 0x21
+    number of attributes: 3
+      "XV_BRIGHTNESS" (range -128 to 127)
+              client settable attribute
+              client gettable attribute (current value is 0)
+      "XV_CONTRAST" (range 0 to 255)
+              client settable attribute
+              client gettable attribute (current value is 0)
+      "XV_SYNC_TO_VBLANK" (range -1 to 1)
+              client settable attribute
+              client gettable attribute (current value is 1)
+    maximum XvImage size: 2048 x 2048
+    Number of image formats: 5
+      id: 0x32595559 (YUY2)
+        guid: 59555932-0000-0010-8000-00aa00389b71
+        bits per pixel: 16
+        number of planes: 1
+        type: YUV (packed)
+      id: 0x32315659 (YV12)
+        guid: 59563132-0000-0010-8000-00aa00389b71
+        bits per pixel: 12
+        number of planes: 3
+        type: YUV (planar)
+      id: 0x30323449 (I420)
+        guid: 49343230-0000-0010-8000-00aa00389b71
+        bits per pixel: 12
+        number of planes: 3
+        type: YUV (planar)
+      id: 0x59565955 (UYVY)
+        guid: 55595659-0000-0010-8000-00aa00389b71
+        bits per pixel: 16
+        number of planes: 1
+        type: YUV (packed)
+      id: 0x434d5658 (XVMC)
+        guid: 58564d43-0000-0010-8000-00aa00389b71
+        bits per pixel: 12
+        number of planes: 3
+        type: YUV (planar)

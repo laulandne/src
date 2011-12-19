@@ -1,0 +1,158 @@
+// !$*UTF8*$!
+{
+	0121047414916A18006D76C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0185CD3A136A642B006D269D /* nicksdl.h */;
+		name = "nicksdl.h: 9";
+		rLen = 0;
+		rLoc = 99;
+		rType = 0;
+		vrLen = 180;
+		vrLoc = 36;
+	};
+	0121047514916A18006D76C1 /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'aDefaultApplet' was not declared in this scope";
+		fRef = 0185CD39136A642B006D269D /* nicksdl.cpp */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 109;
+		rType = 1;
+	};
+	0121048E14916A6F006D76C1 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 0185CD39136A642B006D269D /* nicksdl.cpp */;
+		name = "nicksdl.cpp: 110";
+		rLen = 0;
+		rLoc = 2641;
+		rType = 0;
+		vrLen = 529;
+		vrLoc = 2373;
+	};
+	01723B07136A64550020A90B /* nwire.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {885, 8768}}";
+			sepNavSelRange = "{2440, 0}";
+			sepNavVisRange = "{3343, 615}";
+			sepNavVisRect = "{{0, 0}, {740, 749}}";
+			sepNavWindowFrame = "{{15, 119}, {785, 878}}";
+		};
+	};
+	01845AB813311B05007EB695 /* ___PROJECTNAME___ */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "___PROJECTNAME___";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	01845AC413311B23007EB695 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	01845AC513311B23007EB695 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	0185CD39136A642B006D269D /* nicksdl.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1144, 7328}}";
+			sepNavSelRange = "{3247, 0}";
+			sepNavVisRange = "{3010, 451}";
+		};
+	};
+	0185CD3A136A642B006D269D /* nicksdl.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {891, 1552}}";
+			sepNavSelRange = "{99, 0}";
+			sepNavVisRange = "{36, 180}";
+		};
+	};
+	018B300413B127CB00C29EBB /* JApplet.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1144, 1488}}";
+			sepNavSelRange = "{1149, 0}";
+			sepNavVisRange = "{341, 257}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 01845AB813311B05007EB695 /* ___PROJECTNAME___ */;
+		activeTarget = 8D1107260486CEB800E47090 /* nwireSDLAll */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* nwireSDLAll */,
+		);
+		codeSenseManager = 01845AC513311B23007EB695 /* Code sense */;
+		executables = (
+			01845AB813311B05007EB695 /* ___PROJECTNAME___ */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					713,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 345062662;
+			PBXWorkspaceStateSaveDate = 345062662;
+		};
+		perUserProjectItems = {
+			0121047414916A18006D76C1 /* PBXTextBookmark */ = 0121047414916A18006D76C1 /* PBXTextBookmark */;
+			0121047514916A18006D76C1 /* XCBuildMessageTextBookmark */ = 0121047514916A18006D76C1 /* XCBuildMessageTextBookmark */;
+			0121048E14916A6F006D76C1 /* PBXTextBookmark */ = 0121048E14916A6F006D76C1 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 01845AC413311B23007EB695 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* nwireSDLAll */ = {
+		activeExec = 0;
+		executables = (
+			01845AB813311B05007EB695 /* ___PROJECTNAME___ */,
+		);
+	};
+}

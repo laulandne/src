@@ -1,0 +1,162 @@
+// !$*UTF8*$!
+{
+	0158485A13CABBB3003DD3D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018B30D513B12E6500C29EBB /* nemu.h */;
+		name = "nemu.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 258;
+		vrLoc = 0;
+	};
+	01845AB813311B05007EB695 /* ___PROJECTNAME___ */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = "___PROJECTNAME___";
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	01845AC413311B23007EB695 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	01845AC513311B23007EB695 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	018B30D413B12E6500C29EBB /* nemu.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {885, 18576}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 541}";
+		};
+	};
+	018B30D513B12E6500C29EBB /* nemu.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {885, 4336}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 258}";
+		};
+	};
+	018B320D13B12E7300C29EBB /* DNativeFilesystem.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {885, 10384}}";
+			sepNavSelRange = "{12905, 0}";
+			sepNavVisRange = "{12726, 410}";
+		};
+	};
+	018B320E13B12E7300C29EBB /* DNativeFilesystem.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {885, 928}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{237, 471}";
+		};
+	};
+	019B02E7149296F000062202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018B320D13B12E7300C29EBB /* DNativeFilesystem.cpp */;
+		name = "DNativeFilesystem.cpp: 450";
+		rLen = 0;
+		rLoc = 12905;
+		rType = 0;
+		vrLen = 410;
+		vrLoc = 12726;
+	};
+	019B02E8149296F000062202 /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = 018B320E13B12E7300C29EBB /* DNativeFilesystem.h */;
+	};
+	019B02E9149296F000062202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 018B320E13B12E7300C29EBB /* DNativeFilesystem.h */;
+		name = "DNativeFilesystem.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 471;
+		vrLoc = 237;
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 01845AB813311B05007EB695 /* ___PROJECTNAME___ */;
+		activeTarget = 8D1107260486CEB800E47090 /* nemu_sdl */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* nemu_sdl */,
+		);
+		codeSenseManager = 01845AC513311B23007EB695 /* Code sense */;
+		executables = (
+			01845AB813311B05007EB695 /* ___PROJECTNAME___ */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					707,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 345148390;
+			PBXWorkspaceStateSaveDate = 345148390;
+		};
+		perUserProjectItems = {
+			0158485A13CABBB3003DD3D7 /* PBXTextBookmark */ = 0158485A13CABBB3003DD3D7 /* PBXTextBookmark */;
+			019B02E7149296F000062202 /* PBXTextBookmark */ = 019B02E7149296F000062202 /* PBXTextBookmark */;
+			019B02E8149296F000062202 /* PBXBookmark */ = 019B02E8149296F000062202 /* PBXBookmark */;
+			019B02E9149296F000062202 /* PBXTextBookmark */ = 019B02E9149296F000062202 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 01845AC413311B23007EB695 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* nemu_sdl */ = {
+		activeExec = 0;
+		executables = (
+			01845AB813311B05007EB695 /* ___PROJECTNAME___ */,
+		);
+	};
+}

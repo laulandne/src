@@ -1,0 +1,132 @@
+// !$*UTF8*$!
+{
+	0158498213CAC9DA003DD3D7 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 01E5EC2D136F516D00E49DC8 /* nickglut.cpp */;
+		name = "nickglut.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 351;
+		vrLoc = 0;
+	};
+	019B030814929CC800062202 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 01E5EC2D136F516D00E49DC8 /* nickglut.cpp */;
+		name = "nickglut.cpp: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 293;
+		vrLoc = 0;
+	};
+	01E5EC03136F513600E49DC8 /* nemu_glut */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = nemu_glut;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	01E5EC0F136F513E00E49DC8 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	01E5EC10136F513E00E49DC8 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	01E5EC2D136F516D00E49DC8 /* nickglut.cpp */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {832, 8720}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 293}";
+		};
+	};
+	01E5EC2E136F516D00E49DC8 /* nickglut.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {832, 1456}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 342}";
+		};
+	};
+	08FB7793FE84155DC02AAC07 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 01E5EC03136F513600E49DC8 /* nemu_glut */;
+		activeTarget = 8DD76FA90486AB0100D96B5E /* nemu_glut */;
+		addToTargets = (
+			8DD76FA90486AB0100D96B5E /* nemu_glut */,
+		);
+		codeSenseManager = 01E5EC10136F513E00E49DC8 /* Code sense */;
+		executables = (
+			01E5EC03136F513600E49DC8 /* nemu_glut */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					654,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 345148688;
+			PBXWorkspaceStateSaveDate = 345148688;
+		};
+		perUserProjectItems = {
+			0158498213CAC9DA003DD3D7 /* PBXTextBookmark */ = 0158498213CAC9DA003DD3D7 /* PBXTextBookmark */;
+			019B030814929CC800062202 /* PBXTextBookmark */ = 019B030814929CC800062202 /* PBXTextBookmark */;
+		};
+		sourceControlManager = 01E5EC0F136F513E00E49DC8 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8DD76FA90486AB0100D96B5E /* nemu_glut */ = {
+		activeExec = 0;
+		executables = (
+			01E5EC03136F513600E49DC8 /* nemu_glut */,
+		);
+	};
+}

@@ -1,0 +1,23 @@
+
+//#define DEBUG_OUT std::cerr
+#define DEBUG_OUT *aNullStream
+
+
+#include <elib/EMapHandler.h>
+
+
+///////////////////////////////////////////////////////////////////////////////
+//  EMapHandler Class
+///////////////////////////////////////////////////////////////////////////////
+
+BYTE EMapHandler::read8(ULONG addr)
+{
+  return 0;
+}
+
+
+BYTE EMapHandler::write8(ULONG addr,BYTE data)
+{
+  return 0;
+}
+

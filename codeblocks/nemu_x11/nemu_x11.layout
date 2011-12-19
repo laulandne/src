@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../nemu/binarylib/NAOUTDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3565" topLine="111" />
+	</File>
+	<File name="../../nemu/binarylib/NAmigaHunkDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="222" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NBFDDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="162" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NBFLTDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="228" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NBinaryDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="298" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NBinaryDecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="74" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NBinaryNode.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="143" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NBundleDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NCOFFDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="162" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NElfDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="195" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NExeDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="195" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NJavaClassDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="106" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NLd.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="873" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NLd.h" open="0" top="0" tabpos="0">
+		<Cursor position="150" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NMacAppDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="300" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NMachDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="205" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NPalmAppDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="301" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NSWFDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="161" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NXO65Decoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="162" topLine="0" />
+	</File>
+	<File name="../../nemu/binarylib/NZMachineDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="200" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EAlpha.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="290" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EArm.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="288" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ECPU8Bit.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="129" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ECPUAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="205" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ECPUAbstract.h" open="0" top="0" tabpos="0">
+		<Cursor position="134" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ECPUByteCode.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="133" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ECPUCisc.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="129" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ECPUOperand.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="132" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ECPURisc.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="129" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EDotNet.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="293" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EGlulx.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="292" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EHitachi.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="292" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EJavaScript.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="200" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EJvm.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="200" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EMips.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="750" topLine="4" />
+	</File>
+	<File name="../../nemu/cpulib/EPowerPC.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="513" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ESh.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="287" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ESparc.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="374" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ESwf.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="290" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/ESwf.h" open="0" top="0" tabpos="0">
+		<Cursor position="80" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/EZMachine.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="295" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/Em4510.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="528" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/Em6502.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="273" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/Em6509.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="341" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/Em65816.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="719" topLine="6" />
+	</File>
+	<File name="../../nemu/cpulib/Em65c02.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="274" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/Em6800.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="317" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/Em6809.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="317" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/Em6811.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="317" topLine="0" />
+	</File>
+	<File name="../../nemu/cpulib/Em68k.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="792" topLine="6" />
+	</File>
+	<File name="../../nemu/cpulib/Ex86.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1097" topLine="18" />
+	</File>
+	<File name="../../nemu/cpulib/Ez80.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="315" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DController65.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="162" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DController827x.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="164" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DControllerAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="140" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DControllerDisk2.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="199" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DControllerIWM.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="135" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DControllerWD177x.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="166" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DDirEntry.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="353" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DDirEntry.h" open="0" top="0" tabpos="0">
+		<Cursor position="88" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DDiskAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="352" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DDiskAbstract.h" open="0" top="0" tabpos="0">
+		<Cursor position="120" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DDiskImageAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="352" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DDiskImageFile.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="352" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DDiskImageMem.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="352" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DFinderDatEntry.h" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImage1541.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="138" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImage1541.h" open="0" top="0" tabpos="0">
+		<Cursor position="79" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImageAcorn.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="141" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImageAmy.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="139" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImageApple2.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="142" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImageAtari.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="141" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImageCpm.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="139" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImageFat.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="139" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImageHfs.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="139" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DImageTrs80.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="141" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DNativeFilesystem.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="17121" topLine="597" />
+	</File>
+	<File name="../../nemu/disklib/DNativeFilesystem.h" open="0" top="0" tabpos="0">
+		<Cursor position="1739" topLine="12" />
+	</File>
+	<File name="../../nemu/disklib/DPartitionTable.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="353" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DPartitionTableAmy.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="188" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DPartitionTableHfs.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="188" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DPartitionTableMbr.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="188" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DVfs.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="341" topLine="0" />
+	</File>
+	<File name="../../nemu/disklib/DVfs.h" open="0" top="0" tabpos="0">
+		<Cursor position="42" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EEmptyMem.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="127" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="107" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EHandler.h" open="0" top="0" tabpos="0">
+		<Cursor position="91" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOAcia.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOAcia6551.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOAcia6850.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOCia6526.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOCia8520.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOPia.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOPia6520.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOPia8255.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOScc8530.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="128" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOTia6525.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EIOVia6522.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMapSymbol.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="94" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMapSymbol.h" open="0" top="0" tabpos="0">
+		<Cursor position="54" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMemAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="119" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMemAbstract.h" open="0" top="0" tabpos="0">
+		<Cursor position="100" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMemIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="64" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMemMapAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="219" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMemMapAbstract.h" open="0" top="0" tabpos="0">
+		<Cursor position="91" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMemMapComplex.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="393" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMemMapComplex.h" open="0" top="0" tabpos="0">
+		<Cursor position="62" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EMemMapSimple.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="378" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EModule.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="91" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EModule.h" open="0" top="0" tabpos="0">
+		<Cursor position="156" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EOSHelper.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="250" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/ERam.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="111" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EResourceFile.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="483" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EResourceFile.h" open="0" top="0" tabpos="0">
+		<Cursor position="421" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/ERom.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="154" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/ESoundIOAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="196" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/ESoundIOPokey.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="124" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/ESoundIOSid.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="122" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/ESoundIOSn764xx.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="126" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/ESoundIOYmxxxx.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EVideoIOAbstract.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="876" topLine="5" />
+	</File>
+	<File name="../../nemu/elib/EVideoIOBitmap.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="428" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EVideoIOMoto684x.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="134" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EVideoIOMultiMode.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="431" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EVideoIOTextOnly.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="430" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EVideoIOTms99xx.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="133" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/EVideoIOVector.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="428" topLine="0" />
+	</File>
+	<File name="../../nemu/elib/Em68kHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="184" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAcornDos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="180" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAcornHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="237" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAcornIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="209" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAmigaHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="215" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAmigaIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="257" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAppleDos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="372" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAppleHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="357" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAppleIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="276" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAppleVideo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="276" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariArcadeHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="305" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariArcadeIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="385" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariArcadeVideo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="385" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariDos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="331" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="266" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="238" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariSTHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariSTIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariVectorHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="293" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariVectorIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="293" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariVectorVideo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="293" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NAtariVideo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="238" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCbmHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="323" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCbmIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="331" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCbmKernHelper.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="249" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCbmVideo.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="331" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCocoDos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="297" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCocoHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="234" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCocoIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="207" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCpmDos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="325" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCpmHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="231" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NCpmIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="205" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NFamicomHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NFamicomIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NGenesisHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NGenesisIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="214" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NJavaHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="662" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NMacHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="568" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NMacIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="527" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NOricDos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="297" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NOricHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="234" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NOricIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="207" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NPalmHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="283" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NPalmIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="208" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NPcDos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="293" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NPcHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="146" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NPcHandler.h" open="0" top="0" tabpos="0">
+		<Cursor position="80" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NPcIO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="146" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NSwfHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="137" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NTinyHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="593" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NTinyHandler.h" open="0" top="0" tabpos="0">
+		<Cursor position="56" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NTrs80Dos.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="329" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NTrs80Handler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="237" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NTrs80IO.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="209" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NUnixHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="125" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NUnixHandler.h" open="0" top="0" tabpos="0">
+		<Cursor position="84" topLine="0" />
+	</File>
+	<File name="../../nemu/emu/NZMachineHandler.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="142" topLine="0" />
+	</File>
+	<File name="../../nemu/ncmd.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="317" topLine="0" />
+	</File>
+	<File name="../../nemu/nemu.cpp" open="1" top="1" tabpos="5">
+		<Cursor position="582" topLine="0" />
+	</File>
+	<File name="../../nemu/nemu.h" open="0" top="0" tabpos="0">
+		<Cursor position="187" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

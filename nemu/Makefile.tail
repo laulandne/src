@@ -1,0 +1,54 @@
+# This file is used by multiple projects,
+# When modifying be sure to update central copy!
+
+####################################################################
+# Makefile.tail
+####################################################################
+
+
+####################################################################
+# Common pseudo-targets
+####################################################################
+
+fix_perm:
+	chmod +x configure
+	chmod -x *.mcp Makefile* *.html *.xml *.txt *.pl *.bat *.cfg *.brd *.c *.cpp *.h *.r *.rc *.def *.m
+#	chmod -x *.rom *.iff *.pcx *.zip
+#	chmod -x *.res *.rsc *.gif *.jpg *.tiff *.ico
+#	chmod -x *.ic2 *.cur *.bmp *.ptr *.rsr
+#	chmod -x */*.opt */*.dsw */*/*.plg */*/*.dsp 
+
+fix_perm_subdir: fix_perm
+	chmod +x */configure
+	chmod -x */*.mcp */Makefile* */*.html */*.xml */*.txt */*.pl */*.bat */*.cfg */*.brd */*.c */*.cpp */*.h */*.r */*.rc */*.def */*.m
+#	chmod -x */*.rom */*.iff */*.pcx */*.cfg */*.brd */*.zip
+#	chmod -x */*.res */*.rsc */*.gif */*.jpg */*.tiff */*.ico
+#	chmod -x */*.ic2 */*.cur */*.bmp */*.ptr */*.rsr
+#	chmod -x */*.opt */*.dsw */*/*.plg */*/*.dsp
+
+
+fix_type: fix_type_subdir
+ifeq ($(MACINTOSH_HOST),yes)
+	$(REZ_TOOLPATH)/SetFile -c CWIE -t TEXT configure *.h *.c *.cpp Makefile* *.txt *.brd *.cfg *.pl *.bat *.r *.rsc *.def *.rc
+	$(REZ_TOOLPATH)/SetFile -c CWIE -t MMPr *.mcp
+#	$(REZ_TOOLPATH)/SetFile -c MOSS -t TEXT *.html *.htm *.xml
+#	$(REZ_TOOLPATH)/SetFile -c Gzip -t Gzip *gz
+#	$(REZ_TOOLPATH)/SetFile -c RSED -t RSRC MacRes/*.rsrc
+#	$(REZ_TOOLPATH)/SetFile -c FMP3 -t FMP3 *.fp3
+#	$(REZ_TOOLPATH)/SetFile -c FMP5 -t FMP3 *.fp5
+endif
+
+fix_type_subdir:
+ifeq ($(MACINTOSH_HOST),yes)
+	$(REZ_TOOLPATH)/SetFile -c CWIE -t TEXT */configure */*.h */*.c */*.cpp */Makefile* */*.txt */*.brd */*.cfg */*.pl */*.bat */*.r */*.rsc */*.def */*.rc
+	$(REZ_TOOLPATH)/SetFile -c CWIE -t TEXT */*/configure */*/*.h */*/*.c */*/*.cpp */*/Makefile* */*/*.txt
+	$(REZ_TOOLPATH)/SetFile -c CWIE -t MMPr */*.mcp */*/*.mcp
+#	$(REZ_TOOLPATH)/SetFile -c MOSS -t TEXT */*.html */*.htm */*.xml
+#	$(REZ_TOOLPATH)/SetFile -c Gzip -t Gzip */*gz
+#	$(REZ_TOOLPATH)/SetFile -c RSED -t RSRC */*.rsrc
+#	$(REZ_TOOLPATH)/SetFile -c FMP3 -t FMP3 */*.fp3 */*/*.fp3
+#	$(REZ_TOOLPATH)/SetFile -c FMP5 -t FMP3 */*.fp5 */*/*.fp5
+endif
+
+
+

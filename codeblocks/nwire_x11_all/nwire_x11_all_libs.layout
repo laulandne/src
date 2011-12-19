@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../cpp/guilib/AApplicationLoop.cpp" open="1" top="1" tabpos="2">
+		<Cursor position="115" topLine="2" />
+	</File>
+	<File name="../../cpp/guilib/AApplicationLoop.h" open="1" top="0" tabpos="1">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/guilib/ADisplay.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8190" topLine="267" />
+	</File>
+	<File name="../../cpp/guilib/AEvent.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="11225" topLine="453" />
+	</File>
+	<File name="../../cpp/guilib/alib_x11.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8726" topLine="253" />
+	</File>
+	<File name="../../cpp/guilib/nickguilib.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="5071" topLine="194" />
+	</File>
+	<File name="../../cpp/guilib/nickguilib.h" open="0" top="0" tabpos="4">
+		<Cursor position="286" topLine="1" />
+	</File>
+	<File name="../../cpp/javacpp/ThreeDcpp.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="5394" topLine="100" />
+	</File>
+	<File name="../../cpp/nwire.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="92" topLine="5" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMesh3D.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="13679" topLine="476" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ASmartSceneDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1711" topLine="31" />
+	</File>
+</CodeBlocks_layout_file>

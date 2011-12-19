@@ -1,0 +1,21 @@
+
+//#define DEBUG_OUT std::cerr
+#define DEBUG_OUT *aNullStream
+
+
+#include "AFace3D.h"
+
+
+///////////////////////////////////////////////////////////////////////////////
+//  AFace3D class
+////////////////////////////////////////////////////////////////////////////////
+
+
+AFace3D::AFace3D()
+{
+  //DEBUG_<<"AFace3D created!\n";
+  a=0;  b=0;  c=0;
+  surf=0;
+  fRed=1.0;  fGreen=0.0;  fBlue=.5;
+  textID=0;
+}

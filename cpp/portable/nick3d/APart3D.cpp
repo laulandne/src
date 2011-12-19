@@ -1,0 +1,21 @@
+
+//#define DEBUG_OUT std::cerr
+#define DEBUG_OUT *aNullStream
+
+
+#include "APart3D.h"
+
+#include <stdio.h>
+
+
+////////////////////////////////////////////////////////////////////////////////
+//  APart3D Class
+////////////////////////////////////////////////////////////////////////////////
+
+APart3D::APart3D()
+{
+  name=NULL;
+  startVert=0;  endVert=0;
+  startFace=0;  endFace=0;
+}
+

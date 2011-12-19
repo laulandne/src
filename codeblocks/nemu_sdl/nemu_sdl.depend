@@ -1,0 +1,2576 @@
+# depslib dependency file v1.0
+1306812552 source:/home/nick/src/nemu/binarylib/NAOUTDecoder.cpp
+	<binarylib/NAOUTDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 /home/nick/src/nemu/binarylib/NAOUTDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1306812552 /home/nick/src/nemu/binarylib/NBinaryDecoder.h
+	<portable/nickcpp/AError.h>
+	<elib/EMemMapAbstract.h>
+
+1293946096 /home/nick/src/cpp/portable/nickcpp/AError.h
+
+1306812556 /home/nick/src/nemu/elib/EMemMapAbstract.h
+	"EMemAbstract.h"
+	<portable/nickcpp/AList.h>
+
+1306812556 /home/nick/src/nemu/elib/EMemAbstract.h
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AError.h>
+
+1287792130 /home/nick/src/cpp/portable/nickcpp/AList.h
+	"ADataSourceAbstract.h"
+	"ACell.h"
+
+1287792116 /home/nick/src/cpp/portable/nickcpp/ADataSourceAbstract.h
+	<stdio.h>
+
+1274826684 /home/nick/src/cpp/portable/nickcpp/ACell.h
+
+1306812552 /home/nick/src/nemu/binarylib/NLd.h
+	<portable/nickcpp/ANullStream.h>
+	<elib/EModule.h>
+	<portable/nickcpp/AError.h>
+
+1300728274 /home/nick/src/cpp/portable/nickcpp/ANullStream.h
+	<iostream>
+
+1306812556 /home/nick/src/nemu/elib/EModule.h
+	<elib/EMemMapAbstract.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/AError.h>
+	<portable/nickcpp/AList.h>
+
+1300726856 /home/nick/src/nemu/binarylib/NBinaryNode.h
+	<elib/EMapSymbol.h>
+
+1306812556 /home/nick/src/nemu/elib/EMapSymbol.h
+	<portable/nickcpp/AGenericNode.h>
+	<elib/EMemAbstract.h>
+
+1274826684 /home/nick/src/cpp/portable/nickcpp/AGenericNode.h
+
+1299699532 /home/nick/src/cpp/portable/nickcpp/AStringHelper.h
+	<stdio.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NAmigaHunkDecoder.cpp
+	<iostream>
+	<binarylib/NAmigaHunkDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726856 /home/nick/src/nemu/binarylib/NAmigaHunkDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NBFDDecoder.cpp
+	<binarylib/NBFDDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/ANullStream.h>
+	<bfd.h>
+
+1298097706 /home/nick/src/nemu/binarylib/NBFDDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NBFLTDecoder.cpp
+	<iostream>
+	<binarylib/NBFLTDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 /home/nick/src/nemu/binarylib/NBFLTDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NBinaryDecoder.cpp
+	<binarylib/NBinaryDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<disklib/DVfs.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812556 /home/nick/src/nemu/disklib/DVfs.h
+	<portable/nickcpp/AList.h>
+	<disklib/DDiskAbstract.h>
+
+1306812554 /home/nick/src/nemu/disklib/DDiskAbstract.h
+	<disklib/DDirEntry.h>
+	<portable/nickcpp/AError.h>
+
+1306812554 /home/nick/src/nemu/disklib/DDirEntry.h
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/AGenericNode.h>
+	<elib/EMemAbstract.h>
+
+1306812556 /home/nick/src/nemu/elib/EResourceFile.h
+	<stdio.h>
+	<elib/EResObject.h>
+	<elib/EMacResHeader.h>
+	<elib/EMacResMap.h>
+	<elib/EMacResEntry.h>
+	<elib/EMacResRef.h>
+	<portable/nickcpp/AError.h>
+
+1300728560 /home/nick/src/nemu/elib/EResObject.h
+
+1300737538 /home/nick/src/nemu/elib/EMacResHeader.h
+	<elib/EMemAbstract.h>
+
+1300728222 /home/nick/src/nemu/elib/EMacResMap.h
+
+1300728222 /home/nick/src/nemu/elib/EMacResEntry.h
+
+1300728222 /home/nick/src/nemu/elib/EMacResRef.h
+
+1306812552 source:/home/nick/src/nemu/binarylib/NBinaryNode.cpp
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NBundleDecoder.cpp
+	<binarylib/NBundleDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 /home/nick/src/nemu/binarylib/NBundleDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NCOFFDecoder.cpp
+	<binarylib/NCOFFDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 /home/nick/src/nemu/binarylib/NCOFFDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NElfDecoder.cpp
+	<binarylib/NElfDecoder.h>
+	<elib/EMemMapAbstract.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726856 /home/nick/src/nemu/binarylib/NElfDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NExeDecoder.cpp
+	<binarylib/NExeDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726858 /home/nick/src/nemu/binarylib/NExeDecoder.h
+	<binarylib/NBinaryDecoder.h>
+	<binarylib/NCOFFDecoder.h>
+
+1300401330 source:/home/nick/src/nemu/binarylib/NJavaAttribute.cpp
+	<binarylib/NJavaAttribute.h>
+
+1300728794 /home/nick/src/nemu/binarylib/NJavaAttribute.h
+	<elib/EMemAbstract.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NJavaClassDecoder.cpp
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AList.h>
+	<binarylib/NJavaClassDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<cpulib/ECPUAbstract.h>
+
+1300726858 /home/nick/src/nemu/binarylib/NJavaClassDecoder.h
+	<binarylib/NBinaryDecoder.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EMapSymbol.h>
+	"NJavaAttribute.h"
+	"NJavaCode.h"
+	"NJavaField.h"
+	"NJavaInterface.h"
+	"NJavaMethod.h"
+
+1300728818 /home/nick/src/nemu/binarylib/NJavaCode.h
+	<elib/EMemAbstract.h>
+
+1300728822 /home/nick/src/nemu/binarylib/NJavaField.h
+	<elib/EMemAbstract.h>
+
+1300728826 /home/nick/src/nemu/binarylib/NJavaInterface.h
+	<elib/EMemAbstract.h>
+
+1300728836 /home/nick/src/nemu/binarylib/NJavaMethod.h
+	<elib/EMemAbstract.h>
+
+1306812552 /home/nick/src/nemu/cpulib/ECPUAbstract.h
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/AError.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemAbstract.h>
+
+1300401330 source:/home/nick/src/nemu/binarylib/NJavaCode.cpp
+	<binarylib/NJavaCode.h>
+
+1300401330 source:/home/nick/src/nemu/binarylib/NJavaField.cpp
+	<binarylib/NJavaField.h>
+
+1300401330 source:/home/nick/src/nemu/binarylib/NJavaInterface.cpp
+	<binarylib/NJavaInterface.h>
+
+1300401330 source:/home/nick/src/nemu/binarylib/NJavaMethod.cpp
+	<binarylib/NJavaMethod.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NLd.cpp
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<binarylib/NBinaryDecoder.h>
+	<binarylib/NAmigaHunkDecoder.h>
+	<binarylib/NAOUTDecoder.h>
+	<binarylib/NBFDDecoder.h>
+	<binarylib/NBFLTDecoder.h>
+	<binarylib/NBundleDecoder.h>
+	<binarylib/NCOFFDecoder.h>
+	<binarylib/NElfDecoder.h>
+	<binarylib/NExeDecoder.h>
+	<binarylib/NJavaClassDecoder.h>
+	<binarylib/NMacAppDecoder.h>
+	<binarylib/NMachDecoder.h>
+	<binarylib/NPalmAppDecoder.h>
+	<binarylib/NSWFDecoder.h>
+	<binarylib/NZMachineDecoder.h>
+	<disklib/DVfs.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726858 /home/nick/src/nemu/binarylib/NMacAppDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1300726858 /home/nick/src/nemu/binarylib/NMachDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1298097706 /home/nick/src/nemu/binarylib/NPalmAppDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1298097706 /home/nick/src/nemu/binarylib/NSWFDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1300726858 /home/nick/src/nemu/binarylib/NZMachineDecoder.h
+	<binarylib/NBinaryDecoder.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NMacAppDecoder.cpp
+	<binarylib/NMacAppDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EResource.h>
+	<elib/EResourceFile.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300738188 /home/nick/src/nemu/elib/EResource.h
+	<elib/EMemAbstract.h>
+	<elib/EResObject.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NMachDecoder.cpp
+	<binarylib/NMachDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NPalmAppDecoder.cpp
+	<binarylib/NPalmAppDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EResource.h>
+	<elib/EResourceFile.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NSWFDecoder.cpp
+	<binarylib/NSWFDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300401330 source:/home/nick/src/nemu/binarylib/NSharedLibrary.cpp
+	<binarylib/NSharedLibrary.h>
+
+1300726858 /home/nick/src/nemu/binarylib/NSharedLibrary.h
+	<elib/EMapSymbol.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NXO65Decoder.cpp
+	<binarylib/NBFDDecoder.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/ANullStream.h>
+	<bfd.h>
+
+1306812552 source:/home/nick/src/nemu/binarylib/NZMachineDecoder.cpp
+	<binarylib/NZMachineDecoder.h>
+	<elib/EMemMapAbstract.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryNode.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812552 source:/home/nick/src/nemu/cpulib/EAlpha.cpp
+	<cpulib/EAlpha.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/EAlpha_tab.h>
+	<cpulib/generated/EAlpha_exec.h>
+
+1300726858 /home/nick/src/nemu/cpulib/EAlpha.h
+	<cpulib/ECPURisc.h>
+	<cpulib/ECPUOperand.h>
+
+1300726860 /home/nick/src/nemu/cpulib/ECPURisc.h
+	"ECPUAbstract.h"
+
+1300729324 /home/nick/src/nemu/cpulib/ECPUOperand.h
+	<elib/EMemAbstract.h>
+
+1298096796 /home/nick/src/nemu/cpulib/generated/EAlpha_tab.h
+
+1298096796 /home/nick/src/nemu/cpulib/generated/EAlpha_exec.h
+
+1306812552 source:/home/nick/src/nemu/cpulib/EArm.cpp
+	<cpulib/EArm.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/EArm_tab.h>
+	<cpulib/generated/EThumb_tab.h>
+	<cpulib/generated/EArm_exec.h>
+
+1300729268 /home/nick/src/nemu/cpulib/EArm.h
+	<cpulib/ECPURisc.h>
+	<cpulib/ECPUOperand.h>
+
+1298096796 /home/nick/src/nemu/cpulib/generated/EArm_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EThumb_tab.h
+
+1298096796 /home/nick/src/nemu/cpulib/generated/EArm_exec.h
+
+1306812552 source:/home/nick/src/nemu/cpulib/ECPU8Bit.cpp
+	<cpulib/ECPU8Bit.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300728222 /home/nick/src/nemu/cpulib/ECPU8Bit.h
+	"ECPUAbstract.h"
+
+1306812552 source:/home/nick/src/nemu/cpulib/ECPUAbstract.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812556 /home/nick/src/nemu/elib/EHandler.h
+	<portable/nickcpp/AClock.h>
+	<portable/nickcpp/AError.h>
+	<elib/EMemAbstract.h>
+
+1288021470 /home/nick/src/cpp/portable/nickcpp/AClock.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/ECPUByteCode.cpp
+	<cpulib/ECPUByteCode.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726860 /home/nick/src/nemu/cpulib/ECPUByteCode.h
+	<cpulib/ECPUAbstract.h>
+	<cpulib/ECPUByteCodeObject.h>
+
+1300728560 /home/nick/src/nemu/cpulib/ECPUByteCodeObject.h
+
+1296864482 source:/home/nick/src/nemu/cpulib/ECPUByteCodeObject.cpp
+	<cpulib/ECPUByteCodeObject.h>
+
+1306812554 source:/home/nick/src/nemu/cpulib/ECPUCisc.cpp
+	<cpulib/ECPUCisc.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 /home/nick/src/nemu/cpulib/ECPUCisc.h
+	"ECPUAbstract.h"
+
+1306812554 source:/home/nick/src/nemu/cpulib/ECPUOperand.cpp
+	<cpulib/ECPUOperand.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812554 source:/home/nick/src/nemu/cpulib/ECPURisc.cpp
+	<cpulib/ECPURisc.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812554 source:/home/nick/src/nemu/cpulib/EDotNet.cpp
+	<cpulib/EDotNet.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/EDotNet_tab.h>
+	<cpulib/generated/EDotNet_exec.h>
+
+1300726860 /home/nick/src/nemu/cpulib/EDotNet.h
+	<cpulib/ECPUByteCode.h>
+
+1298096796 /home/nick/src/nemu/cpulib/generated/EDotNet_tab.h
+
+1298096796 /home/nick/src/nemu/cpulib/generated/EDotNet_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/EGlulx.cpp
+	<cpulib/EGlulx.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/EGlulx_tab.h>
+	<cpulib/generated/EGLULX_exec.h>
+
+1300726860 /home/nick/src/nemu/cpulib/EGlulx.h
+	<cpulib/ECPUByteCode.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/EGlulx_tab.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/EHitachi.cpp
+	<cpulib/EHitachi.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/EHitachi_tab.h>
+	<cpulib/generated/EHitachi_exec.h>
+
+1300726860 /home/nick/src/nemu/cpulib/EHitachi.h
+	<cpulib/ECPU8Bit.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/EHitachi_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/EHitachi_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/EJavaScript.cpp
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/EJavaScript.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<binarylib/NLd.h>
+	<binarylib/NJavaClassDecoder.h>
+	<cpulib/generated/EJavascript_tab.h>
+	<cpulib/generated/EJavascript_exec.h>
+
+1300726860 /home/nick/src/nemu/cpulib/EJavaScript.h
+	<cpulib/ECPUByteCode.h>
+	<emu/NJavaHandler.h>
+	<binarylib/NJavaClassDecoder.h>
+
+1300728022 /home/nick/src/nemu/emu/NJavaHandler.h
+	<elib/EHandler.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/EJavascript_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/EJavascript_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/EJvm.cpp
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/EJvm.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<binarylib/NLd.h>
+	<binarylib/NJavaClassDecoder.h>
+	<cpulib/generated/EJvm_tab.h>
+	<cpulib/generated/EJvm_exec.h>
+
+1300726860 /home/nick/src/nemu/cpulib/EJvm.h
+	<cpulib/ECPUByteCode.h>
+	<emu/NJavaHandler.h>
+	<binarylib/NJavaClassDecoder.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/EJvm_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/EJvm_exec.h
+
+1309151408 source:/home/nick/src/nemu/cpulib/EMips.cpp
+	<cpulib/EMips.h>
+	<elib/EHandler.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/EMips_tab.h>
+	<cpulib/generated/EMips_0_tab.h>
+	<cpulib/generated/EMips_1_tab.h>
+	<cpulib/generated/EMips_exec.h>
+	<cpulib/generated/EMips_0_exec.h>
+	<cpulib/generated/EMips_1_exec.h>
+
+1309151350 /home/nick/src/nemu/cpulib/EMips.h
+	<cpulib/ECPURisc.h>
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EMips_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EMips_0_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EMips_1_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EMips_exec.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EMips_0_exec.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EMips_1_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/EPowerPC.cpp
+	<cpulib/EPowerPC.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/EPowerPC_tab.h>
+	<cpulib/generated/EPowerPC_31_tab.h>
+	<cpulib/generated/EPowerPC_exec.h>
+	<cpulib/generated/EPowerPC_31_exec.h>
+
+1300726860 /home/nick/src/nemu/cpulib/EPowerPC.h
+	<cpulib/ECPURisc.h>
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EPowerPC_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EPowerPC_31_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EPowerPC_exec.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/EPowerPC_31_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/ESh.cpp
+	<cpulib/ESh.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/ESh_tab.h>
+	<cpulib/generated/ESh_exec.h>
+
+1300726860 /home/nick/src/nemu/cpulib/ESh.h
+	<cpulib/ECPURisc.h>
+	<cpulib/ECPUOperand.h>
+
+1298096800 /home/nick/src/nemu/cpulib/generated/ESh_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/ESh_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/ESparc.cpp
+	<cpulib/ESparc.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726860 /home/nick/src/nemu/cpulib/ESparc.h
+	<cpulib/ECPURisc.h>
+
+1306812554 source:/home/nick/src/nemu/cpulib/ESwf.cpp
+	<cpulib/ESwf.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/ESwf_tab.h>
+	<cpulib/generated/EAction_tab.h>
+	<cpulib/generated/ESwf_exec.h>
+	<cpulib/generated/EAction_exec.h>
+
+1306812554 /home/nick/src/nemu/cpulib/ESwf.h
+	<cpulib/ECPUByteCode.h>
+	<portable/nickcpp/ARect.h>
+
+1274826700 /home/nick/src/cpp/portable/nickcpp/ARect.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/ESwf_tab.h
+
+1298096796 /home/nick/src/nemu/cpulib/generated/EAction_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/ESwf_exec.h
+
+1298096796 /home/nick/src/nemu/cpulib/generated/EAction_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/EZMachine.cpp
+	<cpulib/EZMachine.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/EZMachine_tab.h>
+	<cpulib/generated/EZMachine_exec.h>
+
+1300726860 /home/nick/src/nemu/cpulib/EZMachine.h
+	<cpulib/ECPUByteCode.h>
+
+1298096802 /home/nick/src/nemu/cpulib/generated/EZMachine_tab.h
+
+1298096802 /home/nick/src/nemu/cpulib/generated/EZMachine_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em4510.cpp
+	<cpulib/Em4510.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Em4510_tab.h>
+	<cpulib/Em65_core.h>
+
+1300728222 /home/nick/src/nemu/cpulib/Em4510.h
+	<cpulib/Em6502.h>
+
+1300728222 /home/nick/src/nemu/cpulib/Em6502.h
+	<cpulib/ECPU8Bit.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em4510_tab.h
+
+1300728222 /home/nick/src/nemu/cpulib/Em65_core.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em6502.cpp
+	<cpulib/Em6502.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Em6502_tab.h>
+	<cpulib/Em65_core.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6502_tab.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em6509.cpp
+	<cpulib/Em6509.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/E6502_tab.h>
+	<cpulib/E65_core.h>
+
+1300728222 /home/nick/src/nemu/cpulib/Em6509.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em65816.cpp
+	<cpulib/Em65816.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Em65816_tab.h>
+	<cpulib/Em65_core.h>
+
+1300728222 /home/nick/src/nemu/cpulib/Em65816.h
+	<cpulib/Em6502.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em65816_tab.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em65c02.cpp
+	<cpulib/Em65c02.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Em65c02_tab.h>
+	<cpulib/Em65_core.h>
+
+1300728222 /home/nick/src/nemu/cpulib/Em65c02.h
+	<cpulib/Em6502.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em65c02_tab.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em6800.cpp
+	<cpulib/Em6800.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Em6800_tab.h>
+	<cpulib/generated/Em6800_exec.h>
+
+1300728222 /home/nick/src/nemu/cpulib/Em6800.h
+	<cpulib/ECPU8Bit.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6800_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6800_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em6809.cpp
+	<cpulib/Em6809.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Em6809_tab.h>
+	<cpulib/generated/Em6809x10_tab.h>
+	<cpulib/generated/Em6809x11_tab.h>
+	<cpulib/generated/Em6809_exec.h>
+	<cpulib/generated/Em6809x10_exec.h>
+	<cpulib/generated/Em6809x11_exec.h>
+
+1300726862 /home/nick/src/nemu/cpulib/Em6809.h
+	<cpulib/Em6800.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6809_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6809x10_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6809x11_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6809_exec.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6809x10_exec.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6809x11_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em6811.cpp
+	<cpulib/Em6811.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Em6811_tab.h>
+	<cpulib/generated/Em6811x18_tab.h>
+	<cpulib/generated/Em6811x1a_tab.h>
+	<cpulib/generated/Em6811xcd_tab.h>
+	<cpulib/generated/Em6811_exec.h>
+	<cpulib/generated/Em6811x18_exec.h>
+	<cpulib/generated/Em6811x1a_exec.h>
+	<cpulib/generated/Em6811xcd_exec.h>
+
+1300726862 /home/nick/src/nemu/cpulib/Em6811.h
+	<cpulib/Em6800.h>
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6811_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em6811x18_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em6811x1a_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em6811xcd_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Em6811_exec.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em6811x18_exec.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em6811x1a_exec.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em6811xcd_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Em68k.cpp
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<cpulib/Em68k.h>
+	<cpulib/generated/Em68k_tab.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Em68k_dis.h>
+	<cpulib/generated/Em68k_exec.h>
+
+1300726862 /home/nick/src/nemu/cpulib/Em68k.h
+	<cpulib/ECPUCisc.h>
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em68k_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em68k_dis.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Em68k_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Ex86.cpp
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<cpulib/Ex86.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Ex86_tab.h>
+	<cpulib/generated/Ex86_0f_tab.h>
+	<cpulib/generated/Ex86_exec.h>
+
+1300728222 /home/nick/src/nemu/cpulib/Ex86.h
+	<cpulib/ECPUCisc.h>
+	<cpulib/ECPUOperand.h>
+
+1298096802 /home/nick/src/nemu/cpulib/generated/Ex86_tab.h
+
+1298096800 /home/nick/src/nemu/cpulib/generated/Ex86_0f_tab.h
+
+1298096802 /home/nick/src/nemu/cpulib/generated/Ex86_exec.h
+
+1306812554 source:/home/nick/src/nemu/cpulib/Ez80.cpp
+	<cpulib/Ez80.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/generated/Ez80_tab.h>
+	<cpulib/generated/Ei8080_tab.h>
+	<cpulib/generated/Ez80_exec.h>
+
+1300728222 /home/nick/src/nemu/cpulib/Ez80.h
+	<cpulib/ECPU8Bit.h>
+
+1298096802 /home/nick/src/nemu/cpulib/generated/Ez80_tab.h
+
+1298096798 /home/nick/src/nemu/cpulib/generated/Ei8080_tab.h
+
+1298096802 /home/nick/src/nemu/cpulib/generated/Ez80_exec.h
+
+1306812554 source:/home/nick/src/nemu/disklib/DController65.cpp
+	<disklib/DController65.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726864 /home/nick/src/nemu/disklib/DController65.h
+	<disklib/DControllerAbstract.h>
+
+1300726864 /home/nick/src/nemu/disklib/DControllerAbstract.h
+	<elib/EIOChip.h>
+
+1300728222 /home/nick/src/nemu/elib/EIOChip.h
+	<elib/EMemIO.h>
+
+1300726868 /home/nick/src/nemu/elib/EMemIO.h
+	"ERam.h"
+
+1300726870 /home/nick/src/nemu/elib/ERam.h
+	"EMemAbstract.h"
+
+1306812554 source:/home/nick/src/nemu/disklib/DController827x.cpp
+	<disklib/DController827x.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726864 /home/nick/src/nemu/disklib/DController827x.h
+	<disklib/DControllerAbstract.h>
+
+1306812554 source:/home/nick/src/nemu/disklib/DControllerAbstract.cpp
+	<disklib/DControllerAbstract.h>
+	<cpulib/ECPUAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812554 source:/home/nick/src/nemu/disklib/DControllerDisk2.cpp
+	<disklib/DControllerDisk2.h>
+	<disklib/DImageApple2.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726864 /home/nick/src/nemu/disklib/DControllerDisk2.h
+	<disklib/DControllerAbstract.h>
+
+1300737378 /home/nick/src/nemu/disklib/DImageApple2.h
+	<disklib/DDiskImageMem.h>
+
+1300733714 /home/nick/src/nemu/disklib/DDiskImageMem.h
+	<disklib/DDiskImageAbstract.h>
+
+1300730024 /home/nick/src/nemu/disklib/DDiskImageAbstract.h
+	<disklib/DDiskAbstract.h>
+
+1306812554 source:/home/nick/src/nemu/disklib/DControllerIWM.cpp
+	<disklib/DControllerIWM.h>
+	<cpulib/ECPUAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726864 /home/nick/src/nemu/disklib/DControllerIWM.h
+	<disklib/DControllerAbstract.h>
+
+1306812554 source:/home/nick/src/nemu/disklib/DControllerWD177x.cpp
+	<disklib/DControllerWD177x.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726864 /home/nick/src/nemu/disklib/DControllerWD177x.h
+	<disklib/DControllerAbstract.h>
+
+1309151240 source:/home/nick/src/nemu/disklib/DDirEntry.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DVfs.h>
+	<disklib/DPartitionTable.h>
+	<disklib/DDiskImageFile.h>
+	<disklib/DDiskImageMem.h>
+	<disklib/DNativeFilesystem.h>
+	<sys/stat.h>
+	<stat.h>
+	<direct.h>
+	<IterateDirectory.h>
+
+1300737378 /home/nick/src/nemu/disklib/DPartitionTable.h
+	<disklib/DDiskAbstract.h>
+
+1300737378 /home/nick/src/nemu/disklib/DDiskImageFile.h
+	<disklib/DDiskImageAbstract.h>
+
+1311110698 /home/nick/src/nemu/disklib/DNativeFilesystem.h
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANativeFilesystem.h>
+	<disklib/DDiskAbstract.h>
+
+1309151240 source:/home/nick/src/nemu/disklib/DDiskAbstract.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DVfs.h>
+	<disklib/DPartitionTable.h>
+	<disklib/DDiskImageFile.h>
+	<disklib/DDiskImageMem.h>
+	<disklib/DNativeFilesystem.h>
+	<sys/stat.h>
+	<stat.h>
+	<direct.h>
+	<IterateDirectory.h>
+
+1309151240 source:/home/nick/src/nemu/disklib/DDiskImageAbstract.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DVfs.h>
+	<disklib/DPartitionTable.h>
+	<disklib/DDiskImageAbstract.h>
+	<disklib/DNativeFilesystem.h>
+	<sys/stat.h>
+	<stat.h>
+	<direct.h>
+	<IterateDirectory.h>
+
+1309151240 source:/home/nick/src/nemu/disklib/DDiskImageFile.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DVfs.h>
+	<disklib/DPartitionTable.h>
+	<disklib/DDiskImageFile.h>
+	<disklib/DDiskImageMem.h>
+	<disklib/DNativeFilesystem.h>
+	<sys/stat.h>
+	<stat.h>
+	<direct.h>
+	<IterateDirectory.h>
+
+1309151240 source:/home/nick/src/nemu/disklib/DDiskImageMem.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DVfs.h>
+	<disklib/DPartitionTable.h>
+	<disklib/DDiskImageFile.h>
+	<disklib/DDiskImageMem.h>
+	<disklib/DNativeFilesystem.h>
+	<sys/stat.h>
+	<stat.h>
+	<direct.h>
+	<IterateDirectory.h>
+
+1306812554 source:/home/nick/src/nemu/disklib/DImage1541.cpp
+	<disklib/DImage1541.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812554 /home/nick/src/nemu/disklib/DImage1541.h
+	<disklib/DDiskImageMem.h>
+	<portable/nickcpp/AList.h>
+
+1306812554 source:/home/nick/src/nemu/disklib/DImageAcorn.cpp
+	<disklib/DImageAcorn.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DImageAcorn.h
+	<disklib/DDiskImageMem.h>
+
+1306812554 source:/home/nick/src/nemu/disklib/DImageAmy.cpp
+	<disklib/DImageAmy.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DImageAmy.h
+	<disklib/DDiskImageFile.h>
+
+1306812554 source:/home/nick/src/nemu/disklib/DImageApple2.cpp
+	<disklib/DImageApple2.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812556 source:/home/nick/src/nemu/disklib/DImageAtari.cpp
+	<disklib/DImageAtari.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DImageAtari.h
+	<disklib/DDiskImageMem.h>
+
+1306812556 source:/home/nick/src/nemu/disklib/DImageCpm.cpp
+	<disklib/DImageCpm.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726864 /home/nick/src/nemu/disklib/DImageCpm.h
+	<disklib/DDiskImageMem.h>
+
+1306812556 source:/home/nick/src/nemu/disklib/DImageFat.cpp
+	<disklib/DImageFat.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DImageFat.h
+	<disklib/DDiskImageMem.h>
+
+1306812556 source:/home/nick/src/nemu/disklib/DImageHfs.cpp
+	<disklib/DImageHfs.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DImageHfs.h
+	<disklib/DDiskImageFile.h>
+
+1306812556 source:/home/nick/src/nemu/disklib/DImageTrs80.cpp
+	<disklib/DImageTrs80.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DImageTrs80.h
+	<disklib/DDiskImageMem.h>
+
+1311111128 source:/home/nick/src/nemu/disklib/DNativeFilesystem.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DVfs.h>
+	<disklib/DPartitionTable.h>
+	<disklib/DDiskImageFile.h>
+	<disklib/DDiskImageMem.h>
+	<disklib/DNativeFilesystem.h>
+	<sys/stat.h>
+	<stat.h>
+	<direct.h>
+	<IterateDirectory.h>
+	<dos.h>
+
+1309151240 source:/home/nick/src/nemu/disklib/DPartitionTable.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DVfs.h>
+	<disklib/DPartitionTable.h>
+	<disklib/DDiskImageFile.h>
+	<disklib/DDiskImageMem.h>
+	<disklib/DNativeFilesystem.h>
+	<sys/stat.h>
+	<stat.h>
+	<direct.h>
+	<IterateDirectory.h>
+
+1306812556 source:/home/nick/src/nemu/disklib/DPartitionTableAmy.cpp
+	<disklib/DPartitionTableAmy.h>
+	<disklib/DDiskImageAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DPartitionTableAmy.h
+	<disklib/DPartitionTable.h>
+
+1306812556 source:/home/nick/src/nemu/disklib/DPartitionTableHfs.cpp
+	<disklib/DPartitionTableHfs.h>
+	<disklib/DDiskImageAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DPartitionTableHfs.h
+	<disklib/DPartitionTable.h>
+
+1306812556 source:/home/nick/src/nemu/disklib/DPartitionTableMbr.cpp
+	<disklib/DPartitionTableMbr.h>
+	<disklib/DDiskImageAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300737378 /home/nick/src/nemu/disklib/DPartitionTableMbr.h
+	<disklib/DPartitionTable.h>
+
+1309151240 source:/home/nick/src/nemu/disklib/DVfs.cpp
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EResourceFile.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DVfs.h>
+	<disklib/DPartitionTable.h>
+	<disklib/DDiskImageFile.h>
+	<disklib/DDiskImageMem.h>
+	<disklib/DNativeFilesystem.h>
+	<sys/stat.h>
+	<stat.h>
+	<direct.h>
+	<IterateDirectory.h>
+	<disklib/DPartitionTableAmy.h>
+	<disklib/DPartitionTableHfs.h>
+	<disklib/DPartitionTableMbr.h>
+	<disklib/DImage1541.h>
+	<disklib/DImageAcorn.h>
+	<disklib/DImageAmy.h>
+	<disklib/DImageApple2.h>
+	<disklib/DImageAtari.h>
+	<disklib/DImageCpm.h>
+	<disklib/DImageFat.h>
+	<disklib/DImageHfs.h>
+	<disklib/DImageTrs80.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EEmptyMem.cpp
+	<elib/EEmptyMem.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726866 /home/nick/src/nemu/elib/EEmptyMem.h
+	"EMemAbstract.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EHandler.cpp
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<elib/EHandler.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ESoundIOAbstract.h>
+	<elib/EVideoIOAbstract.h>
+	<elib/EKeys.h>
+	<elib/EOSHelper.h>
+	<cpulib/ECPUAbstract.h>
+	<disklib/DVfs.h>
+
+1300726870 /home/nick/src/nemu/elib/ESoundIOAbstract.h
+	<elib/EMemIO.h>
+
+1300738368 /home/nick/src/nemu/elib/EVideoIOAbstract.h
+	<elib/EMemIO.h>
+	<elib/EVideoSprite.h>
+
+1298265524 /home/nick/src/nemu/elib/EVideoSprite.h
+	<elib/EVideoTile.h>
+
+1300738456 /home/nick/src/nemu/elib/EVideoTile.h
+	<elib/EMemAbstract.h>
+
+1298097706 /home/nick/src/nemu/elib/EKeys.h
+
+1300738182 /home/nick/src/nemu/elib/EOSHelper.h
+	<elib/EMemAbstract.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EIOAcia.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOAcia.h>
+
+1300726866 /home/nick/src/nemu/elib/EIOAcia.h
+	"EIOChip.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EIOAcia6551.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOAcia6551.h>
+
+1300726866 /home/nick/src/nemu/elib/EIOAcia6551.h
+	"EIOAcia.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EIOAcia6850.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOAcia6850.h>
+
+1300726866 /home/nick/src/nemu/elib/EIOAcia6850.h
+	"EIOAcia.h"
+
+1300728222 source:/home/nick/src/nemu/elib/EIOChip.cpp
+	<elib/EIOChip.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EIOCia6526.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOCia6526.h>
+
+1300726866 /home/nick/src/nemu/elib/EIOCia6526.h
+	"EIOVia6522.h"
+
+1300726868 /home/nick/src/nemu/elib/EIOVia6522.h
+	"EIOPia.h"
+
+1300726868 /home/nick/src/nemu/elib/EIOPia.h
+	"EIOChip.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EIOCia8520.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOCia8520.h>
+
+1300726866 /home/nick/src/nemu/elib/EIOCia8520.h
+	"EIOVia6522.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EIOPia.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOPia.h>
+	<elib/EHandler.h>
+	<cpulib/ECPUAbstract.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EIOPia6520.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOPia6520.h>
+
+1300726868 /home/nick/src/nemu/elib/EIOPia6520.h
+	"EIOPia.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EIOPia8255.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOPia8255.h>
+
+1300726868 /home/nick/src/nemu/elib/EIOPia8255.h
+	"EIOPia.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EIOScc8530.cpp
+	<elib/EIOScc8530.h>
+	<cpulib/ECPUAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726868 /home/nick/src/nemu/elib/EIOScc8530.h
+	<elib/EIOAcia.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EIOTia6525.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOTia6525.h>
+
+1300726868 /home/nick/src/nemu/elib/EIOTia6525.h
+	"EIOPia.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EIOVia6522.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EIOVia6522.h>
+	<elib/EHandler.h>
+	<cpulib/ECPUAbstract.h>
+
+1298097706 source:/home/nick/src/nemu/elib/EMapHandler.cpp
+	<elib/EMapHandler.h>
+
+1298097706 /home/nick/src/nemu/elib/EMapHandler.h
+	"EMemAbstract.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EMapSymbol.cpp
+	<elib/EMapSymbol.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EMemAbstract.cpp
+	<elib/EMemAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EMemIO.cpp
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemIO.h>
+	<elib/EHandler.h>
+	<elib/EMemMapAbstract.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EMemMapAbstract.cpp
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EMemMapComplex.cpp
+	<elib/EMemMapComplex.h>
+	<elib/EEmptyMem.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EMemIO.h>
+	<elib/EVideoIOAbstract.h>
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<ctype.h>
+
+1306812556 /home/nick/src/nemu/elib/EMemMapComplex.h
+	<portable/nickcpp/AList.h>
+	"EMemMapAbstract.h"
+
+1300726870 /home/nick/src/nemu/elib/ERom.h
+	"ERam.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EMemMapSimple.cpp
+	<elib/EMemMapSimple.h>
+	<elib/EModule.h>
+	<elib/EEmptyMem.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EMemIO.h>
+	<elib/EHandler.h>
+	<elib/EVideoIOAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726868 /home/nick/src/nemu/elib/EMemMapSimple.h
+	"EMemMapAbstract.h"
+
+1306812556 source:/home/nick/src/nemu/elib/EModule.cpp
+	<elib/EModule.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 source:/home/nick/src/nemu/elib/EOSEntry.cpp
+	<elib/EOSEntry.h>
+
+1300738172 /home/nick/src/nemu/elib/EOSEntry.h
+	<elib/EMemAbstract.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EOSHelper.cpp
+	<elib/EOSHelper.h>
+	<elib/EOSEntry.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812556 source:/home/nick/src/nemu/elib/ERam.cpp
+	<elib/ERam.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726870 source:/home/nick/src/nemu/elib/EResource.cpp
+	<elib/EResource.h>
+
+1306812556 source:/home/nick/src/nemu/elib/EResourceFile.cpp
+	<elib/EResourceFile.h>
+	<elib/EResource.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<disklib/DVfs.h>
+	<sys/fcntl.h>
+	<fcntl.h>
+
+1306812556 source:/home/nick/src/nemu/elib/ERom.cpp
+	<elib/ERom.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812556 source:/home/nick/src/nemu/elib/ESoundIOAbstract.cpp
+	<iostream>
+	<elib/ESoundIOAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812556 source:/home/nick/src/nemu/elib/ESoundIOPokey.cpp
+	<elib/ESoundIOPokey.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1300726870 /home/nick/src/nemu/elib/ESoundIOPokey.h
+	<elib/ESoundIOAbstract.h>
+
+1306812558 source:/home/nick/src/nemu/elib/ESoundIOSid.cpp
+	<elib/ESoundIOSid.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 /home/nick/src/nemu/elib/ESoundIOSid.h
+	<elib/ESoundIOAbstract.h>
+
+1306812558 source:/home/nick/src/nemu/elib/ESoundIOSn764xx.cpp
+	<elib/ESoundIOSn764xx.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 /home/nick/src/nemu/elib/ESoundIOSn764xx.h
+	<elib/ESoundIOAbstract.h>
+
+1306812558 source:/home/nick/src/nemu/elib/ESoundIOYmxxxx.cpp
+	<elib/ESoundIOYmxxxx.h>
+	<elib/EHandler.h>
+	<portable/nickcpp/ANullStream.h>
+
+1298097706 /home/nick/src/nemu/elib/ESoundIOYmxxxx.h
+	<elib/ESoundIOAbstract.h>
+
+1306812558 source:/home/nick/src/nemu/elib/EVideoIOAbstract.cpp
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AStringHelper.h>
+	<elib/EVideoIOAbstract.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EHandler.h>
+	<elib/ERam.h>
+	<elib/ERom.h>
+	<cpulib/ECPUAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<math.h>
+
+1293746966 /home/nick/src/cpp/portable/nickcpp/APalette.h
+	"AColor.h"
+
+1274826684 /home/nick/src/cpp/portable/nickcpp/AColor.h
+
+1306812558 source:/home/nick/src/nemu/elib/EVideoIOBitmap.cpp
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AStringHelper.h>
+	<elib/EVideoIOBitmap.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EHandler.h>
+	<elib/ERom.h>
+	<cpulib/ECPUAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<math.h>
+
+1300726870 /home/nick/src/nemu/elib/EVideoIOBitmap.h
+	"EVideoIOAbstract.h"
+
+1306812558 source:/home/nick/src/nemu/elib/EVideoIOMoto684x.cpp
+	<elib/EVideoIOMoto684x.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/ECPUAbstract.h>
+
+1300726870 /home/nick/src/nemu/elib/EVideoIOMoto684x.h
+	<elib/EVideoIOMultiMode.h>
+
+1300726870 /home/nick/src/nemu/elib/EVideoIOMultiMode.h
+	"EVideoIOTextOnly.h"
+
+1300726872 /home/nick/src/nemu/elib/EVideoIOTextOnly.h
+	"EVideoIOAbstract.h"
+
+1306812558 source:/home/nick/src/nemu/elib/EVideoIOMultiMode.cpp
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AStringHelper.h>
+	<elib/EVideoIOMultiMode.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EHandler.h>
+	<elib/ERom.h>
+	<cpulib/ECPUAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<math.h>
+
+1306812558 source:/home/nick/src/nemu/elib/EVideoIOTextOnly.cpp
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AStringHelper.h>
+	<elib/EVideoIOTextOnly.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EHandler.h>
+	<elib/ERom.h>
+	<cpulib/ECPUAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<math.h>
+
+1306812558 source:/home/nick/src/nemu/elib/EVideoIOTms99xx.cpp
+	<elib/EVideoIOTms99xx.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/ECPUAbstract.h>
+
+1300726872 /home/nick/src/nemu/elib/EVideoIOTms99xx.h
+	<elib/EVideoIOMultiMode.h>
+
+1306812558 source:/home/nick/src/nemu/elib/EVideoIOVector.cpp
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AStringHelper.h>
+	<elib/EVideoIOVector.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EHandler.h>
+	<elib/ERom.h>
+	<cpulib/ECPUAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+	<math.h>
+
+1300726872 /home/nick/src/nemu/elib/EVideoIOVector.h
+	"EVideoIOAbstract.h"
+
+1298264922 source:/home/nick/src/nemu/elib/EVideoSprite.cpp
+	<elib/EVideoSprite.h>
+
+1298266246 source:/home/nick/src/nemu/elib/EVideoTile.cpp
+	<elib/EVideoTile.h>
+
+1306812558 source:/home/nick/src/nemu/elib/Em68kHandler.cpp
+	<elib/Em68kHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em68k.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+
+1300726872 /home/nick/src/nemu/elib/Em68kHandler.h
+	"EHandler.h"
+
+1306812698 source:/home/nick/src/nemu/emu/NAcornDos.cpp
+	<emu/NAcornDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/ndecoder/AImageDecoder.h>
+	<portable/ndecoder/ASmartImageDecoder.h>
+	<cpulib/Em6502.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<disklib/DVfs.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726872 /home/nick/src/nemu/emu/NAcornDos.h
+	<elib/EOSHelper.h>
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AImageDecoder.h
+	<portable/nickcpp/ABitmap.h>
+	"ADecoder.h"
+
+1304107864 /home/nick/src/cpp/portable/nickcpp/ABitmap.h
+	<portable/nickcpp/ADrawableAbstract.h>
+
+1304107864 /home/nick/src/cpp/portable/nickcpp/ADrawableAbstract.h
+	<portable/nickcpp/AFrameAbstract.h>
+
+1291150282 /home/nick/src/cpp/portable/nickcpp/AFrameAbstract.h
+	"APoint.h"
+	"ARect.h"
+	"AError.h"
+
+1274826700 /home/nick/src/cpp/portable/nickcpp/APoint.h
+
+1321227940 /home/nick/src/cpp/portable/ndecoder/ADecoder.h
+	<portable/nickcpp/AError.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/ASmartImageDecoder.h
+	"ASmartDecoder.h"
+	"AImageDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/ASmartDecoder.h
+	"ADecoder.h"
+
+1306812558 source:/home/nick/src/nemu/emu/NAcornHandler.cpp
+	<emu/NAcornHandler.h>
+	<emu/NAcornIO.h>
+	<emu/NAcornDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOTextOnly.h>
+
+1300726872 /home/nick/src/nemu/emu/NAcornHandler.h
+	<elib/EHandler.h>
+
+1298137002 /home/nick/src/nemu/emu/NAcornIO.h
+	<elib/EMemIO.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAcornIO.cpp
+	<emu/NAcornHandler.h>
+	<emu/NAcornIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOPia8255.h>
+	<elib/EIOVia6522.h>
+	<elib/EIOAcia6850.h>
+	<disklib/DController827x.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAmigaHandler.cpp
+	<emu/NAmigaHandler.h>
+	<emu/NAmigaIO.h>
+	<emu/NTinyHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOCia8520.h>
+	<elib/EVideoIOBitmap.h>
+	<cpulib/Em68k.h>
+
+1300726872 /home/nick/src/nemu/emu/NAmigaHandler.h
+	<elib/Em68kHandler.h>
+
+1299389704 /home/nick/src/nemu/emu/NAmigaIO.h
+	<elib/EMemIO.h>
+
+1306812560 /home/nick/src/nemu/emu/NTinyHandler.h
+	<portable/nickcpp/AStringHelper.h>
+	<elib/EHandler.h>
+	<emu/generated/NTiny_syscall_tab.h>
+
+1298137358 /home/nick/src/nemu/emu/generated/NTiny_syscall_tab.h
+
+1306812558 source:/home/nick/src/nemu/emu/NAmigaIO.cpp
+	<emu/NAmigaIO.h>
+	<emu/NAmigaHandler.h>
+	<emu/generated/NAmiga_reg_tab.h>
+	<emu/NTinyHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOCia8520.h>
+	<cpulib/Em68k.h>
+
+1298137358 /home/nick/src/nemu/emu/generated/NAmiga_reg_tab.h
+
+1306812558 source:/home/nick/src/nemu/emu/NAppleDos.cpp
+	<emu/NAppleDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<cpulib/Em6502.h>
+	<disklib/DControllerIWM.h>
+	<disklib/DControllerDisk2.h>
+	<disklib/DVfs.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726872 /home/nick/src/nemu/emu/NAppleDos.h
+	<elib/EOSHelper.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAppleHandler.cpp
+	<emu/NAppleHandler.h>
+	<emu/NAppleDos.h>
+	<emu/NAppleIO.h>
+	<emu/NAppleVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<cpulib/Em6502.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726872 /home/nick/src/nemu/emu/NAppleHandler.h
+	<elib/EHandler.h>
+
+1300726872 /home/nick/src/nemu/emu/NAppleIO.h
+	<elib/EMemIO.h>
+
+1300726872 /home/nick/src/nemu/emu/NAppleVideo.h
+	<elib/EVideoIOMultiMode.h>
+
+1306812698 source:/home/nick/src/nemu/emu/NAppleIO.cpp
+	<emu/NAppleIO.h>
+	<emu/NAppleHandler.h>
+	<emu/NAppleVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/ndecoder/AImageDecoder.h>
+	<portable/ndecoder/ASmartImageDecoder.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<elib/EIOVia6522.h>
+	<elib/EIOScc8530.h>
+	<cpulib/Em6502.h>
+	<disklib/DControllerIWM.h>
+	<disklib/DControllerDisk2.h>
+	<disklib/DVfs.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1309151374 source:/home/nick/src/nemu/emu/NAppleVideo.cpp
+	<emu/NAppleIO.h>
+	<emu/NAppleHandler.h>
+	<emu/NAppleVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/ndecoder/AImageDecoder.h>
+	<portable/ndecoder/ASmartImageDecoder.h>
+	<cpulib/Em6502.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<elib/EIOVia6522.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariArcadeHandler.cpp
+	<emu/NAtariArcadeHandler.h>
+	<emu/NAtariArcadeIO.h>
+	<emu/NAtariArcadeVideo.h>
+	<elib/ESoundIOPokey.h>
+	<elib/EKeys.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/Em6502.h>
+
+1300726872 /home/nick/src/nemu/emu/NAtariArcadeHandler.h
+	<elib/EHandler.h>
+
+1298137002 /home/nick/src/nemu/emu/NAtariArcadeIO.h
+	<elib/EMemIO.h>
+
+1300726874 /home/nick/src/nemu/emu/NAtariArcadeVideo.h
+	<elib/EVideoIOMultiMode.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariArcadeIO.cpp
+	<emu/NAtariArcadeHandler.h>
+	<emu/NAtariArcadeIO.h>
+	<emu/NAtariArcadeVideo.h>
+	<elib/ESoundIOPokey.h>
+	<elib/EKeys.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em6502.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariArcadeVideo.cpp
+	<emu/NAtariArcadeHandler.h>
+	<emu/NAtariArcadeIO.h>
+	<emu/NAtariArcadeVideo.h>
+	<elib/ESoundIOPokey.h>
+	<elib/EKeys.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em6502.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariDos.cpp
+	<emu/NAtariDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/Em6502.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<disklib/DVfs.h>
+	<disklib/DImageAtari.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726874 /home/nick/src/nemu/emu/NAtariDos.h
+	<elib/EOSHelper.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariHandler.cpp
+	<emu/NAtariHandler.h>
+	<emu/NAtariIO.h>
+	<emu/NAtariVideo.h>
+	<emu/NAtariDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ESoundIOPokey.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOPia6520.h>
+	<cpulib/Em6502.h>
+
+1299064190 /home/nick/src/nemu/emu/NAtariHandler.h
+	<elib/EHandler.h>
+
+1298137002 /home/nick/src/nemu/emu/NAtariIO.h
+	<elib/EMemIO.h>
+
+1300726874 /home/nick/src/nemu/emu/NAtariVideo.h
+	<elib/EVideoIOMultiMode.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariIO.cpp
+	<emu/NAtariHandler.h>
+	<emu/NAtariIO.h>
+	<emu/NAtariVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ESoundIOPokey.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOPia6520.h>
+	<cpulib/Em6502.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariSTHandler.cpp
+	<emu/NAtariSTHandler.h>
+	<emu/NAtariSTIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em68k.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOBitmap.h>
+
+1300726874 /home/nick/src/nemu/emu/NAtariSTHandler.h
+	<elib/Em68kHandler.h>
+
+1299389556 /home/nick/src/nemu/emu/NAtariSTIO.h
+	<elib/EMemIO.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariSTIO.cpp
+	<emu/NAtariSTHandler.h>
+	<emu/NAtariSTIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em68k.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariVectorHandler.cpp
+	<emu/NAtariVectorHandler.h>
+	<emu/NAtariVectorIO.h>
+	<emu/NAtariVectorVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726874 /home/nick/src/nemu/emu/NAtariVectorHandler.h
+	<elib/EHandler.h>
+
+1298097706 /home/nick/src/nemu/emu/NAtariVectorIO.h
+	<elib/EMemIO.h>
+
+1300726874 /home/nick/src/nemu/emu/NAtariVectorVideo.h
+	<elib/EVideoIOVector.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariVectorIO.cpp
+	<emu/NAtariVectorHandler.h>
+	<emu/NAtariVectorIO.h>
+	<emu/NAtariVectorVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariVectorVideo.cpp
+	<emu/NAtariVectorHandler.h>
+	<emu/NAtariVectorIO.h>
+	<emu/NAtariVectorVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NAtariVideo.cpp
+	<emu/NAtariHandler.h>
+	<emu/NAtariIO.h>
+	<emu/NAtariVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ESoundIOPokey.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOPia6520.h>
+	<cpulib/Em6502.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NCbmHandler.cpp
+	<emu/NCbmHandler.h>
+	<emu/NCbmIO.h>
+	<emu/NCbmVideo.h>
+	<emu/NCbmKernHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EKeys.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EVideoIOTextOnly.h>
+	<disklib/DController65.h>
+	<disklib/DVfs.h>
+	<cpulib/Em6502.h>
+	<emu/generated/NCbm_kern_tab.h>
+
+1300726874 /home/nick/src/nemu/emu/NCbmHandler.h
+	<elib/EHandler.h>
+
+1300728222 /home/nick/src/nemu/emu/NCbmIO.h
+	<elib/EMemIO.h>
+	<elib/EIOChip.h>
+
+1300726874 /home/nick/src/nemu/emu/NCbmVideo.h
+	<elib/EVideoIOMultiMode.h>
+
+1300726874 /home/nick/src/nemu/emu/NCbmKernHelper.h
+	<elib/EOSHelper.h>
+
+1298243248 /home/nick/src/nemu/emu/generated/NCbm_kern_tab.h
+
+1306812558 source:/home/nick/src/nemu/emu/NCbmIO.cpp
+	<emu/NCbmHandler.h>
+	<emu/NCbmIO.h>
+	<emu/NCbmVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EKeys.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EIOPia.h>
+	<elib/EIOPia6520.h>
+	<elib/EIOCia6526.h>
+	<elib/EIOVia6522.h>
+	<elib/EIOTia6525.h>
+	<elib/ESoundIOSid.h>
+	<elib/EIOAcia6551.h>
+	<disklib/DController65.h>
+	<disklib/DVfs.h>
+	<cpulib/Em6502.h>
+	<emu/generated/NCbm_kern_tab.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NCbmKernHelper.cpp
+	<emu/NCbmHandler.h>
+	<emu/NCbmIO.h>
+	<emu/NCbmVideo.h>
+	<emu/NCbmKernHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<elib/EKeys.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<elib/EMemMapAbstract.h>
+	<disklib/DController65.h>
+	<disklib/DVfs.h>
+	<cpulib/Em6502.h>
+	<emu/generated/NCbm_kern_tab.h>
+
+1309151378 source:/home/nick/src/nemu/emu/NCbmVideo.cpp
+	<emu/NCbmHandler.h>
+	<emu/NCbmIO.h>
+	<emu/NCbmVideo.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EKeys.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<elib/EMemMapAbstract.h>
+	<cpulib/Em6502.h>
+	<emu/generated/NCbm_kern_tab.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NCocoDos.cpp
+	<emu/NCocoDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/Em6502.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<disklib/DVfs.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726874 /home/nick/src/nemu/emu/NCocoDos.h
+	<elib/EOSHelper.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NCocoHandler.cpp
+	<emu/NCocoHandler.h>
+	<emu/NCocoIO.h>
+	<emu/NCocoDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOMultiMode.h>
+
+1300726874 /home/nick/src/nemu/emu/NCocoHandler.h
+	<elib/EHandler.h>
+
+1299611764 /home/nick/src/nemu/emu/NCocoIO.h
+	<elib/EMemIO.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NCocoIO.cpp
+	<emu/NCocoHandler.h>
+	<emu/NCocoIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOVia6522.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NCpmDos.cpp
+	<emu/NCpmDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/Ez80.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<disklib/DVfs.h>
+	<disklib/DImageCpm.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726874 /home/nick/src/nemu/emu/NCpmDos.h
+	<elib/EOSHelper.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NCpmHandler.cpp
+	<emu/NCpmHandler.h>
+	<emu/NCpmIO.h>
+	<emu/NCpmDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOMultiMode.h>
+
+1300726876 /home/nick/src/nemu/emu/NCpmHandler.h
+	<elib/EHandler.h>
+
+1298137002 /home/nick/src/nemu/emu/NCpmIO.h
+	<elib/EMemIO.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NCpmIO.cpp
+	<emu/NCpmHandler.h>
+	<emu/NCpmIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NFamicomHandler.cpp
+	<emu/NFamicomHandler.h>
+	<emu/NFamicomIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em6502.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOMultiMode.h>
+
+1300726876 /home/nick/src/nemu/emu/NFamicomHandler.h
+	<elib/EHandler.h>
+
+1299100054 /home/nick/src/nemu/emu/NFamicomIO.h
+	<elib/EMemIO.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NFamicomIO.cpp
+	<emu/NFamicomHandler.h>
+	<emu/NFamicomIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em6502.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NGenesisHandler.cpp
+	<emu/NGenesisHandler.h>
+	<emu/NGenesisIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em68k.h>
+	<cpulib/Ez80.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOTms99xx.h>
+
+1300726876 /home/nick/src/nemu/emu/NGenesisHandler.h
+	<elib/Em68kHandler.h>
+
+1299099372 /home/nick/src/nemu/emu/NGenesisIO.h
+	<elib/EMemIO.h>
+
+1306812558 source:/home/nick/src/nemu/emu/NGenesisIO.cpp
+	<emu/NGenesisHandler.h>
+	<emu/NGenesisIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em68k.h>
+	<cpulib/Ez80.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOTms99xx.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NJavaHandler.cpp
+	<emu/NJavaHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EMemMapAbstract.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NMacHandler.cpp
+	<emu/NMacHandler.h>
+	<emu/NMacIO.h>
+	<emu/NTinyHandler.h>
+	<emu/generated/NMac_traps_tab.h>
+	<emu/generated/NMac_globals_tab.h>
+	<cpulib/Em68k.h>
+	<cpulib/EPowerPC.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOVia6522.h>
+	<elib/EVideoIOBitmap.h>
+	<elib/EIOScc8530.h>
+	<disklib/DControllerIWM.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726876 /home/nick/src/nemu/emu/NMacHandler.h
+	<elib/Em68kHandler.h>
+	"NMacZone.h"
+	"NMacApp.h"
+
+1298097706 /home/nick/src/nemu/emu/NMacZone.h
+	"NMacMemBase.h"
+
+1300726876 /home/nick/src/nemu/emu/NMacMemBase.h
+
+1298097706 /home/nick/src/nemu/emu/NMacApp.h
+	"NMacMemBase.h"
+
+1300726876 /home/nick/src/nemu/emu/NMacIO.h
+	<elib/EMemIO.h>
+
+1300726878 /home/nick/src/nemu/emu/generated/NMac_traps_tab.h
+
+1300726878 /home/nick/src/nemu/emu/generated/NMac_globals_tab.h
+
+1306812560 source:/home/nick/src/nemu/emu/NMacIO.cpp
+	<emu/NMacHandler.h>
+	<emu/NMacIO.h>
+	<emu/NTinyHandler.h>
+	<cpulib/Em68k.h>
+	<cpulib/EPowerPC.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOVia6522.h>
+	<elib/EIOScc8530.h>
+	<disklib/DControllerIWM.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NOricDos.cpp
+	<emu/NOricDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/Em6502.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<disklib/DVfs.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726876 /home/nick/src/nemu/emu/NOricDos.h
+	<elib/EOSHelper.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NOricHandler.cpp
+	<emu/NOricHandler.h>
+	<emu/NOricIO.h>
+	<emu/NOricDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOMultiMode.h>
+
+1300726876 /home/nick/src/nemu/emu/NOricHandler.h
+	<elib/EHandler.h>
+
+1298137002 /home/nick/src/nemu/emu/NOricIO.h
+	<elib/EMemIO.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NOricIO.cpp
+	<emu/NOricHandler.h>
+	<emu/NOricIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EIOVia6522.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NPalmHandler.cpp
+	<emu/NPalmHandler.h>
+	<emu/NPalmIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EVideoIOBitmap.h>
+	<cpulib/Em68k.h>
+	<cpulib/EArm.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300728022 /home/nick/src/nemu/emu/NPalmHandler.h
+	<elib/Em68kHandler.h>
+
+1299389702 /home/nick/src/nemu/emu/NPalmIO.h
+	<elib/EMemIO.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NPalmIO.cpp
+	<emu/NPalmHandler.h>
+	<emu/NPalmIO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<cpulib/Em68k.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NPcDos.cpp
+	<emu/NPcDos.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/Ex86.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<disklib/DVfs.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726876 /home/nick/src/nemu/emu/NPcDos.h
+	<elib/EOSHelper.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NPcHandler.cpp
+	<emu/NPcHandler.h>
+	<emu/NPcIO.h>
+	<emu/NTinyHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EVideoIOMoto684x.h>
+	<cpulib/Ex86.h>
+
+1306812560 /home/nick/src/nemu/emu/NPcHandler.h
+	<elib/EHandler.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1298097706 /home/nick/src/nemu/emu/NPcIO.h
+	<elib/EMemIO.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NPcIO.cpp
+	<emu/NPcHandler.h>
+	<emu/NPcIO.h>
+	<emu/NTinyHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EVideoIOMoto684x.h>
+	<cpulib/Ex86.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NSwfHandler.cpp
+	<emu/NSwfHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1298097706 /home/nick/src/nemu/emu/NSwfHandler.h
+	<elib/EHandler.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NTinyHandler.cpp
+	<emu/NTinyHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EMemMapAbstract.h>
+	<iostream>
+	<stdlib.h>
+	<sys/fcntl.h>
+	<fcntl.h>
+	<unistd.h>
+	<io.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NTrs80Dos.cpp
+	<emu/NTrs80Dos.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/Ez80.h>
+	<elib/EMemMapAbstract.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EOSEntry.h>
+	<disklib/DVfs.h>
+	<disklib/DImageTrs80.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1300726876 /home/nick/src/nemu/emu/NTrs80Dos.h
+	<elib/EOSHelper.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NTrs80Handler.cpp
+	<emu/NTrs80Handler.h>
+	<emu/NTrs80IO.h>
+	<emu/NTrs80Dos.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<elib/EVideoIOTextOnly.h>
+
+1300726878 /home/nick/src/nemu/emu/NTrs80Handler.h
+	<elib/EHandler.h>
+
+1298137002 /home/nick/src/nemu/emu/NTrs80IO.h
+	<elib/EMemIO.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NTrs80IO.cpp
+	<emu/NTrs80Handler.h>
+	<emu/NTrs80IO.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/APalette.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EModule.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NUnixHandler.cpp
+	<emu/NUnixHandler.h>
+	<emu/NTinyHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EVideoIOTextOnly.h>
+
+1306812560 /home/nick/src/nemu/emu/NUnixHandler.h
+	<elib/EHandler.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1306812560 source:/home/nick/src/nemu/emu/NZMachineHandler.cpp
+	<emu/NZMachineHandler.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1298097706 /home/nick/src/nemu/emu/NZMachineHandler.h
+	<elib/EHandler.h>
+
+1306812560 source:/home/nick/src/nemu/ncmd.cpp
+	"nemu.h"
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AClock.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/AStringHelper.h>
+	<cpulib/ECPUAbstract.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EResourceFile.h>
+	<elib/EResource.h>
+	<elib/EVideoIOAbstract.h>
+	<elib/EHandler.h>
+	<elib/ERom.h>
+	<elib/ERam.h>
+	<disklib/DVfs.h>
+	<binarylib/NLd.h>
+
+1306812560 /home/nick/src/nemu/nemu.h
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/AError.h>
+	<elib/EMemAbstract.h>
+
+1322681114 source:/home/nick/src/nemu/nemu.cpp
+	"nemu.h"
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/AFileOutputStream.h>
+	<portable/nickcpp/AFileInputStream.h>
+	<portable/nickcpp/AClock.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/ndecoder/ADecoder.h>
+	<portable/ndecoder/ASmartDecoder.h>
+	<elib/EMemMapAbstract.h>
+	<elib/EMemMapComplex.h>
+	<elib/EMemMapSimple.h>
+	<disklib/DVfs.h>
+	<binarylib/NLd.h>
+	<binarylib/NBinaryDecoder.h>
+	<cpulib/ECPUAbstract.h>
+	<cpulib/EAlpha.h>
+	<cpulib/EArm.h>
+	<cpulib/EHitachi.h>
+	<cpulib/EJvm.h>
+	<cpulib/EDotNet.h>
+	<cpulib/EMips.h>
+	<cpulib/Em6502.h>
+	<cpulib/Em68k.h>
+	<cpulib/Em6800.h>
+	<cpulib/Em6809.h>
+	<cpulib/Em6811.h>
+	<cpulib/EPowerPC.h>
+	<cpulib/ESparc.h>
+	<cpulib/ESh.h>
+	<cpulib/ESwf.h>
+	<cpulib/Ex86.h>
+	<cpulib/Ez80.h>
+	<cpulib/EZMachine.h>
+	<emu/NAcornHandler.h>
+	<emu/NAppleHandler.h>
+	<emu/NAmigaHandler.h>
+	<emu/NAtariHandler.h>
+	<emu/NAtariSTHandler.h>
+	<emu/NAtariArcadeHandler.h>
+	<emu/NAtariVectorHandler.h>
+	<emu/NCbmHandler.h>
+	<emu/NCocoHandler.h>
+	<emu/NCpmHandler.h>
+	<emu/NFamicomHandler.h>
+	<emu/NGenesisHandler.h>
+	<emu/NJavaHandler.h>
+	<emu/NMacHandler.h>
+	<emu/NOricHandler.h>
+	<emu/NPalmHandler.h>
+	<emu/NPcHandler.h>
+	<emu/NTrs80Handler.h>
+	<emu/NUnixHandler.h>
+	<emu/NSwfHandler.h>
+	<emu/NZMachineHandler.h>
+
+1293946608 /home/nick/src/cpp/portable/nickcpp/AFileOutputStream.h
+	<stdio.h>
+	<string.h>
+	"AOutputStream.h"
+
+1294287828 /home/nick/src/cpp/portable/nickcpp/AOutputStream.h
+	"ANullStream.h"
+
+1292001900 /home/nick/src/cpp/portable/nickcpp/AFileInputStream.h
+	"AInputStream.h"
+
+1294287828 /home/nick/src/cpp/portable/nickcpp/AInputStream.h
+	"ANullStream.h"
+
+1311111000 /home/nick/src/cpp/portable/nickcpp/ANativeFilesystem.h
+	<unistd.h>
+	<sys/stat.h>
+	<stat.h>
+	<dirent.h>
+	<direct.h>
+	<sys/dir.h>
+
+1319564124 source:/home/nick/src/cpp/sdl/nicksdl.cpp
+	<cstdlib>
+	<iostream>
+	"nicksdl.h"
+	<glut/nickglut.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ABitmap.h>
+	<portable/nick3d/AScene3D.h>
+
+1317937090 /home/nick/src/cpp/sdl/nicksdl.h
+	<SDL/SDL.h>
+
+1318821300 /home/nick/src/cpp/glut/nickglut.h
+	<AGL/agl.h>
+	<GLUT/glut.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glx.h>
+
+1315943948 /home/nick/src/cpp/portable/nick3d/AScene3D.h
+	"AVertex3D.h"
+	"AFace3D.h"
+	"AVertex3D.h"
+	"AMesh3D.h"
+	"ACamera3D.h"
+	"ALight3D.h"
+
+1315943670 /home/nick/src/cpp/portable/nick3d/AVertex3D.h
+
+1317937346 /home/nick/src/cpp/portable/nick3d/AFace3D.h
+
+1321570802 /home/nick/src/cpp/portable/nick3d/AMesh3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+	"APart3D.h"
+	"ATexture3D.h"
+	"ATextCoord3D.h"
+	"AFace3D.h"
+	"ACamera3D.h"
+
+1316548988 /home/nick/src/cpp/portable/nick3d/AMatrix3D.h
+	"AVertex3D.h"
+	"AFace3D.h"
+	<math.h>
+
+1276390570 /home/nick/src/cpp/portable/nick3d/APart3D.h
+
+1276390570 /home/nick/src/cpp/portable/nick3d/ATexture3D.h
+
+1276390570 /home/nick/src/cpp/portable/nick3d/ATextCoord3D.h
+
+1321402218 /home/nick/src/cpp/portable/nick3d/ACamera3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+
+1321402208 /home/nick/src/cpp/portable/nick3d/ALight3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+

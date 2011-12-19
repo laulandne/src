@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0A512000-A3FC-4AC4-9816-0A56B77A0FE9}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Debug\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Release\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>c:\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ASYS_WIN32=1;NICK_USE_GUILIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)cpp_guilib_static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>c:\src\cpp;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>ASYS_WIN32=1;NICK_USE_GUILIB=1;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <OutputFile>$(OutDir)cpp_guilib_static.lib</OutputFile>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\..\cpp\guilib\aapp.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AApplicationLoop.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ABitmapBanks.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ABitmapBanksPlanes.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ABitmapFlipped.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ABitmapInter.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ABitmapInterFour.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ABitmapPlanes.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ABitmapSimple.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ABitmapText.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ADialogAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ADialogAskString.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ADialogMsg.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ADialogWithButtons.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ADisplay.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ADisplayMode.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AEvent.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_amiga.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_carbon.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_curses.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_dos.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_glut.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_os2.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_palm.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_win.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\alib_x11.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\APrivateBitmap.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ARendererSoft3D.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ARequestAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ARequesterDisplayMode.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ARequesterFile.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\ARequesterNetwork.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AThread.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AWindow.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AWindowAbstract.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AWindowCharMapped.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AWindowInputStream.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AWindowOutputStream.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\AWindowStream.cpp" />
+    <ClCompile Include="..\..\..\cpp\guilib\nickguilib.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AApp.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AApplicationLoop.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ABitmapBanks.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ABitmapBanksPlanes.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ABitmapFlipped.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ABitmapInter.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ABitmapInterFour.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ABitmapPlanes.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ABitmapSimple.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ABitmapText.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ADialogAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ADialogAskString.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ADialogMsg.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ADialogWithButtons.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ADisplay.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ADisplayMode.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AEvent.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_amiga.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_carbon.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_cocoa.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_curses.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_dos.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_glut.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_os2.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_palm.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_win.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alib_x11.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\alibMacHeadersCarbon.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\APlatform.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\APrivateBitmap.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ARendererSoft3D.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ARequestAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ARequesterDisplayMode.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ARequesterFile.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ARequesterNetwork.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AThread.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\ATypeDefs.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AWindow.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AWindowAbstract.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AWindowCharMapped.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AWindowInputStream.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AWindowOutputStream.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\AWindowStream.h" />
+    <ClInclude Include="..\..\..\cpp\guilib\nickguilib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

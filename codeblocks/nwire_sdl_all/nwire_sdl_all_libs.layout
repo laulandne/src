@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../cpp/nwire.cpp" open="1" top="0" tabpos="3">
+		<Cursor position="13694" topLine="494" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ADecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="8325" topLine="288" />
+	</File>
+	<File name="../../cpp/portable/ndecoder/ADecoder.h" open="0" top="0" tabpos="0">
+		<Cursor position="0" topLine="24" />
+	</File>
+	<File name="../../cpp/portable/nick3d/A3DSDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1428" topLine="220" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ABspDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1332" topLine="17" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ADXFDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2187" topLine="47" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AHalfLifeDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1434" topLine="39" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ALightwaveDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2050" topLine="59" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMapDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2703" topLine="58" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AMayaDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="2072" topLine="42" />
+	</File>
+	<File name="../../cpp/portable/nick3d/ASmartSceneDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1711" topLine="31" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AVRMLDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="3815" topLine="92" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWADDecoder.cpp" open="1" top="1" tabpos="1">
+		<Cursor position="14092" topLine="423" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWADDecoder.h" open="1" top="0" tabpos="2">
+		<Cursor position="113" topLine="0" />
+	</File>
+	<File name="../../cpp/portable/nick3d/AWolf3dDecoder.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1371" topLine="17" />
+	</File>
+	<File name="../../cpp/sdl/nicksdl.cpp" open="0" top="0" tabpos="1">
+		<Cursor position="7664" topLine="242" />
+	</File>
+</CodeBlocks_layout_file>

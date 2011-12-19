@@ -1,0 +1,7 @@
+X Error of failed request:  BadWindow (invalid Window parameter)
+  Major opcode of failed request:  138 (NV-GLX)
+  Minor opcode of failed request:  4 ()
+  Resource id in failed request:  0x4a00003
+  Serial number of failed request:  30
+  Current serial number in output stream:  30
+name of display: :0.0

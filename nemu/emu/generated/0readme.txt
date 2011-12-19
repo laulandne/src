@@ -1,0 +1,1 @@
+"build_cpu" folder------------------This folder contains various batch files, perl scripts and FileMaker Pro 2 filesthat I used to generate large tables and switch statements for the variouscpu compilers.You don't really need this folder for anything, I'm just including it forthe curious.

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="../../cpp/javacpp/JApplet.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JApplet.h" open="0" top="0" tabpos="0">
+		<Cursor position="1356" topLine="33" />
+	</File>
+	<File name="../../cpp/javacpp/JColor.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JEvent.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JException.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JFloat.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JGraphics.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="1233" topLine="30" />
+	</File>
+	<File name="../../cpp/javacpp/JGraphics.h" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JInputStream.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JMath.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JRunnable.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JStream.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JStreamTokenizer.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JSystem.cpp" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/JThread.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="1235" topLine="7" />
+	</File>
+	<File name="../../cpp/javacpp/JThread.h" open="1" top="0" tabpos="0">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/Model3Dcpp.h" open="0" top="0" tabpos="0">
+		<Cursor position="1280" topLine="0" />
+	</File>
+	<File name="../../cpp/javacpp/ThreeDcpp.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="2527" topLine="172" />
+	</File>
+	<File name="../../cpp/javacpp/ThreeDcpp.h" open="0" top="0" tabpos="0">
+		<Cursor position="2325" topLine="26" />
+	</File>
+	<File name="../../cpp/nwire.cpp" open="1" top="0" tabpos="1">
+		<Cursor position="10284" topLine="508" />
+	</File>
+</CodeBlocks_layout_file>

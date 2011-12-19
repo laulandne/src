@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
+		002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */ = {isa = PBXBuildFile; fileRef = 002F39F909D0881F00EBEB88 /* SDL.framework */; };
+		002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */ = {isa = PBXBuildFile; fileRef = 002F3A2C09D0888800EBEB88 /* SDLMain.m */; };
+		002F3C0109D093BD00EBEB88 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F3C0009D093BD00EBEB88 /* OpenGL.framework */; };
+		002F3C6109D0951E00EBEB88 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 002F3C6009D0951E00EBEB88 /* GLUT.framework */; };
+		01048A3913BC3B4B009D8DC4 /* JApplet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A1113BC3B4A009D8DC4 /* JApplet.cpp */; };
+		01048A3A13BC3B4B009D8DC4 /* jbox_thing_class.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A1413BC3B4A009D8DC4 /* jbox_thing_class.cpp */; };
+		01048A3B13BC3B4B009D8DC4 /* JColor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A1613BC3B4A009D8DC4 /* JColor.cpp */; };
+		01048A3C13BC3B4B009D8DC4 /* JEvent.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A1813BC3B4A009D8DC4 /* JEvent.cpp */; };
+		01048A3D13BC3B4B009D8DC4 /* JException.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A1A13BC3B4A009D8DC4 /* JException.cpp */; };
+		01048A3E13BC3B4B009D8DC4 /* JFloat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A1C13BC3B4A009D8DC4 /* JFloat.cpp */; };
+		01048A3F13BC3B4B009D8DC4 /* JGraphics.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A1E13BC3B4A009D8DC4 /* JGraphics.cpp */; };
+		01048A4013BC3B4B009D8DC4 /* JInputStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A2013BC3B4A009D8DC4 /* JInputStream.cpp */; };
+		01048A4113BC3B4B009D8DC4 /* JMath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A2213BC3B4A009D8DC4 /* JMath.cpp */; };
+		01048A4213BC3B4B009D8DC4 /* JRunnable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A2413BC3B4A009D8DC4 /* JRunnable.cpp */; };
+		01048A4313BC3B4B009D8DC4 /* JStream.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A2613BC3B4A009D8DC4 /* JStream.cpp */; };
+		01048A4413BC3B4B009D8DC4 /* JStreamTokenizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A2813BC3B4A009D8DC4 /* JStreamTokenizer.cpp */; };
+		01048A4513BC3B4B009D8DC4 /* JSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A2A13BC3B4A009D8DC4 /* JSystem.cpp */; };
+		01048A4613BC3B4B009D8DC4 /* JThread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A2C13BC3B4A009D8DC4 /* JThread.cpp */; };
+		01048A4713BC3B4B009D8DC4 /* JUrl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A2E13BC3B4A009D8DC4 /* JUrl.cpp */; };
+		01048A4A13BC3B4B009D8DC4 /* Matrix3Dcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A3213BC3B4A009D8DC4 /* Matrix3Dcpp.cpp */; };
+		01048A4B13BC3B4B009D8DC4 /* Model3Dcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A3413BC3B4A009D8DC4 /* Model3Dcpp.cpp */; };
+		01048A4D13BC3B4B009D8DC4 /* ThreeDcpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01048A3713BC3B4A009D8DC4 /* ThreeDcpp.cpp */; };
+		01054BC11417188500CB9050 /* cpp_portable_static.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01054BC01417188500CB9050 /* cpp_portable_static.framework */; };
+		012CEB4113BA58D300A5B68C /* ARendererOpenGL3D.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012CEB3B13BA58D300A5B68C /* ARendererOpenGL3D.cpp */; };
+		012CEB4413BA58D300A5B68C /* nickglut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 012CEB3F13BA58D300A5B68C /* nickglut.cpp */; };
+		01E5EB88136F4BE300E49DC8 /* nwire.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EB81136F4BE300E49DC8 /* nwire.cpp */; };
+		01E5EB89136F4BE300E49DC8 /* nicksdl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01E5EB83136F4BE300E49DC8 /* nicksdl.cpp */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		002F39FD09D0883400EBEB88 /* Copy Frameworks into .app bundle */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				002F3A0009D0884600EBEB88 /* SDL.framework in Copy Frameworks into .app bundle */,
+			);
+			name = "Copy Frameworks into .app bundle";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		002F39F909D0881F00EBEB88 /* SDL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDL.framework; path = /Library/Frameworks/SDL.framework; sourceTree = "<absolute>"; };
+		002F3A2B09D0888800EBEB88 /* SDLMain.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = SDLMain.h; sourceTree = SOURCE_ROOT; };
+		002F3A2C09D0888800EBEB88 /* SDLMain.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = SDLMain.m; sourceTree = SOURCE_ROOT; };
+		002F3C0009D093BD00EBEB88 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		002F3C6009D0951E00EBEB88 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = ../../../../../System/Library/Frameworks/GLUT.framework; sourceTree = SOURCE_ROOT; };
+		01048A1113BC3B4A009D8DC4 /* JApplet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JApplet.cpp; sourceTree = "<group>"; };
+		01048A1213BC3B4A009D8DC4 /* JApplet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JApplet.h; sourceTree = "<group>"; };
+		01048A1313BC3B4A009D8DC4 /* javacpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = javacpp.h; sourceTree = "<group>"; };
+		01048A1413BC3B4A009D8DC4 /* jbox_thing_class.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = jbox_thing_class.cpp; sourceTree = "<group>"; };
+		01048A1513BC3B4A009D8DC4 /* jbox_thing_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jbox_thing_class.h; sourceTree = "<group>"; };
+		01048A1613BC3B4A009D8DC4 /* JColor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JColor.cpp; sourceTree = "<group>"; };
+		01048A1713BC3B4A009D8DC4 /* JColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JColor.h; sourceTree = "<group>"; };
+		01048A1813BC3B4A009D8DC4 /* JEvent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JEvent.cpp; sourceTree = "<group>"; };
+		01048A1913BC3B4A009D8DC4 /* JEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JEvent.h; sourceTree = "<group>"; };
+		01048A1A13BC3B4A009D8DC4 /* JException.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JException.cpp; sourceTree = "<group>"; };
+		01048A1B13BC3B4A009D8DC4 /* JException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JException.h; sourceTree = "<group>"; };
+		01048A1C13BC3B4A009D8DC4 /* JFloat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JFloat.cpp; sourceTree = "<group>"; };
+		01048A1D13BC3B4A009D8DC4 /* JFloat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFloat.h; sourceTree = "<group>"; };
+		01048A1E13BC3B4A009D8DC4 /* JGraphics.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JGraphics.cpp; sourceTree = "<group>"; };
+		01048A1F13BC3B4A009D8DC4 /* JGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGraphics.h; sourceTree = "<group>"; };
+		01048A2013BC3B4A009D8DC4 /* JInputStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JInputStream.cpp; sourceTree = "<group>"; };
+		01048A2113BC3B4A009D8DC4 /* JInputStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JInputStream.h; sourceTree = "<group>"; };
+		01048A2213BC3B4A009D8DC4 /* JMath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JMath.cpp; sourceTree = "<group>"; };
+		01048A2313BC3B4A009D8DC4 /* JMath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JMath.h; sourceTree = "<group>"; };
+		01048A2413BC3B4A009D8DC4 /* JRunnable.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JRunnable.cpp; sourceTree = "<group>"; };
+		01048A2513BC3B4A009D8DC4 /* JRunnable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRunnable.h; sourceTree = "<group>"; };
+		01048A2613BC3B4A009D8DC4 /* JStream.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JStream.cpp; sourceTree = "<group>"; };
+		01048A2713BC3B4A009D8DC4 /* JStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JStream.h; sourceTree = "<group>"; };
+		01048A2813BC3B4A009D8DC4 /* JStreamTokenizer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JStreamTokenizer.cpp; sourceTree = "<group>"; };
+		01048A2913BC3B4A009D8DC4 /* JStreamTokenizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JStreamTokenizer.h; sourceTree = "<group>"; };
+		01048A2A13BC3B4A009D8DC4 /* JSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JSystem.cpp; sourceTree = "<group>"; };
+		01048A2B13BC3B4A009D8DC4 /* JSystem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSystem.h; sourceTree = "<group>"; };
+		01048A2C13BC3B4A009D8DC4 /* JThread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JThread.cpp; sourceTree = "<group>"; };
+		01048A2D13BC3B4A009D8DC4 /* JThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JThread.h; sourceTree = "<group>"; };
+		01048A2E13BC3B4A009D8DC4 /* JUrl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = JUrl.cpp; sourceTree = "<group>"; };
+		01048A2F13BC3B4A009D8DC4 /* JUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JUrl.h; sourceTree = "<group>"; };
+		01048A3213BC3B4A009D8DC4 /* Matrix3Dcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Matrix3Dcpp.cpp; sourceTree = "<group>"; };
+		01048A3313BC3B4A009D8DC4 /* Matrix3Dcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix3Dcpp.h; sourceTree = "<group>"; };
+		01048A3413BC3B4A009D8DC4 /* Model3Dcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Model3Dcpp.cpp; sourceTree = "<group>"; };
+		01048A3513BC3B4A009D8DC4 /* Model3Dcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Model3Dcpp.h; sourceTree = "<group>"; };
+		01048A3713BC3B4A009D8DC4 /* ThreeDcpp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeDcpp.cpp; sourceTree = "<group>"; };
+		01048A3813BC3B4A009D8DC4 /* ThreeDcpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeDcpp.h; sourceTree = "<group>"; };
+		01054BBF1417185D00CB9050 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "___PROJECTNAMEASIDENTIFIER____Prefix.pch"; path = "../nv_sdl_opengl/___PROJECTNAMEASIDENTIFIER____Prefix.pch"; sourceTree = "<group>"; };
+		01054BC01417188500CB9050 /* cpp_portable_static.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = cpp_portable_static.framework; path = ../../../../../Library/Frameworks/cpp_portable_static.framework; sourceTree = "<group>"; };
+		012CEB3B13BA58D300A5B68C /* ARendererOpenGL3D.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ARendererOpenGL3D.cpp; sourceTree = "<group>"; };
+		012CEB3C13BA58D300A5B68C /* ARendererOpenGL3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARendererOpenGL3D.h; sourceTree = "<group>"; };
+		012CEB3F13BA58D300A5B68C /* nickglut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nickglut.cpp; sourceTree = "<group>"; };
+		012CEB4013BA58D300A5B68C /* nickglut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nickglut.h; sourceTree = "<group>"; };
+		01E5EB81136F4BE300E49DC8 /* nwire.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = nwire.cpp; path = ../../cpp/nwire.cpp; sourceTree = SOURCE_ROOT; };
+		01E5EB83136F4BE300E49DC8 /* nicksdl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nicksdl.cpp; sourceTree = "<group>"; };
+		01E5EB84136F4BE300E49DC8 /* nicksdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nicksdl.h; sourceTree = "<group>"; };
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* nwire_sdl_opengl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nwire_sdl_opengl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F39FA09D0881F00EBEB88 /* SDL.framework in Frameworks */,
+				002F3C6109D0951E00EBEB88 /* GLUT.framework in Frameworks */,
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				002F3C0109D093BD00EBEB88 /* OpenGL.framework in Frameworks */,
+				01054BC11417188500CB9050 /* cpp_portable_static.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01048A1013BC3B4A009D8DC4 /* javacpp */ = {
+			isa = PBXGroup;
+			children = (
+				01048A1113BC3B4A009D8DC4 /* JApplet.cpp */,
+				01048A1213BC3B4A009D8DC4 /* JApplet.h */,
+				01048A1313BC3B4A009D8DC4 /* javacpp.h */,
+				01048A1413BC3B4A009D8DC4 /* jbox_thing_class.cpp */,
+				01048A1513BC3B4A009D8DC4 /* jbox_thing_class.h */,
+				01048A1613BC3B4A009D8DC4 /* JColor.cpp */,
+				01048A1713BC3B4A009D8DC4 /* JColor.h */,
+				01048A1813BC3B4A009D8DC4 /* JEvent.cpp */,
+				01048A1913BC3B4A009D8DC4 /* JEvent.h */,
+				01048A1A13BC3B4A009D8DC4 /* JException.cpp */,
+				01048A1B13BC3B4A009D8DC4 /* JException.h */,
+				01048A1C13BC3B4A009D8DC4 /* JFloat.cpp */,
+				01048A1D13BC3B4A009D8DC4 /* JFloat.h */,
+				01048A1E13BC3B4A009D8DC4 /* JGraphics.cpp */,
+				01048A1F13BC3B4A009D8DC4 /* JGraphics.h */,
+				01048A2013BC3B4A009D8DC4 /* JInputStream.cpp */,
+				01048A2113BC3B4A009D8DC4 /* JInputStream.h */,
+				01048A2213BC3B4A009D8DC4 /* JMath.cpp */,
+				01048A2313BC3B4A009D8DC4 /* JMath.h */,
+				01048A2413BC3B4A009D8DC4 /* JRunnable.cpp */,
+				01048A2513BC3B4A009D8DC4 /* JRunnable.h */,
+				01048A2613BC3B4A009D8DC4 /* JStream.cpp */,
+				01048A2713BC3B4A009D8DC4 /* JStream.h */,
+				01048A2813BC3B4A009D8DC4 /* JStreamTokenizer.cpp */,
+				01048A2913BC3B4A009D8DC4 /* JStreamTokenizer.h */,
+				01048A2A13BC3B4A009D8DC4 /* JSystem.cpp */,
+				01048A2B13BC3B4A009D8DC4 /* JSystem.h */,
+				01048A2C13BC3B4A009D8DC4 /* JThread.cpp */,
+				01048A2D13BC3B4A009D8DC4 /* JThread.h */,
+				01048A2E13BC3B4A009D8DC4 /* JUrl.cpp */,
+				01048A2F13BC3B4A009D8DC4 /* JUrl.h */,
+				01048A3213BC3B4A009D8DC4 /* Matrix3Dcpp.cpp */,
+				01048A3313BC3B4A009D8DC4 /* Matrix3Dcpp.h */,
+				01048A3413BC3B4A009D8DC4 /* Model3Dcpp.cpp */,
+				01048A3513BC3B4A009D8DC4 /* Model3Dcpp.h */,
+				01048A3713BC3B4A009D8DC4 /* ThreeDcpp.cpp */,
+				01048A3813BC3B4A009D8DC4 /* ThreeDcpp.h */,
+			);
+			name = javacpp;
+			path = ../../cpp/javacpp;
+			sourceTree = SOURCE_ROOT;
+		};
+		012CEB3A13BA58D300A5B68C /* glut */ = {
+			isa = PBXGroup;
+			children = (
+				012CEB3B13BA58D300A5B68C /* ARendererOpenGL3D.cpp */,
+				012CEB3C13BA58D300A5B68C /* ARendererOpenGL3D.h */,
+				012CEB3F13BA58D300A5B68C /* nickglut.cpp */,
+				012CEB4013BA58D300A5B68C /* nickglut.h */,
+			);
+			name = glut;
+			path = ../../cpp/glut;
+			sourceTree = SOURCE_ROOT;
+		};
+		01E5EB82136F4BE300E49DC8 /* sdl */ = {
+			isa = PBXGroup;
+			children = (
+				01E5EB83136F4BE300E49DC8 /* nicksdl.cpp */,
+				01E5EB84136F4BE300E49DC8 /* nicksdl.h */,
+			);
+			name = sdl;
+			path = ../../cpp/sdl;
+			sourceTree = SOURCE_ROOT;
+		};
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				002F3A2B09D0888800EBEB88 /* SDLMain.h */,
+				002F3A2C09D0888800EBEB88 /* SDLMain.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01054BC01417188500CB9050 /* cpp_portable_static.framework */,
+				002F39F909D0881F00EBEB88 /* SDL.framework */,
+				002F3C6009D0951E00EBEB88 /* GLUT.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+				002F3C0009D093BD00EBEB88 /* OpenGL.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A2FEA54F0111CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29B97324FDCFA39411CA2CEA /* AppKit.framework */,
+				29B97325FDCFA39411CA2CEA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* nwire_sdl_opengl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* ___PROJECTNAMEASXML___ */ = {
+			isa = PBXGroup;
+			children = (
+				01054BBF1417185D00CB9050 /* ___PROJECTNAMEASIDENTIFIER____Prefix.pch */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = "___PROJECTNAMEASXML___";
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				01E5EB81136F4BE300E49DC8 /* nwire.cpp */,
+				01048A1013BC3B4A009D8DC4 /* javacpp */,
+				012CEB3A13BA58D300A5B68C /* glut */,
+				01E5EB82136F4BE300E49DC8 /* sdl */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */,
+				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* nwire_sdl_opengl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "nwire_sdl_opengl" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+				002F39FD09D0883400EBEB88 /* Copy Frameworks into .app bundle */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nwire_sdl_opengl;
+			productInstallPath = "$(HOME)/Applications";
+			productName = "___PROJECTNAME___";
+			productReference = 8D1107320486CEB800E47090 /* nwire_sdl_opengl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "nwire_sdl_opengl" */;
+			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* ___PROJECTNAMEASXML___ */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D1107260486CEB800E47090 /* nwire_sdl_opengl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				002F3A2E09D0888800EBEB88 /* SDLMain.m in Sources */,
+				01E5EB88136F4BE300E49DC8 /* nwire.cpp in Sources */,
+				01E5EB89136F4BE300E49DC8 /* nicksdl.cpp in Sources */,
+				012CEB4113BA58D300A5B68C /* ARendererOpenGL3D.cpp in Sources */,
+				012CEB4413BA58D300A5B68C /* nickglut.cpp in Sources */,
+				01048A3913BC3B4B009D8DC4 /* JApplet.cpp in Sources */,
+				01048A3A13BC3B4B009D8DC4 /* jbox_thing_class.cpp in Sources */,
+				01048A3B13BC3B4B009D8DC4 /* JColor.cpp in Sources */,
+				01048A3C13BC3B4B009D8DC4 /* JEvent.cpp in Sources */,
+				01048A3D13BC3B4B009D8DC4 /* JException.cpp in Sources */,
+				01048A3E13BC3B4B009D8DC4 /* JFloat.cpp in Sources */,
+				01048A3F13BC3B4B009D8DC4 /* JGraphics.cpp in Sources */,
+				01048A4013BC3B4B009D8DC4 /* JInputStream.cpp in Sources */,
+				01048A4113BC3B4B009D8DC4 /* JMath.cpp in Sources */,
+				01048A4213BC3B4B009D8DC4 /* JRunnable.cpp in Sources */,
+				01048A4313BC3B4B009D8DC4 /* JStream.cpp in Sources */,
+				01048A4413BC3B4B009D8DC4 /* JStreamTokenizer.cpp in Sources */,
+				01048A4513BC3B4B009D8DC4 /* JSystem.cpp in Sources */,
+				01048A4613BC3B4B009D8DC4 /* JThread.cpp in Sources */,
+				01048A4713BC3B4B009D8DC4 /* JUrl.cpp in Sources */,
+				01048A4A13BC3B4B009D8DC4 /* Matrix3Dcpp.cpp in Sources */,
+				01048A4B13BC3B4B009D8DC4 /* Model3Dcpp.cpp in Sources */,
+				01048A4D13BC3B4B009D8DC4 /* ThreeDcpp.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C01FCF4B08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../cpp_portable/build/Debug\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../cpp_portable_static/build/Debug\"";
+				PRODUCT_NAME = nwire_sdl_opengl;
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C01FCF4C08A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "___PROJECTNAMEASIDENTIFIER____Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
+					"$(LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2)",
+				);
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../cpp_portable/build/Debug\"";
+				LIBRARY_SEARCH_PATHS_QUOTED_FOR_TARGET_2 = "\"$(SRCROOT)/../cpp_portable_static/build/Debug\"";
+				PRODUCT_NAME = nwire_sdl_opengl;
+				SDKROOT = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NICK_USE_OPENGL=1",
+					"NICK_USE_SDL=1",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"~/src/cpp",
+					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
+					/Library/Frameworks/SDL.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(HOME)/Library/Frameworks",
+					/Library/Frameworks,
+					"$(FRAMEWORK_SEARCH_PATHS)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"NICK_USE_OPENGL=1",
+					"NICK_USE_SDL=1",
+				);
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"~/src/cpp",
+					"$(HOME)/Library/Frameworks/SDL.framework/Headers",
+					/Library/Frameworks/SDL.framework/Headers,
+					"$(HEADER_SEARCH_PATHS)",
+				);
+				PREBINDING = NO;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "nwire_sdl_opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4B08A954540054247B /* Debug */,
+				C01FCF4C08A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "nwire_sdl_opengl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

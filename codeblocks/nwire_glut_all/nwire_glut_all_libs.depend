@@ -1,0 +1,1529 @@
+# depslib dependency file v1.0
+1318817578 source:/home/nick/src/cpp/glut/ARendererOpenGL3D.cpp
+	<iostream>
+	"ARendererOpenGL3D.h"
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+
+1306111358 /home/nick/src/cpp/glut/ARendererOpenGL3D.h
+	<portable/nick3d/ARendererAbstract3D.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<AGL/agl.h>
+	<GLUT/glut.h>
+	<windows.h>
+	<gl/gl.h>
+	<gl/glu.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glx.h>
+
+1316132380 /home/nick/src/cpp/portable/nick3d/ARendererAbstract3D.h
+	"AVertex3D.h"
+	"AMesh3D.h"
+	"ACamera3D.h"
+	"ALight3D.h"
+	"AScene3D.h"
+	<portable/nickcpp/AError.h>
+
+1315943670 /home/nick/src/cpp/portable/nick3d/AVertex3D.h
+
+1321570802 /home/nick/src/cpp/portable/nick3d/AMesh3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+	"APart3D.h"
+	"ATexture3D.h"
+	"ATextCoord3D.h"
+	"AFace3D.h"
+	"ACamera3D.h"
+
+1316548988 /home/nick/src/cpp/portable/nick3d/AMatrix3D.h
+	"AVertex3D.h"
+	"AFace3D.h"
+	<math.h>
+
+1317937346 /home/nick/src/cpp/portable/nick3d/AFace3D.h
+
+1276390570 /home/nick/src/cpp/portable/nick3d/APart3D.h
+
+1276390570 /home/nick/src/cpp/portable/nick3d/ATexture3D.h
+
+1276390570 /home/nick/src/cpp/portable/nick3d/ATextCoord3D.h
+
+1321402218 /home/nick/src/cpp/portable/nick3d/ACamera3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+
+1321402208 /home/nick/src/cpp/portable/nick3d/ALight3D.h
+	"AMatrix3D.h"
+	"AVertex3D.h"
+
+1315943948 /home/nick/src/cpp/portable/nick3d/AScene3D.h
+	"AVertex3D.h"
+	"AFace3D.h"
+	"AVertex3D.h"
+	"AMesh3D.h"
+	"ACamera3D.h"
+	"ALight3D.h"
+
+1293946096 /home/nick/src/cpp/portable/nickcpp/AError.h
+
+1287792130 /home/nick/src/cpp/portable/nickcpp/AList.h
+	"ADataSourceAbstract.h"
+	"ACell.h"
+
+1287792116 /home/nick/src/cpp/portable/nickcpp/ADataSourceAbstract.h
+	<stdio.h>
+
+1274826684 /home/nick/src/cpp/portable/nickcpp/ACell.h
+
+1300728274 /home/nick/src/cpp/portable/nickcpp/ANullStream.h
+	<iostream>
+
+1319564056 source:/home/nick/src/cpp/glut/nickglut.cpp
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	"nickglut.h"
+	<portable/nickcpp/APalette.h>
+	<portable/nick3d/AScene3D.h>
+
+1318821300 /home/nick/src/cpp/glut/nickglut.h
+	<AGL/agl.h>
+	<GLUT/glut.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<windows.h>
+	<GL/glut.h>
+	<GL/glut.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<GL/glx.h>
+
+1293746966 /home/nick/src/cpp/portable/nickcpp/APalette.h
+	"AColor.h"
+
+1274826684 /home/nick/src/cpp/portable/nickcpp/AColor.h
+
+1316136108 source:/home/nick/src/cpp/javacpp/JApplet.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JApplet.h>
+	<guilib/nickguilib.h>
+	<glut/nickglut.h>
+	<sdl/nicksdl.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+
+1307489390 /home/nick/src/cpp/javacpp/JApplet.h
+	<javacpp/javacpp.h>
+	<guilib/AWindow.h>
+	<guilib/AApplicationLoop.h>
+	<javacpp/JEvent.h>
+	<javacpp/JGraphics.h>
+	<javacpp/JThread.h>
+	<javacpp/jbox_thing_class.h>
+
+1304109582 /home/nick/src/cpp/javacpp/javacpp.h
+
+1301505066 /home/nick/src/cpp/guilib/AWindow.h
+	"AWindowAbstract.h"
+
+1308552428 /home/nick/src/cpp/guilib/AWindowAbstract.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/ADrawableAbstract.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1303837954 /home/nick/src/cpp/guilib/ATypeDefs.h
+	<guilib/APlatform.h>
+	<PalmOS.h>
+	<PalmCompatibility.h>
+	<Pilot.h>
+	<PalmStdio.h>
+	<guilib/alib_palm.h>
+	<CharAttr.h>
+	<TxtGlue.h>
+	<dos/dos.h>
+	<windows.h>
+	<guilib/alib_win.h>
+	<os2.h>
+	<iostream>
+	<stdio.h>
+	<stdlib.h>
+	<cstdlib>
+	<string.h>
+	<wchar.h>
+	<cwchar>
+	<direct.h>
+	<endian.h>
+	<machine/endian.h>
+
+1289253594 /home/nick/src/cpp/guilib/APlatform.h
+
+1274826646 /home/nick/src/cpp/guilib/alib_palm.h
+	<alib/atypedefs.h>
+	<alib/aplatform.h>
+	<FileStream.h>
+
+1289252650 /home/nick/src/cpp/guilib/alib_win.h
+	"ATypeDefs.h"
+	"APlatform.h"
+	<bldver.h>
+	<aygshell.h>
+	<sip.h>
+
+1304107864 /home/nick/src/cpp/portable/nickcpp/ADrawableAbstract.h
+	<portable/nickcpp/AFrameAbstract.h>
+
+1291150282 /home/nick/src/cpp/portable/nickcpp/AFrameAbstract.h
+	"APoint.h"
+	"ARect.h"
+	"AError.h"
+
+1274826700 /home/nick/src/cpp/portable/nickcpp/APoint.h
+
+1274826700 /home/nick/src/cpp/portable/nickcpp/ARect.h
+
+1306810508 /home/nick/src/cpp/guilib/AApplicationLoop.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/AError.h>
+	"AEvent.h"
+
+1303837954 /home/nick/src/cpp/guilib/AEvent.h
+	<guilib/alib_carbon.h>
+	<guilib/alib_win.h>
+	<Carbon/Carbon.h>
+
+1308552126 /home/nick/src/cpp/guilib/alib_carbon.h
+	<guilib/ATypeDefs.h>
+	<guilib/APlatform.h>
+	<Carbon/Carbon.h>
+
+1303840728 /home/nick/src/cpp/javacpp/JEvent.h
+	<javacpp/javacpp.h>
+
+1307248066 /home/nick/src/cpp/javacpp/JGraphics.h
+	<javacpp/javacpp.h>
+	<javacpp/JColor.h>
+
+1306115058 /home/nick/src/cpp/javacpp/JColor.h
+	<javacpp/javacpp.h>
+	<portable/nickcpp/AColor.h>
+
+1307246836 /home/nick/src/cpp/javacpp/JThread.h
+	<javacpp/javacpp.h>
+	<guilib/AThread.h>
+
+1303837954 /home/nick/src/cpp/guilib/AThread.h
+	<guilib/ATypeDefs.h>
+	<guilib/alib_win.h>
+
+1303840586 /home/nick/src/cpp/javacpp/jbox_thing_class.h
+	<javacpp/javacpp.h>
+
+1317051206 /home/nick/src/cpp/guilib/nickguilib.h
+	<guilib/ADisplay.h>
+	<guilib/AWindow.h>
+	<guilib/AEvent.h>
+	<guilib/AApplicationLoop.h>
+	<guilib/AApp.h>
+	<guilib/APrivateBitmap.h>
+
+1308552330 /home/nick/src/cpp/guilib/ADisplay.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/AFrameAbstract.h>
+	"ADisplayMode.h"
+	<X11/X.h>
+	<X11/Xlib.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1303837954 /home/nick/src/cpp/guilib/ADisplayMode.h
+	<guilib/ATypeDefs.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<GL/gl.h>
+	<GL/glx.h>
+	<ddraw.h>
+	<Carbon/Carbon.h>
+
+1303837954 /home/nick/src/cpp/guilib/AApp.h
+	<guilib/ATypeDefs.h>
+	<guilib/alib_win.h>
+
+1309150338 /home/nick/src/cpp/guilib/APrivateBitmap.h
+	<guilib/ATypeDefs.h>
+	<portable/nickcpp/ABitmap.h>
+	<X11/X.h>
+	<X11/Xlib.h>
+	<Carbon/Carbon.h>
+	<windows.h>
+
+1304107864 /home/nick/src/cpp/portable/nickcpp/ABitmap.h
+	<portable/nickcpp/ADrawableAbstract.h>
+
+1317937090 /home/nick/src/cpp/sdl/nicksdl.h
+	<SDL/SDL.h>
+
+1307246678 source:/home/nick/src/cpp/javacpp/JColor.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JColor.h>
+	<portable/nickcpp/APalette.h>
+
+1307246682 source:/home/nick/src/cpp/javacpp/JEvent.cpp
+
+1307246684 source:/home/nick/src/cpp/javacpp/JException.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JException.h>
+
+1303840722 /home/nick/src/cpp/javacpp/JException.h
+	<javacpp/javacpp.h>
+
+1307246688 source:/home/nick/src/cpp/javacpp/JFloat.cpp
+	<portable/nickcpp/ANullStream.h>
+	<stdio.h>
+	<javacpp/JFloat.h>
+
+1303840716 /home/nick/src/cpp/javacpp/JFloat.h
+	<javacpp/javacpp.h>
+
+1307644104 source:/home/nick/src/cpp/javacpp/JGraphics.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JGraphics.h>
+	<guilib/nickguilib.h>
+	<sdl/nicksdl.h>
+	<glut/nickglut.h>
+
+1307246712 source:/home/nick/src/cpp/javacpp/JInputStream.cpp
+	<portable/nickcpp/ANullStream.h>
+	<stdio.h>
+	<javacpp/JInputStream.h>
+
+1303840804 /home/nick/src/cpp/javacpp/JInputStream.h
+	<javacpp/javacpp.h>
+	<javacpp/JStream.h>
+
+1303840688 /home/nick/src/cpp/javacpp/JStream.h
+	<javacpp/javacpp.h>
+
+1307246724 source:/home/nick/src/cpp/javacpp/JMath.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JMath.h>
+	<math.h>
+
+1303840810 /home/nick/src/cpp/javacpp/JMath.h
+	<javacpp/javacpp.h>
+
+1307246728 source:/home/nick/src/cpp/javacpp/JRunnable.cpp
+
+1307246734 source:/home/nick/src/cpp/javacpp/JStream.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JStream.h>
+
+1307246776 source:/home/nick/src/cpp/javacpp/JStreamTokenizer.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JStreamTokenizer.h>
+
+1303840682 /home/nick/src/cpp/javacpp/JStreamTokenizer.h
+	<javacpp/javacpp.h>
+	<javacpp/JInputStream.h>
+
+1307246788 source:/home/nick/src/cpp/javacpp/JSystem.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JSystem.h>
+
+1303840664 /home/nick/src/cpp/javacpp/JSystem.h
+	<javacpp/javacpp.h>
+
+1307486324 source:/home/nick/src/cpp/javacpp/JThread.cpp
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JThread.h>
+	<javacpp/JApplet.h>
+
+1307246928 source:/home/nick/src/cpp/javacpp/JUrl.cpp
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	<javacpp/JUrl.h>
+
+1303840842 /home/nick/src/cpp/javacpp/JUrl.h
+	<javacpp/javacpp.h>
+	<javacpp/JInputStream.h>
+
+1321403890 source:/home/nick/src/cpp/javacpp/ThreeDcpp.cpp
+	<iostream>
+	<javacpp/ThreeDcpp.h>
+	<javacpp/JUrl.h>
+	<guilib/nickguilib.h>
+	<sdl/nicksdl.h>
+	<glut/nickglut.h>
+
+1316549222 /home/nick/src/cpp/javacpp/ThreeDcpp.h
+	<javacpp/JApplet.h>
+	<javacpp/JThread.h>
+	<javacpp/JEvent.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/AMatrix3D.h>
+
+1306115196 source:/home/nick/src/cpp/javacpp/jbox_thing_class.cpp
+
+1321574892 source:/home/nick/src/cpp/nwire.cpp
+	<iostream>
+	<dinasaur.obj.h>
+	<guilib/nickguilib.h>
+	<sdl/nicksdl.h>
+	<glut/nickglut.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/AScene3D.h>
+	<portable/nick3d/ASmartMeshDecoder.h>
+	<portable/nick3d/ASmartSceneDecoder.h>
+	<portable/nick3d/AMeshDecoder.h>
+	<portable/nick3d/ASceneDecoder.h>
+	<javacpp/ThreeDcpp.h>
+
+1311824808 /home/nick/src/cpp/cube.obj.h
+
+1321227536 /home/nick/src/cpp/portable/nick3d/ASmartMeshDecoder.h
+	<portable/ndecoder/ASmartDecoder.h>
+	"AMeshDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/ASmartDecoder.h
+	"ADecoder.h"
+
+1321227940 /home/nick/src/cpp/portable/ndecoder/ADecoder.h
+	<portable/nickcpp/AError.h>
+	<portable/nickcpp/AStringHelper.h>
+
+1299699532 /home/nick/src/cpp/portable/nickcpp/AStringHelper.h
+	<stdio.h>
+
+1321396676 /home/nick/src/cpp/portable/nick3d/AMeshDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"A3DDecoder.h"
+
+1321227568 /home/nick/src/cpp/portable/nick3d/A3DDecoder.h
+	<portable/ndecoder/ADecoder.h>
+	<portable/nickcpp/AList.h>
+
+1321227536 /home/nick/src/cpp/portable/nick3d/ASmartSceneDecoder.h
+	<portable/ndecoder/ASmartDecoder.h>
+	"ASceneDecoder.h"
+
+1321396676 /home/nick/src/cpp/portable/nick3d/ASceneDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/AScene3D.h>
+	"A3DDecoder.h"
+
+1306110110 /home/nick/src/cpp/guilib/ARendererSoft3D.h
+	<portable/nick3d/ARendererAbstract3D.h>
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/ABMPDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"ABMPDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/ABMPDecoder.h
+	"AImageDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AImageDecoder.h
+	<portable/nickcpp/ABitmap.h>
+	"ADecoder.h"
+
+1321396370 source:/home/nick/src/cpp/portable/ndecoder/ADecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"ADecoder.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/ADecoderHelper.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"ADecoderHelper.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/ADecoderHelper.h
+	"AImageDecoder.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/AGIFDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"AGIFDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AGIFDecoder.h
+	"ADecoderHelper.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/AIFFDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"AIFFDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AIFFDecoder.h
+	"ADecoderHelper.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/AImageDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ABitmap.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"AImageDecoder.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/AJFIFDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"AJFIFDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AJFIFDecoder.h
+	"ADecoderHelper.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/AMovieDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	"AMovieDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AMovieDecoder.h
+	<portable/nickcpp/AMovie.h>
+	"ADecoder.h"
+
+1293946760 /home/nick/src/cpp/portable/nickcpp/AMovie.h
+	"AFrameAbstract.h"
+
+1321228232 source:/home/nick/src/cpp/portable/ndecoder/AMultiImageDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/AConvertingBitLine.h>
+	"AMultiImageDecoder.h"
+	"ADecoderHelper.h"
+
+1304107864 /home/nick/src/cpp/portable/nickcpp/AConvertingBitLine.h
+	<portable/nickcpp/ABitmap.h>
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AMultiImageDecoder.h
+	"AImageDecoder.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/AMultiMovieDecoder.cpp
+	<iostream>
+	"AMultiMovieDecoder.h"
+	"ADecoderHelper.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AMultiMovieDecoder.h
+	"AMovieDecoder.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/APCXDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"APCXDecoder.h"
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/APCXDecoder.h
+	"ADecoderHelper.h"
+
+1321228286 source:/home/nick/src/cpp/portable/ndecoder/AQTDecoderHelper.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"AQTDecoderHelper.h"
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<QuickTime/QuickTime.h>
+	<Movies.h>
+
+1321228272 /home/nick/src/cpp/portable/ndecoder/AQTDecoderHelper.h
+	"ADecoderHelper.h"
+	<QuickTime/Movies.h>
+	<Movies.h>
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/AQTImageDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"AQTImageDecoder.h"
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<QuickTime/QuickTime.h>
+	<Movies.h>
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AQTImageDecoder.h
+	"AQTDecoderHelper.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/AQTMovieDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"AQTMovieDecoder.h"
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<QuickTime/QuickTime.h>
+	<Movies.h>
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/AQTMovieDecoder.h
+	"AQTDecoderHelper.h"
+	"AMovieDecoder.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/ASmartDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASmartDecoder.h"
+	"ASmartImageDecoder.h"
+	"ASmartMovieDecoder.h"
+	<io.h>
+
+1321228206 /home/nick/src/cpp/portable/ndecoder/ASmartImageDecoder.h
+	"ASmartDecoder.h"
+	"AImageDecoder.h"
+
+1321228208 /home/nick/src/cpp/portable/ndecoder/ASmartMovieDecoder.h
+	"ASmartDecoder.h"
+	"AMovieDecoder.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/ASmartImageDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASmartImageDecoder.h"
+	"APCXDecoder.h"
+	"ABMPDecoder.h"
+	"AGIFDecoder.h"
+	"AJFIFDecoder.h"
+	"ATGADecoder.h"
+	"AMultiImageDecoder.h"
+	"AQTImageDecoder.h"
+	"AIFFDecoder.h"
+
+1321228208 /home/nick/src/cpp/portable/ndecoder/ATGADecoder.h
+	"ADecoderHelper.h"
+
+1321228206 source:/home/nick/src/cpp/portable/ndecoder/ASmartMovieDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASmartMovieDecoder.h"
+	"AMultiMovieDecoder.h"
+	"AQTMovieDecoder.h"
+
+1321228208 source:/home/nick/src/cpp/portable/ndecoder/ATGADecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"ATGADecoder.h"
+
+1304107862 source:/home/nick/src/cpp/portable/netlib/AHost.cpp
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+	"AHost.h"
+	"ANetwork.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<nameser.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1293946760 /home/nick/src/cpp/portable/netlib/AHost.h
+	"ANetAbstract.h"
+
+1304107862 /home/nick/src/cpp/portable/netlib/ANetAbstract.h
+	<portable/nickcpp/AError.h>
+	<guilib/ATypeDefs.h>
+	<netinet/in.h>
+	<winsock.h>
+	<OpenTransportProviders.h>
+
+1293946760 /home/nick/src/cpp/portable/netlib/ANetwork.h
+	"ANetAbstract.h"
+	<OpenTptInternet.h>
+
+1297737710 source:/home/nick/src/cpp/portable/netlib/ANetAbstract.cpp
+	<iostream>
+	"ANetAbstract.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<nameser.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1304107862 source:/home/nick/src/cpp/portable/netlib/ANetwork.cpp
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+	"ANetwork.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<nameser.h>
+	<netdb.h>
+	<arpa/inet.h>
+	<guilib/alib_carbon.h>
+
+1304107864 source:/home/nick/src/cpp/portable/netlib/ASocket.cpp
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+	"ASocket.h"
+	"AHost.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<nameser.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1293946760 /home/nick/src/cpp/portable/netlib/ASocket.h
+	"ANetAbstract.h"
+
+1297737710 source:/home/nick/src/cpp/portable/netlib/ASocketNonBlocking.cpp
+	<iostream>
+	"ASocketNonBlocking.h"
+	<unistd.h>
+	<fcntl.h>
+	<sys/socket.h>
+	<nameser.h>
+	<netdb.h>
+	<arpa/inet.h>
+
+1293946760 /home/nick/src/cpp/portable/netlib/ASocketNonBlocking.h
+	"ASocket.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/A3DDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	"A3DDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/A3DSDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"A3DSDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/A3DSDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"AMeshDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/ABspDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"ABspDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/ABspDecoder.h
+	"AMapDecoder.h"
+
+1321402348 source:/home/nick/src/cpp/portable/nick3d/ACamera3D.cpp
+	"ACamera3D.h"
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/ADXFDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"ADXFDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/ADXFDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"ASceneDecoder.h"
+
+1317937334 source:/home/nick/src/cpp/portable/nick3d/AFace3D.cpp
+	"AFace3D.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AHalfLifeDecoder.cpp
+	<iostream>
+	<string.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nickcpp/ANullStream.h>
+	"AHalfLifeDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AHalfLifeDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"AMeshDecoder.h"
+
+1321402340 source:/home/nick/src/cpp/portable/nick3d/ALight3D.cpp
+	"ALight3D.h"
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/ALightwaveDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"ALightwaveDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/ALightwaveDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"ASceneDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AMD2Decoder.cpp
+	<iostream>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"AMD2Decoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AMD2Decoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"AMeshDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AMD3Decoder.cpp
+	<iostream>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"AMD3Decoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AMD3Decoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"AMeshDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AMD5Decoder.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"AMD5Decoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AMD5Decoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"AMeshDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AMDLDecoder.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"AMDLDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AMDLDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"AMeshDecoder.h"
+
+1322775556 source:/home/nick/src/cpp/portable/nick3d/AMapDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"AMapDecoder.h"
+
+1322670208 /home/nick/src/cpp/portable/nick3d/AMapDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"ASceneDecoder.h"
+
+1316549074 source:/home/nick/src/cpp/portable/nick3d/AMatrix3D.cpp
+	"AMatrix3D.h"
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AMayaDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"AMayaDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AMayaDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"ASceneDecoder.h"
+
+1321571108 source:/home/nick/src/cpp/portable/nick3d/AMesh3D.cpp
+	<stdlib.h>
+	<iostream>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	"AMesh3D.h"
+
+1321396692 source:/home/nick/src/cpp/portable/nick3d/AMeshDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"AMeshDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/APLGDecoder.cpp
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+	"APLGDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/APLGDecoder.h
+	"AMeshDecoder.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nick3d/APart3D.cpp
+	"APart3D.h"
+	<stdio.h>
+
+1315940912 source:/home/nick/src/cpp/portable/nick3d/ARendererAbstract3D.cpp
+	<iostream>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	"ARendererAbstract3D.h"
+
+1321402178 source:/home/nick/src/cpp/portable/nick3d/AScene3D.cpp
+	<stdlib.h>
+	<iostream>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	"AScene3D.h"
+
+1321396706 source:/home/nick/src/cpp/portable/nick3d/ASceneDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASceneDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/ASmartMeshDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASmartMeshDecoder.h"
+	"A3DSDecoder.h"
+	"AHalfLifeDecoder.h"
+	"AMDLDecoder.h"
+	"AMD2Decoder.h"
+	"AMD3Decoder.h"
+	"AMD5Decoder.h"
+	"APLGDecoder.h"
+	"AWavefrontDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AWavefrontDecoder.h
+	"AMeshDecoder.h"
+
+1321227360 source:/home/nick/src/cpp/portable/nick3d/ASmartSceneDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASmartSceneDecoder.h"
+	"AVRMLDecoder.h"
+	"A3DSDecoder.h"
+	"ADXFDecoder.h"
+	"AWLDDecoder.h"
+	"ALightwaveDecoder.h"
+	"AMayaDecoder.h"
+	"AIdMapDecoder.h"
+	"ABspDecoder.h"
+	"AWADDecoder.h"
+	"AWolf3dDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AVRMLDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	"ASceneDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AWLDDecoder.h
+	<portable/nickcpp/AList.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"ASceneDecoder.h"
+
+1322852391 /home/nick/src/cpp/portable/nick3d/AWADDecoder.h
+	"AMapDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AWolf3dDecoder.h
+	"AMapDecoder.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nick3d/ATextCoord3D.cpp
+	"ATextCoord3D.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nick3d/ATexture3D.cpp
+	"ATexture3D.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AVRMLDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"AVRMLDecoder.h"
+
+1315943692 source:/home/nick/src/cpp/portable/nick3d/AVertex3D.cpp
+	"AVertex3D.h"
+
+1322852350 source:/home/nick/src/cpp/portable/nick3d/AWADDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"AWADDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AWLDDecoder.cpp
+	<stdlib.h>
+	<string.h>
+	<iostream>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"AMeshDecoder.h"
+	"AWLDDecoder.h"
+	"ASmartMeshDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AWavefrontDecoder.cpp
+	<stdlib.h>
+	<iostream>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	"AWavefrontDecoder.h"
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AWolf3dDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"AWolf3dDecoder.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AAbsRect.cpp
+	"AAbsRect.h"
+
+1289930988 /home/nick/src/cpp/portable/nickcpp/AAbsRect.h
+
+1304107864 source:/home/nick/src/cpp/portable/nickcpp/ABitmap.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/AConvertingBitLine.h>
+	"ABitmap.h"
+
+1304107864 source:/home/nick/src/cpp/portable/nickcpp/ABitmapAbstract.cpp
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+	"ABitmapAbstract.h"
+
+1304107864 /home/nick/src/cpp/portable/nickcpp/ABitmapAbstract.h
+	<portable/nickcpp/AFrameAbstract.h>
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/ACell.cpp
+	"ACell.h"
+	<stdio.h>
+
+1303837956 source:/home/nick/src/cpp/portable/nickcpp/AClock.cpp
+	<iostream>
+	"AClock.h"
+	<time.h>
+
+1288021470 /home/nick/src/cpp/portable/nickcpp/AClock.h
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AColor.cpp
+	"AColor.h"
+
+1304107864 source:/home/nick/src/cpp/portable/nickcpp/AConvertingBitLine.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	"AConvertingBitLine.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/ADataSourceAbstract.cpp
+	"ADataSourceAbstract.h"
+
+1304107864 source:/home/nick/src/cpp/portable/nickcpp/ADrawableAbstract.cpp
+	<iostream>
+	<stdlib.h>
+	<portable/nickcpp/ADrawableAbstract.h>
+	<portable/nickcpp/ANullStream.h>
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AError.cpp
+	"AError.h"
+	<stdio.h>
+	<stdlib.h>
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AFileInputStream.cpp
+	<iostream>
+	<stdio.h>
+	"AFileInputStream.h"
+
+1292001900 /home/nick/src/cpp/portable/nickcpp/AFileInputStream.h
+	"AInputStream.h"
+
+1294287828 /home/nick/src/cpp/portable/nickcpp/AInputStream.h
+	"ANullStream.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AFileOutputStream.cpp
+	<iostream>
+	<stdio.h>
+	<string.h>
+	"AFileOutputStream.h"
+
+1293946608 /home/nick/src/cpp/portable/nickcpp/AFileOutputStream.h
+	<stdio.h>
+	<string.h>
+	"AOutputStream.h"
+
+1294287828 /home/nick/src/cpp/portable/nickcpp/AOutputStream.h
+	"ANullStream.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AFrameAbstract.cpp
+	<iostream>
+	"AFrameAbstract.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AGenericNode.cpp
+	"AGenericNode.h"
+
+1274826684 /home/nick/src/cpp/portable/nickcpp/AGenericNode.h
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AInputStream.cpp
+	<iostream>
+	"AInputStream.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AList.cpp
+	"AList.h"
+
+1304107864 source:/home/nick/src/cpp/portable/nickcpp/AMovie.cpp
+	<iostream>
+	"AMovie.h"
+	<portable/nickcpp/ANullStream.h>
+
+1311110974 source:/home/nick/src/cpp/portable/nickcpp/ANativeFilesystem.cpp
+	<iostream>
+	"ANativeFilesystem.h"
+	<IterateDirectory.h>
+	<dos.h>
+
+1311111000 /home/nick/src/cpp/portable/nickcpp/ANativeFilesystem.h
+	<unistd.h>
+	<sys/stat.h>
+	<stat.h>
+	<dirent.h>
+	<direct.h>
+	<sys/dir.h>
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/ANullStream.cpp
+	<iostream>
+	<stdio.h>
+	"ANullStream.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/AOutputStream.cpp
+	<iostream>
+	<stdio.h>
+	"AOutputStream.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/APalette.cpp
+	"APalette.h"
+	<stdlib.h>
+	<iostream>
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/APoint.cpp
+	"APoint.h"
+
+1297737710 source:/home/nick/src/cpp/portable/nickcpp/ARect.cpp
+	"ARect.h"
+
+1299699522 source:/home/nick/src/cpp/portable/nickcpp/AStringHelper.cpp
+	"AStringHelper.h"
+	<iostream>
+	<string.h>
+	<stdlib.h>
+
+1321228318 source:/home/nick/src/cpp/portable/soundlib/A8SVXDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	"A8SVXDecoder.h"
+	<portable/ndecoder/ADecoderHelper.h>
+
+1321227832 /home/nick/src/cpp/portable/soundlib/A8SVXDecoder.h
+	"ASoundDecoder.h"
+
+1321227832 /home/nick/src/cpp/portable/soundlib/ASoundDecoder.h
+	<portable/ndecoder/ADecoder.h>
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/AAUDecoder.cpp
+	<iostream>
+	<string.h>
+	<stdlib.h>
+	<portable/nickcpp/ANullStream.h>
+	"AAUDecoder.h"
+
+1321227832 /home/nick/src/cpp/portable/soundlib/AAUDecoder.h
+	"ASoundDecoder.h"
+
+1319474162 source:/home/nick/src/cpp/portable/soundlib/AAudioDevice.cpp
+	<iostream>
+	<stdio.h>
+	<portable/nickcpp/ANullStream.h>
+	"AAudioDevice.h"
+	"ASound.h"
+	"ASong.h"
+	<exec/memory.h>
+	<exec/devices.h>
+	<devices/audio.h>
+	<clib/exec_protos.h>
+	<clib/alib_protos.h>
+	<proto/exec.h>
+	<proto/alib.h>
+	<Traps.h>
+	<Patches.h>
+	<sound.h>
+
+1319474098 /home/nick/src/cpp/portable/soundlib/AAudioDevice.h
+	<guilib/alib_carbon.h>
+	<windows.h>
+	<mmsystem.h>
+	<dsound.h>
+	<Quicktime/Quicktime.h>
+	<QuickTimeComponents.h>
+	<QuickTimeMusic.h>
+
+1298413074 /home/nick/src/cpp/portable/soundlib/ASound.h
+	"ASoundAbstract.h"
+	<windows.h>
+	<mmsystem.h>
+	<dsound.h>
+
+1304107864 /home/nick/src/cpp/portable/soundlib/ASoundAbstract.h
+	<portable/nickcpp/AError.h>
+	<windows.h>
+	<mmsystem.h>
+	<dsound.h>
+	<Quicktime/Quicktime.h>
+	<QuickTimeComponents.h>
+	<QuickTimeMusic.h>
+
+1293946762 /home/nick/src/cpp/portable/soundlib/ASong.h
+	"ASoundAbstract.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/AMP3Decoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"AMP3Decoder.h"
+	<portable/ndecoder/ADecoderHelper.h>
+
+1321227832 /home/nick/src/cpp/portable/soundlib/AMP3Decoder.h
+	"ASoundDecoder.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/AMidiDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	"AMidiDecoder.h"
+	<portable/ndecoder/ADecoderHelper.h>
+
+1321227832 /home/nick/src/cpp/portable/soundlib/AMidiDecoder.h
+	"ASongDecoder.h"
+
+1321227832 /home/nick/src/cpp/portable/soundlib/ASongDecoder.h
+	<portable/ndecoder/ADecoder.h>
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/AMultiSongDecoder.cpp
+	<iostream>
+	"AMultiSongDecoder.h"
+	<portable/ndecoder/ADecoderHelper.h>
+
+1321227832 /home/nick/src/cpp/portable/soundlib/AMultiSongDecoder.h
+	"ASongDecoder.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/AMultiSoundDecoder.cpp
+	<iostream>
+	"AMultiSoundDecoder.h"
+	<portable/ndecoder/ADecoderHelper.h>
+
+1321227832 /home/nick/src/cpp/portable/soundlib/AMultiSoundDecoder.h
+	"ASoundDecoder.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/AQTSongDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"AQTSongDecoder.h"
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<guilib/alib_carbon.h>
+	<QuickTime/QuickTime.h>
+	<Movies.h>
+
+1321227832 /home/nick/src/cpp/portable/soundlib/AQTSongDecoder.h
+	<portable/ndecoder/AQTDecoderHelper.h>
+	"ASongDecoder.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/AQTSoundDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"AQTSoundDecoder.h"
+	<portable/nickcpp/APalette.h>
+	<portable/nickcpp/ANullStream.h>
+	<guilib/alib_carbon.h>
+	<QuickTime/QuickTime.h>
+	<Movies.h>
+
+1321227832 /home/nick/src/cpp/portable/soundlib/AQTSoundDecoder.h
+	<portable/ndecoder/AQTDecoderHelper.h>
+	"ASoundDecoder.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/ASmartSongDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASmartSongDecoder.h"
+	"AMidiDecoder.h"
+	"AMultiSongDecoder.h"
+	"AQTSongDecoder.h"
+
+1321227832 /home/nick/src/cpp/portable/soundlib/ASmartSongDecoder.h
+	<portable/ndecoder/ASmartDecoder.h>
+	"ASongDecoder.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/ASmartSoundDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AStringHelper.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASmartSoundDecoder.h"
+	"A8SVXDecoder.h"
+	"AAUDecoder.h"
+	"AMP3Decoder.h"
+	"AWAVDecoder.h"
+	"AQTSoundDecoder.h"
+	"AMultiSoundDecoder.h"
+
+1321227832 /home/nick/src/cpp/portable/soundlib/ASmartSoundDecoder.h
+	<portable/ndecoder/ASmartDecoder.h>
+	"ASoundDecoder.h"
+
+1321227832 /home/nick/src/cpp/portable/soundlib/AWAVDecoder.h
+	"ASoundDecoder.h"
+
+1304107864 source:/home/nick/src/cpp/portable/soundlib/ASong.cpp
+	<iostream>
+	<portable/nickcpp/ANullStream.h>
+	"ASong.h"
+	"AAudioDevice.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/ASongDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"ASongDecoder.h"
+
+1304107864 source:/home/nick/src/cpp/portable/soundlib/ASound.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	"ASound.h"
+	"AAudioDevice.h"
+	<exec/memory.h>
+	<clib/exec_protos.h>
+
+1298415056 source:/home/nick/src/cpp/portable/soundlib/ASoundAbstract.cpp
+	<iostream>
+	"ASoundAbstract.h"
+	"ASound.h"
+	"ASong.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/ASoundDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	"ASoundDecoder.h"
+
+1321227832 source:/home/nick/src/cpp/portable/soundlib/AWAVDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/ANullStream.h>
+	"AWAVDecoder.h"
+	<portable/ndecoder/ADecoderHelper.h>
+
+1315873574 /home/nick/src/cpp/warthog.obj.h
+
+1321227682 source:/home/nick/src/cpp/portable/nick3d/AIdMapDecoder.cpp
+	<iostream>
+	<stdlib.h>
+	<string.h>
+	<portable/nickcpp/AList.h>
+	<portable/nickcpp/ANullStream.h>
+	<portable/nick3d/AMatrix3D.h>
+	<portable/nick3d/AVertex3D.h>
+	<portable/nick3d/AFace3D.h>
+	<portable/nick3d/ATextCoord3D.h>
+	<portable/nick3d/AMesh3D.h>
+	<portable/nick3d/ATexture3D.h>
+	"AIdMapDecoder.h"
+
+1321227536 /home/nick/src/cpp/portable/nick3d/AIdMapDecoder.h
+	"AMapDecoder.h"
+
+1311828408 /home/nick/src/cpp/dinasaur.obj.h
+
